@@ -3,7 +3,7 @@
 
 | **Son Güncelleme** | 12.02.2026 |
 | :--- |:-----------|
-| **Toplam Terim** | 16         |
+| **Toplam Terim** | 22         |
 | **Hazırlayan** | Büşra Kaya |
 
 ---
@@ -253,38 +253,142 @@
 
 ---
 
+### 📌 Dynamic Masking
+*Dinamik Maskeleme*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 17.02.2026 |
+| **📍 Nerede?** | Literatür taraması, BERT eğitim yöntemleri |
+| **❓ Ne işe yarar?** | Her eğitim adımında farklı token'ları rastgele maskeleyerek modelin daha çeşitli örnekler görmesini sağlar |
+| **💡 Basit örnek** | **Statik Maskeleme (Eski yöntem):** <br> Aynı cümle her epoch'ta **aynı** maskelenmiş halde görülür <br> `"İstanbul [MASK] en kalabalık şehridir"` (her seferinde aynı) <br><br> **Dinamik Maskeleme (Yeni yöntem):** <br> Her epoch'ta **farklı** maskelenmiş haller görülür <br> • Epoch 1: `"İstanbul [MASK] en kalabalık şehridir"` <br> • Epoch 2: `"[MASK] Türkiye'nin en kalabalık şehridir"` <br> • Epoch 3: `"İstanbul Türkiye'nin [MASK] kalabalık şehridir"` |
+| **🧠 Neden gerekli?** | **Statik maskeleme sorunları:** <br> • Token'ların %40'ı **nadiren** maskelenir <br> • %15'i **hiç** maskelenmez <br> • Model aynı maskeye alışır, ezberler <br><br> **Dinamik maskeleme avantajları:** <br> • Her token'ın maskelenme olasılığı artar <br> • 40 epoch sonunda **%99.9** token maskelenir <br> • Model gerçek dil kalıplarını öğrenir, ezberlemez |
+| **📊 İstatistiksel fark** | **Statik:** <br> Bir token'ın maskelenme olasılığı = **%15** (sabit) <br><br> **Dinamik (40 epoch sonra):** <br> Bir token'ın maskelenme olasılığı = **1 - (1-0.15)⁴⁰ ≈ %99.9** |
+| **📚 Benzer terimler** | Masked LM, Static Masking, BERT pre-training, Data augmentation, Token masking |
+
+---
+
+### 📌 Multi-Task Fine-Tuning
+*Çok Görevli İnce Ayar*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 17.02.2026 |
+| **📍 Nerede?** | Literatür taraması, model eğitim yöntemleri |
+| **❓ Ne işe yarar?** | Tek bir modeli aynı anda birden fazla görevde (örneğin NER + Spelling Correction + Entity Normalization) eğiterek hem görevler arası bilgi paylaşımını sağlar hem de modelin genel başarımını artırır. |
+| **💡 Basit örnek** | **Single-Task Fine-Tuning (Tek Görev):** <br> • Model 1: Sadece NER öğrenir `(Erdoğan → KİŞİ)` <br> • Model 2: Sadece Spelling Correction öğrenir `(goverment → government)` <br> • Model 3: Sadece Entity Normalization öğrenir `(Turkiye → Türkiye)` <br><br> **Multi-Task Fine-Tuning (Çok Görev):** <br> Tek bir model **hepsini aynı anda** öğrenir: <br> • `"Erdogan goverment"` → `"Erdoğan government"` <br> • Aynı model, kelimeyi hem düzeltir (`goverment`) hem normalize eder (`Erdogan`) hem de özel isim olduğunu bilir (`Erdoğan` = KİŞİ) |
+| **🧠 Nasıl çalışır?** | **Adım 1:** Modele aynı anda farklı görevler için hazırlanmış veri setleri gösterilir <br> **Adım 2:** Her görev için ayrı bir çıkış katmanı (head) eklenir <br> **Adım 3:** Eğitim sırasında görevler arasında geçiş yapılır veya görevler karışık olarak verilir <br> **Adım 4:** Modelin alt katmanları (gövde/body) tüm görevler için **ortak** özellikleri öğrenirken, üst katmanlar (head) görevlere özgü çıktılar üretir |
+| **🎯 Avantajları** | • **Bilgi paylaşımı:** Bir görevde öğrenilen özellikler diğer göreve de fayda sağlar (transfer learning) <br> • **Verimlilik:** Tek model = daha az bellek, daha az işlem gücü <br> • **Genelleme:** Farklı görevler gören model, her bir görevde daha sağlam (robust) hale gelir <br> • **Düşük kaynaklı diller/görevler:** Az verisi olan görevler, çok verisi olan görevlerden öğrenir |
+| **⚡ Zorlukları** | • **Negatif transfer:** Görevler birbirine zarar verebilir (çok farklı görevler) <br> • **Görev çakışması:** Farklı görevler aynı girdi için farklı çıktı isteyebilir <br> • **Eğitim zorluğu:** Görevler arası dengeyi kurmak (loss weighting) hassas ayar gerektirir |
+| **📚 Benzer terimler** | Multi-task learning (MTL), Transfer learning, Joint training, Multi-head architecture, Negative transfer, Loss weighting, Task balancing |
+
+---
+
+### 📌 Damerau–Levenshtein Distance
+*Damerau–Levenshtein Mesafesi*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 17.02.2026 |
+| **📍 Nerede?** | Literatür taraması, yazım düzeltme yöntemleri |
+| **❓ Ne işe yarar?** | İki kelime arasındaki **benzerliği** ölçer. Bir kelimeyi diğerine çevirmek için gereken **minimum işlem sayısını** hesaplar. |
+| **💡 Basit örnek** | `"Erdogan"` → `"Erdoğan"` dönüşümü için: <br> • `g` → `ğ` (değiştirme) <br> • Toplam işlem = **1** <br><br> `"recieve"` → `"receive"` dönüşümü için: <br> • `ie` → `ei` (yer değiştirme) <br> • Toplam işlem = **1** |
+| **🧠 Levenshtein'den farkı?** | **Levenshtein:** 3 işlem <br> • Ekleme (Insert) <br> • Silme (Delete) <br> • Değiştirme (Substitute) <br><br> **Damerau–Levenshtein:** 4 işlem ✅ <br> • Ekleme (Insert) <br> • Silme (Delete) <br> • Değiştirme (Substitute) <br> • **Yer değiştirme (Transposition)** 👈 YENİ! <br><br> **Örnek:** `"ie"` → `"ei"` (iki harfin yer değiştirmesi) |
+| **📊 İşlem türleri** | **Ekleme:** `"erdgan"` → `"erdogan"` (o harfi eklendi) <br> **Silme:** `"erdoğann"` → `"erdoğan"` (fazla n silindi) <br> **Değiştirme:** `"erdogan"` → `"erdoğan"` (g → ğ) <br> **Yer değiştirme:** `"recieve"` → `"receive"` (ie → ei) |
+| **🔧 Nerede kullanılır?** | • **Yazım düzeltme:** `"turkiye"` ile `"türkiye"` benzer mi? <br> • **OCR hata düzeltme:** `"Türkiye"` → `"Turkiye"` (ü→u) <br> • **De-asciification:** ASCII'ye çevrilmiş kelimeleri geri getirme <br> • **Fonetik benzerlik:** `"erdoan"` ile `"erdoğan"` arasındaki fark |
+| **📚 Benzer terimler** | Levenshtein distance, Edit distance, Hamming distance, Jaro-Winkler distance, String similarity, Fuzzy matching |
+
+---
+
+### 📌 String-to-String
+*Dizeden Dizeye / Karakter Dizisinden Karakter Dizisine*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 17.02.2026 |
+| **📍 Nerede?** | Literatür taraması, metin işleme yöntemleri |
+| **❓ Ne işe yarar?** | Bir metin parçasını (string) başka bir metin parçasına dönüştüren işlemleri veya algoritmaları ifade eder. |
+| **💡 Basit örnek** | **String-to-String işlemleri:** <br> • `"Turkiye"` → `"Türkiye"` (de-asciification) <br> • `"goverment"` → `"government"` (spelling correction) <br> • `"Erdogan"` → `"Erdoğan"` (karakter normalizasyonu) <br> • `"Joe Biden Washington'da"` → `"[KİŞİ] [YER]'da"` (NER etiketleme) |
+| **🧠 Kullanım alanları** | • **Metin normalizasyonu:** Farklı yazımları standart forma getirme <br> • **Yazım düzeltme:** Hatalı kelimeleri doğru hale getirme <br> • **Makine çevirisi:** Bir dilden başka bir dile çeviri <br> • **Metin sadeleştirme:** Karmaşık metni basitleştirme <br> • **Paraphrase:** Aynı anlamı farklı kelimelerle ifade etme |
+| **🔧 String-to-String modelleri** | • **Seq2Seq (Sequence-to-Sequence):** Encoder-Decoder mimarisi ile bir diziyi başka bir diziye çevirir <br> • **Transformer:** Self-attention ile daha başarılı string-to-string dönüşümler <br> • **T5 (Text-to-Text Transfer Transformer):** Tüm NLP görevlerini string-to-string problemi olarak modeller <br> • **GPT:** Verilen string'e uygun devam string'i üretir |
+| **📚 Benzer terimler** | Sequence-to-sequence (Seq2Seq), Text-to-text, String transformation, Text normalization, String rewriting |
+
+---
+
+### 📌 Soft-Masked BERT
+*Yumuşak Maskeli BERT*
+
+| |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **🗓️ Ne zaman?** | 17.02.2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **📍 Nerede?** | Literatür taraması, yazım düzeltme modelleri                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **❓ Ne işe yarar?** | Metin hatalarını düzeltmek için tasarlanmış, **algılama (detection)** ve **düzeltme (correction)** ağlarını birleştiren BERT tabanlı bir modeldir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **💡 Basit örnek** | **Girdi:** `"Bugün hava çok sıcak, dışarı çıkmak istyorum."` <br> **Soft-Masked BERT:** <br> • **Algılama ağı:** `"istiyorum"` kelimesinde `"i"` harfinin eksik olduğunu tespit eder <br> • **Yumuşak maskeleme:** Hatalı bölgeye odaklanır <br> • **Düzeltme ağı (BERT):** `"istiyorum"` olarak düzeltir <br> **Çıktı:** `"Bugün hava çok sıcak, dışarı çıkmak istiyorum."`                                                                                                                                                                                                                                                                                                                                                   |
+| **🧠 Neden gerekli?** | **BERT'in tek başına sorunu:** <br> • BERT, Masked LM ile eğitilirken kelimeleri **rastgele maskeler** <br> • Bu nedenle **bir kelimenin hatalı olup olmadığını tespit etme** konusunda zayıftır <br><br> **Soft-Masked BERT'in çözümü:** <br> • **Algılama ağı** (Bi-GRU) hangi kelimelerin hatalı olduğunu bulur <br> • **Yumuşak maskeleme** ile sadece hatalı bölgelere odaklanılır <br> • **Düzeltme ağı (BERT)** bu odaklanmış bölgeleri düzeltir                                                                                                                                                                                                                                                                        |
+| **🛠️ Mimari yapısı** | **1. Algılama Ağı (Detection Network):** <br> • Bi-GRU (Çift yönlü GRU) kullanır <br> • Her karakter için **hata olasılığı** `(p_i)` hesaplar (0-1 arası) <br> • `p_i` 1'e yakınsa hatalı, 0'a yakınsa doğru <br><br> **2. Yumuşak Maskeleme (Soft-Masking):** <br> • Girdi embedding'i `(e_i)` ile maskeleme embedding'i `(e_mask)` arasında geçiş yapar <br> • `e'_i = p_i * e_mask + (1 - p_i) * e_i` <br> • Hatalı bölgeler `e_mask`'e yaklaşır, doğru bölgeler orijinal halini korur <br><br> **3. Düzeltme Ağı (Correction Network):** <br> • BERT tabanlıdır <br> • Yumuşak maskelenmiş embedding'leri alır, doğru karakterleri üretir <br> • Çıkışta **residual connection** ve **softmax** ile karakter tahmini yapar |
+| **⚡ Güçlü yönleri** | • **Hata tespiti:** BERT'in zayıf olduğu hata bulma işini özel bir ağ ile çözer <br> • **Yumuşak geçiş:** Keskin maskeleme yerine kademeli geçiş ile daha doğal öğrenme <br> • **Uçtan uca eğitim:** Tüm ağ birlikte eğitilir                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **📚 Benzer terimler** | BERT, Masked LM, Bi-GRU, Sequence tagging, Chinese spelling correction (CSC), Error detection, Residual connection                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+---
+### 📌 C2C
+*Character-to-Character / Karakterden Karaktere*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 17.02.2026 |
+| **📍 Nerede?** | Literatür taraması, metin düzeltme modelleri |
+| **❓ Ne işe yarar?** | Bir metindeki hatalı karakterleri tespit edip düzelten, **her bir karaktere odaklanan** yaklaşımları ifade eder. |
+| **💡 Basit örnek** | **Örnek 1 - De-asciification:** <br> `"Turkiye"` → `"Türkiye"` <br> • `T` → `T` (doğru) <br> • `u` → `ü` (hatalı → düzelt) <br> • `r` → `r` (doğru) <br> • `k` → `k` (doğru) <br> • `i` → `i` (doğru) <br> • `y` → `y` (doğru) <br> • `e` → `e` (doğru) <br><br> **Örnek 2 - Klavye hatası:** <br> `"Ankara'ya gidiyroum"` → `"Ankara'ya gidiyorum"` <br> • `A n k a r a ' y a   g i d i y r o u m` (her karakter ayrı işlenir) <br> • `r` ve `o` harflerinin yeri değişmiş → `r o` → `o r` olarak düzeltilir |
+| **🧠 Neden gerekli?** | • **Kelime seviyesi modeller** bilinmeyen kelimelerde (OOV) başarısız olur <br> • **C2C modeller** her karakteri tek tek işleyerek OOV sorununu çözer <br> • Özellikle **Türkçe karakter dönüşümleri** (ü,ğ,ş,ı,ö,ç) için idealdir <br> • **OCR hataları** gibi karakter bazlı bozulmalarda etkilidir |
+| **🛠️ Kullanım alanları** | • **De-asciification:** `"Turkiye"` → `"Türkiye"`, `"Istanbul"` → `"İstanbul"` <br> • **OCR düzeltme:** Karakter tanıma hatalarını düzeltme (`"Türkiye"` → `"Turkiye"` gibi) <br> • **Yazım düzeltme:** `"istiyorum"` → `"istiyorum"` <br> • **Metin normalizasyonu:** Farklı yazım standartlarını birleştirme <br> • **Sosyal medya metinleri:** `"naber gençler nasıl gidiyo"` → `"naber gençler nasıl gidiyor"` |
+| **📊 Karşılaştırma** | **Word-level (Kelime seviyesi):** <br> `"Erdogan"` kelime olarak aranır, sözlükte yoksa düzeltemez ❌ <br><br> **C2C (Karakter seviyesi):** <br> `E r d o g a n` karakterleri tek tek işlenir: <br> • `E` (doğru), `r` (doğru), `d` (doğru) <br> • `o` → `ö` olmalı, `g` → `ğ` olmalı ✅ |
+| **⚡ Avantajları** | • **OOV sorunu yok:** Hiç görülmemiş kelimeleri bile düzeltebilir <br> • **Dil bağımsız:** Türkçe, İngilizce, Çince fark etmez <br> • **Esnek:** Her türlü karakter hatasını yakalar |
+| **⚠️ Dezavantajları** | • **Yavaş:** Kelime seviyesi modellere göre daha yavaş <br> • **Bağlam zayıf:** Kelimenin anlamını tam kavrayamayabilir <br> • **Dil bilgisi:** Cümle yapısını anlamakta zorlanır |
+| **📚 Benzer terimler** | Character-level model, Character-based correction, Sequence labeling, Character CNN, Byte-Pair Encoding (BPE), Subword tokenization, Character embedding |
+
+---
 ## 📊 ÖZET TABLOSU
 
-| Terim | Kısaltma | Öğrenme Tarihi |
-| :--- |:---------| :--- |
-| De-asciification | -        | 11.02.2026 |
-| Out-of-Vocabulary | **OOV**  | 11.02.2026 |
-| Entity Normalization | -        | 11.02.2026 |
-| Named Entity Recognition | **NER**  | 11.02.2026 |
-| Context-Aware Spelling Correction | -        | 11.02.2026 |
-| Noisy Text Normalization | -        | 11.02.2026 |
-| BERT | -        | 12.02.2026 |
-| GECToR | -        | 12.02.2026 |
-| Transformer | -        | 12.02.2026 |
-| Fine-tuning | -        | 12.02.2026 |
-| OCR | -        | 12.02.2026 |
-| Multi-Head Attention | -        | 17.02.2026 |
-| Positional Encoding | -        | 17.02.2026 |
-| Masked Language Model (MLM) | **MLM**  | 17.02.2026 |
-| Next Sentence Prediction (NSP) | **NSP**  | 17.02.2026 |
-| Embeddings from Language Models | **ELMo**     | 17.02.2026 |
-
+| Terim                             | Kısaltma  | Öğrenme Tarihi |
+|:----------------------------------|:----------| :--- |
+| De-asciification                  | -         | 11.02.2026 |
+| Out-of-Vocabulary                 | **OOV**   | 11.02.2026 |
+| Entity Normalization              | -         | 11.02.2026 |
+| Named Entity Recognition          | **NER**   | 11.02.2026 |
+| Context-Aware Spelling Correction | -         | 11.02.2026 |
+| Noisy Text Normalization          | -         | 11.02.2026 |
+| BERT                              | -         | 12.02.2026 |
+| GECToR                            | -         | 12.02.2026 |
+| Transformer                       | -         | 12.02.2026 |
+| Fine-tuning                       | -         | 12.02.2026 |
+| OCR                               | -         | 12.02.2026 |
+| Multi-Head Attention              | -         | 17.02.2026 |
+| Positional Encoding               | -         | 17.02.2026 |
+| Masked Language Model             | **MLM**   | 17.02.2026 |
+| Next Sentence Prediction          | **NSP**   | 17.02.2026 |
+| Embeddings from Language Models   | **ELMo**  | 17.02.2026 |
+| Dynamic Masking                   | -         | 17.02.2026 |
+| Multi-Task Fine-Tuning            | -         | 17.02.2026 |
+| Damerau–Levenshtein Distance      | **DLD**   | 17.02.2026 |
+| String-to-String                  | **S2S**   | 17.02.2026 |
+| Soft-Masked BERT                  | -         | 17.02.2026 |
+| C2C (Character-to-Character)      | **C2C**   | 17.02.2026 |
 ---
 
 ## 📌 DEĞİŞİKLİK KAYITLARI
 
-| Tarih | Versiyon | Eklenen Terimler                                              | Açıklama |
-| :--- |:---------|:--------------------------------------------------------------| :--- |
-| 11.02.2026 | v1.0     | OOV, NER, Entity Norm, Spelling, Noisy Text, De-asciification | İlk oluşturma |
-| 12.02.2026 | v1.1     | BERT, GECToR, Transformer, Fine-tuning, OCR                   | Literatür taraması eklendi |
-| 17.02.2026 | v1.2     | Multi-Head Attention, Positional Encoding                     | Transformer detaylandırıldı |
-| 17.02.2026 | v1.3     | MLM, NSP                                                      | BERT eğitim yöntemi eklendi |
+| Tarih | Versiyon | Eklenen Terimler                                              | Açıklama                           |
+| :--- |:---------|:--------------------------------------------------------------|:-----------------------------------|
+| 11.02.2026 | v1.0     | OOV, NER, Entity Norm, Spelling, Noisy Text, De-asciification | İlk oluşturma                      |
+| 12.02.2026 | v1.1     | BERT, GECToR, Transformer, Fine-tuning, OCR                   | Literatür taraması eklendi         |
+| 17.02.2026 | v1.2     | Multi-Head Attention, Positional Encoding                     | Transformer detaylandırıldı        |
+| 17.02.2026 | v1.3     | MLM, NSP, Dynamic Masking                                     | BERT eğitim yöntemi eklendi        |
 | 17.02.2026 | v1.4     | ELMo                                                          | Bağlamsal embedding modeli eklendi |
+| 17.02.2026 | v1.5     | Multi-Task Fine-Tuning                                        | Çok görevli eğitim yöntemi eklendi |
+| 17.02.2026 | v1.6     | Damerau–Levenshtein Distance                                  | Edit distance metriği eklendi      |
+| 17.02.2026 | v1.7     | String-to-String                                              | Metin dönüşüm terimi eklendi       |
+| 17.02.2026 | v1.8     | Soft-Masked BERT                                              | Yazım düzeltme modeli eklendi      |
+| 17.02.2026 | v1.9     | C2C (Character-to-Character)                                  | Karakter seviyesi işleme terimi eklendi |
 ---
 
 *Bu belge proje ilerledikçe güncellenecektir.* 🔄
