@@ -1,0 +1,77 @@
+# 📁 Sanal Ortam (Virtual Environment)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# 🧪 Test
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# 📦 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 📝 Doküman Geçici Dosyaları
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 📊 Veri (JSON dosyalarını hariç tutma, sadece geçici olanları)
+*.log
+*.cache
+*.pid
+
+# 📚 Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 🗜️ Arşiv
+*.zip
+*.tar
+*.gz
+*.rar
+
+# 📁 Makaleler (Telif hakkı nedeniyle GitHub'a eklenmez)
+references/
