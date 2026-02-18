@@ -1,18 +1,18 @@
 # 📚 TERMINOLOGY GLOSSARY
 ## Entity Normalization & Correction
 
-| **Son Güncelleme** | 12.02.2026 |
-| :--- |:-----------|
-| **Toplam Terim** | 22         |
-| **Hazırlayan** | Büşra Kaya |
+| **Son Güncelleme** | 18.02.2026 |
+|:-------------------|:-----------|
+| **Toplam Terim**   | 30         |
+| **Hazırlayan**     | Büşra Kaya |
 
 ---
 
 ## 📋 İÇİNDEKİLER
 
 | # | Bölüm | Durum |
-| :--- | :--- | :--- |
-| 1 | [STEP 1 - PROBLEM TANIMI](#step-1---problem-tanimi) | ✅ |
+| :--- | :--- |:------|
+| 1 | [STEP 1 - PROBLEM TANIMI](#step-1---problem-tanimi) | ✅     |
 
 ---
 
@@ -347,48 +347,176 @@
 | **📚 Benzer terimler** | Character-level model, Character-based correction, Sequence labeling, Character CNN, Byte-Pair Encoding (BPE), Subword tokenization, Character embedding |
 
 ---
+### 📌Bidirectional and Auto-Regressive Transformer (BART) 
+*Çift Yönlü ve Otoregresif Dönüştürücü* 
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | Literatür taraması, metin üretim modelleri |
+| **❓ Ne işe yarar?** | Metin oluşturma (özetleme, çeviri) ve anlama görevleri için kullanılan, **BERT ve GPT'yi birleştiren** bir modeldir. |
+| **💡 Basit örnek** | `"UN Chief Says There Is No <mask> in Syria"` → `"UN Chief Says There Is No Plan to Stop Chemical Weapons in Syria"` |
+| **📚 Benzer terimler** | BERT, GPT, T5, RoBERTa, Seq2Seq, Encoder-Decoder |
+
+---
+
+### 📌 Automatic Speech Recognition (ASR)
+*Otomatik Konuşma Tanıma*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | Literatür taraması, konuşma işleme |
+| **❓ Ne işe yarar?** | İnsan konuşmasını yazılı metne dönüştürür. |
+| **💡 Basit örnek** | Ses kaydı: "Merhaba" → `"Merhaba"` |
+| **⚠️ ASR hataları** | Homofonlar, telaffuz farklılıkları, arka plan gürültüsü |
+| **📚 Benzer terimler** | Speech-to-Text, Voice Recognition, STT |
+
+---
+
+### 📌 Word Error Rate (WER)
+*Kelime Hata Oranı*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | Literatür taraması, ASR değerlendirme metrikleri |
+| **❓ Ne işe yarar?** | ASR sistemlerinin doğruluğunu ölçen en yaygın metriktir. |
+| **💡 Basit örnek** | Referans: `"Bugün hava çok güzel"` (4 kelime) <br> ASR: `"Bugün hav çok güzel"` (1 hata) <br> **WER = 1/4 = %25** |
+| **🧠 Hesaplama** | WER = (Değiştirme + Silme + Ekleme) / Toplam Kelime |
+| **📚 Benzer terimler** | CER, Accuracy, Precision, Recall |
+
+---
+
+### 📌 Heavy Encoder
+*Ağır Kodlayıcı / Yoğun Kodlayıcı*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | Literatür taraması, derin öğrenme mimarileri |
+| **❓ Ne işe yarar?** | Genellikle **çok büyük ve karmaşık** encoder modellerini ifade eder. Büyük parametre sayısı, çok sayıda katman ve yüksek işlem gücü gerektiren modeller için kullanılan gayriresmî bir terimdir. |
+| **💡 Basit örnek** | ModernBERT-large (28 katman, 395 milyon parametre) gibi büyük encoder modelleri “heavy encoder” sınıfına girer. |
+| **🧠 Nerede kullanılır?** | • Uzun metinleri anlama (16.000 token’a kadar) <br> • Karmaşık doğal dil anlama görevleri <br> • Büyük ölçekli metin sınıflandırma <br> • Domain-specific modeller (biyomedikal, klinik, kod) |
+| **📚 Benzer terimler** | Large Encoder, Deep Encoder, Transformer Encoder, BERT-large, ModernBERT |
+
+---
+### 📌 CANINE
+*Character Architecture with No tokenization In Neural Encoders*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | Literatür taraması, tokenization-free modeller |
+| **❓ Ne işe yarar?** | **Açık tokenizasyon adımı (BPE, WordPiece, SentencePiece) kullanmayan** Transformer tabanlı bir dil modelidir. Doğrudan Unicode karakter seviyesinde çalışır. |
+| **💡 Basit örnek** | Girdi: `"hello world"` → Her karakter Unicode kod noktasına çevrilir: `[104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]` → Model doğrudan bu karakter ID'leri ile çalışır. |
+| **🧠 Nasıl çalışır?** | • **3 Transformer encoder** kullanır: <br> &nbsp;&nbsp; 1. **Shallow encoder (ilk):** Karakter embedding'lerini yerel dikkat ile bağlamlandırır <br> &nbsp;&nbsp; 2. **Deep encoder:** Downsampling sonrası normal BERT benzeri derin encoder uygulanır <br> &nbsp;&nbsp; 3. **Shallow encoder (son):** Upsampling sonrası final karakter embedding'lerini oluşturur <br> • **Downsampling:** 4 kat örnekleme azaltma ile uzun karakter dizilerini yönetilebilir hale getirir |
+| **📊 Varyantlar** | • **google/canine-c:** Otoregresif karakter kaybı ile ön eğitim almış model <br> • **google/canine-s:** Subword kaybı ile ön eğitim almış model <br> • Her ikisi de: 12 katman, 768 hidden, 12 başlık, 121M parametre |
+| **⚡ Öne çıkan özellik** | • Tokenizer **tamamen opsiyonel** - Python `ord()` ile direkt çalışır <br> • Maksimum dizi uzunluğu: **2048 karakter** <br> • mBERT'e kıyasla **%28 daha az parametre** ile TyDi QA'da **+2.8 F1** |
+| **📚 Benzer terimler** | Character-level model, Tokenization-free, ByT5, Charformer, Perceiver, mBERT, Unicode |
+
+---
+
+### 📌 Entity Linking
+*Varlık Bağlama*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | Literatür taraması, bilgi çıkarımı |
+| **❓ Ne işe yarar?** | Metinde geçen bir varlık ifadesini (örneğin "Türkiye") bir bilgi tabanındaki (örneğin Wikipedia, Wikidata) **benzersiz bir varlığa bağlar**. |
+| **💡 Basit örnek** | Metin: `"Ankara, Türkiye'nin başkentidir."` <br> • `"Türkiye"` → `wikidata.org/Q43` <br> • `"Ankara"` → `wikidata.org/Q3640` |
+| **🧠 Nasıl çalışır?** | 1. **Varlık tespiti (NER):** Varlık ifadeleri bulunur <br> 2. **Aday oluşturma:** Bilgi tabanında aynı/isimli varlıklar listelenir <br> 3. **Bağlam tabanlı sıralama:** En uygun aday seçilir |
+| **🎯 Entity Normalization farkı?** | **Normalization:** `Turkiye` → `Türkiye` (yazım düzeltme) <br> **Linking:** `Türkiye` → `wikidata.org/Q43` (bilgi tabanına bağlama) |
+| **📚 Benzer terimler** | Entity Resolution, Entity Disambiguation, Record Linkage, Knowledge Base Population, Wikidata |
+
+---
+
+### 📌 Mention Detection
+*Bahsetme Tespiti / Varlık Tespiti*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | Literatür taraması, bilgi çıkarımı, NER |
+| **❓ Ne işe yarar?** | Metin içinde **bir varlığa işaret eden ifadeleri (mention)** bulur. NER'in bir alt aşaması veya alternatifidir. |
+| **💡 Basit örnek** | Metin: `"Joe Biden, Kamala Harris ile Washington'da görüştü."` <br> **Mention Detection çıktısı:** <br> • `"Joe Biden"` <br> • `"Kamala Harris"` <br> • `"Washington"` |
+| **🧠 NER ile farkı?** | • **NER:** Varlık mention'larını bulur + türünü (kişi, yer, kurum) de etiketler <br> • **MD:** Sadece varlık mention'larını bulur, tür belirtmek zorunda değildir |
+| **📚 Benzer terimler** | Named Entity Recognition (NER), Entity Detection, Span Detection, Entity Mention |
+
+---
+
+### 📌 Entity Disambiguation
+*Varlık Anlam Belirsizliği Giderme*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | Literatür taraması, bilgi çıkarımı, Entity Linking |
+| **❓ Ne işe yarar?** | Aynı ada sahip farklı varlıklar arasında, bağlama bakarak **doğru olanı seçme** işlemidir. |
+| **💡 Basit örnek** | Metin: `"Paris Hilton'da kaldım."` <br> • **Aday 1:** Paris (Fransa'nın başkenti) 🏛️ <br> • **Aday 2:** Paris Hilton (ünlü sosyetik) 👤 <br><br> **ED çıktısı:** Bağlamdaki `"Hilton"` kelimesi sayesinde doğru anlamın **Paris Hilton** olduğunu belirler. |
+| **🧠 Nasıl çalışır?** | 1. Aday varlıklar belirlenir (örneğin "Paris" için şehir ve kişi) <br> 2. Varlığın geçtiği cümle ve çevresi incelenir <br> 3. Bağlama en uygun aday seçilir |
+| **🎯 İlişkili terimlerle farkı** | • **Entity Linking:** Metindeki varlığı bilgi tabanına bağlar (ED'yi içerir) <br> • **Entity Disambiguation:** Sadece anlam belirsizliğini çözer <br> • **Word Sense Disambiguation:** Kelimelerin anlamlarını çözer (varlık değil) |
+| **📚 Benzer terimler** | Entity Linking, Word Sense Disambiguation (WSD), Entity Resolution, Name Disambiguation |
+
+---
 ## 📊 ÖZET TABLOSU
 
-| Terim                             | Kısaltma  | Öğrenme Tarihi |
-|:----------------------------------|:----------| :--- |
-| De-asciification                  | -         | 11.02.2026 |
-| Out-of-Vocabulary                 | **OOV**   | 11.02.2026 |
-| Entity Normalization              | -         | 11.02.2026 |
-| Named Entity Recognition          | **NER**   | 11.02.2026 |
-| Context-Aware Spelling Correction | -         | 11.02.2026 |
-| Noisy Text Normalization          | -         | 11.02.2026 |
-| BERT                              | -         | 12.02.2026 |
-| GECToR                            | -         | 12.02.2026 |
-| Transformer                       | -         | 12.02.2026 |
-| Fine-tuning                       | -         | 12.02.2026 |
-| OCR                               | -         | 12.02.2026 |
-| Multi-Head Attention              | -         | 17.02.2026 |
-| Positional Encoding               | -         | 17.02.2026 |
-| Masked Language Model             | **MLM**   | 17.02.2026 |
-| Next Sentence Prediction          | **NSP**   | 17.02.2026 |
-| Embeddings from Language Models   | **ELMo**  | 17.02.2026 |
-| Dynamic Masking                   | -         | 17.02.2026 |
-| Multi-Task Fine-Tuning            | -         | 17.02.2026 |
-| Damerau–Levenshtein Distance      | **DLD**   | 17.02.2026 |
-| String-to-String                  | **S2S**   | 17.02.2026 |
-| Soft-Masked BERT                  | -         | 17.02.2026 |
-| C2C (Character-to-Character)      | **C2C**   | 17.02.2026 |
+| Terim                                         | Kısaltma   | Öğrenme Tarihi |
+|:----------------------------------------------|:-----------|:---------------|
+| De-asciification                              | -          | 11.02.2026     |
+| Out-of-Vocabulary                             | **OOV**    | 11.02.2026     |
+| Entity Normalization                          | -          | 11.02.2026     |
+| Named Entity Recognition                      | **NER**    | 11.02.2026     |
+| Context-Aware Spelling Correction             | -          | 11.02.2026     |
+| Noisy Text Normalization                      | -          | 11.02.2026     |
+| BERT                                          | -          | 12.02.2026     |
+| GECToR                                        | -          | 12.02.2026     |
+| Transformer                                   | -          | 12.02.2026     |
+| Fine-tuning                                   | -          | 12.02.2026     |
+| OCR                                           | -          | 12.02.2026     |
+| Multi-Head Attention                          | -          | 17.02.2026     |
+| Positional Encoding                           | -          | 17.02.2026     |
+| Masked Language Model                         | **MLM**    | 17.02.2026     |
+| Next Sentence Prediction                      | **NSP**    | 17.02.2026     |
+| Embeddings from Language Models               | **ELMo**   | 17.02.2026     |
+| Dynamic Masking                               | -          | 17.02.2026     |
+| Multi-Task Fine-Tuning                        | -          | 17.02.2026     |
+| Damerau–Levenshtein Distance                  | **DLD**    | 17.02.2026     |
+| String-to-String                              | **S2S**    | 17.02.2026     |
+| Soft-Masked BERT                              | -          | 17.02.2026     |
+| C2C (Character-to-Character)                  | **C2C**    | 17.02.2026     |
+| Bidirectional and Auto-Regressive Transformer | **BART**   | 18.02.2026     |
+| Automatic Speech Recognition                  | **ASR**    | 18.02.2026     |
+| Word Error Rate                               | **WER**    | 18.02.2026     |
+| Heavy Encoder                                 | -          | 18.02.2026     |
+| CANINE                                        | **CANINE** | 18.02.2026     |
+| Entity Linking                                | **EL**     | 18.02.2026     |
+| Mention Detection                             | **MD**     | 18.02.2026     |
+| Entity Disambiguation                         | **ED**     | 18.02.2026     |
+
 ---
 
 ## 📌 DEĞİŞİKLİK KAYITLARI
 
-| Tarih | Versiyon | Eklenen Terimler                                              | Açıklama                           |
-| :--- |:---------|:--------------------------------------------------------------|:-----------------------------------|
-| 11.02.2026 | v1.0     | OOV, NER, Entity Norm, Spelling, Noisy Text, De-asciification | İlk oluşturma                      |
-| 12.02.2026 | v1.1     | BERT, GECToR, Transformer, Fine-tuning, OCR                   | Literatür taraması eklendi         |
-| 17.02.2026 | v1.2     | Multi-Head Attention, Positional Encoding                     | Transformer detaylandırıldı        |
-| 17.02.2026 | v1.3     | MLM, NSP, Dynamic Masking                                     | BERT eğitim yöntemi eklendi        |
-| 17.02.2026 | v1.4     | ELMo                                                          | Bağlamsal embedding modeli eklendi |
-| 17.02.2026 | v1.5     | Multi-Task Fine-Tuning                                        | Çok görevli eğitim yöntemi eklendi |
-| 17.02.2026 | v1.6     | Damerau–Levenshtein Distance                                  | Edit distance metriği eklendi      |
-| 17.02.2026 | v1.7     | String-to-String                                              | Metin dönüşüm terimi eklendi       |
-| 17.02.2026 | v1.8     | Soft-Masked BERT                                              | Yazım düzeltme modeli eklendi      |
-| 17.02.2026 | v1.9     | C2C (Character-to-Character)                                  | Karakter seviyesi işleme terimi eklendi |
+| Tarih | Versiyon | Eklenen Terimler                                              | Açıklama                                                          |
+| :--- |:---------|:--------------------------------------------------------------|:------------------------------------------------------------------|
+| 11.02.2026 | v1.0     | OOV, NER, Entity Norm, Spelling, Noisy Text, De-asciification | İlk oluşturma                                                     |
+| 12.02.2026 | v1.1     | BERT, GECToR, Transformer, Fine-tuning, OCR                   | Literatür taraması eklendi                                        |
+| 17.02.2026 | v1.2     | Multi-Head Attention, Positional Encoding                     | Transformer detaylandırıldı                                       |
+| 17.02.2026 | v1.3     | MLM, NSP, Dynamic Masking                                     | BERT eğitim yöntemi eklendi                                       |
+| 17.02.2026 | v1.4     | ELMo                                                          | Bağlamsal embedding modeli eklendi                                |
+| 17.02.2026 | v1.5     | Multi-Task Fine-Tuning                                        | Çok görevli eğitim yöntemi eklendi                                |
+| 17.02.2026 | v1.6     | Damerau–Levenshtein Distance                                  | Edit distance metriği eklendi                                     |
+| 17.02.2026 | v1.7     | String-to-String                                              | Metin dönüşüm terimi eklendi                                      |
+| 17.02.2026 | v1.8     | Soft-Masked BERT                                              | Yazım düzeltme modeli eklendi                                     |
+| 17.02.2026 | v1.9     | C2C (Character-to-Character)                                  | Karakter seviyesi işleme terimi eklendi                           |
+| 18.02.2026 | v2.0     | BART, ASR, WER                                                | Metin üretim modeli, konuşma tanıma ve hata metriği eklendi       |
+| 18.02.2026 | v2.1     | Heavy Encoder                                                 | Büyük ve karmaşık encoder modelleri için kullanılan terim eklendi |
+| 18.02.2026 | v2.2     | CANINE                                                        | Tokenization-free karakter seviyesi model eklendi                 |
+| 18.02.2026 | v2.3     | Entity Linking                                                | Varlık bağlama terimi eklendi                                     |
+| 18.02.2026 | v2.4     | Mention Detection (MD)                                        | Varlık tespiti terimi eklendi                                     |
+| 18.02.2026 | v2.5     | Entity Disambiguation (ED)                                    | Varlık anlam belirsizliği giderme terimi eklendi                  |
 ---
 
 *Bu belge proje ilerledikçe güncellenecektir.* 🔄
