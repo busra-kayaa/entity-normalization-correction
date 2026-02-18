@@ -3,16 +3,20 @@
 
 | **Son Güncelleme** | 18.02.2026 |
 |:-------------------|:-----------|
-| **Toplam Terim**   | 30         |
+| **Toplam Terim**   | 36         |
 | **Hazırlayan**     | Büşra Kaya |
 
 ---
+
 
 ## 📋 İÇİNDEKİLER
 
 | # | Bölüm | Durum |
 | :--- | :--- |:------|
-| 1 | [STEP 1 - PROBLEM TANIMI](#step-1---problem-tanimi) | ✅     |
+| 1 | [STEP 1 - PROBLEM TANIMI](#step-1---problem-tanimi) | ✅ |
+| 2 | [STEP 2 - VERİ TOPLAMA](#step-2---veri-toplama) | ✅ |
+
+---
 
 ---
 
@@ -460,6 +464,95 @@
 | **📚 Benzer terimler** | Entity Linking, Word Sense Disambiguation (WSD), Entity Resolution, Name Disambiguation |
 
 ---
+
+## STEP 2 - VERİ TOPLAMA
+*Wikipedia'dan veri çekme, API kullanımı, metin işleme ve veri saklama sürecinde öğrenilen terimler*
+
+---
+
+### 📌 Natural Language Toolkit (NLTK)
+*Doğal Dil Araç Takımı*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | STEP 2 - Veri Toplama, Metin İşleme |
+| **❓ Ne işe yarar?** | Python için doğal dil işleme (NLP) kütüphanesi. Tokenization, stemming, tagging, parsing gibi işlemler için araçlar sağlar. |
+| **💡 Basit örnek** | `sent_tokenize("Merhaba dünya. Nasılsın?")` → `["Merhaba dünya.", "Nasılsın?"]` |
+| **🧠 Projede kullanımı** | Wikipedia'dan çekilen metinleri cümlelere ayırmak için `sent_tokenize` kullanıldı |
+| **📚 Benzer terimler** | spaCy, Tokenization, sent_tokenize, word_tokenize, Corpus |
+
+---
+
+### 📌 Tokenization
+*Tokenleştirme*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | STEP 2 - Veri Toplama, Metin Önişleme |
+| **❓ Ne işe yarar?** | Metni daha küçük parçalara (kelime, cümle, alt kelime) ayırma işlemi. |
+| **💡 Basit örnek** | **Cümle tokenization:** `"NLTK harika. Çok kullanışlı."` → `["NLTK harika.", "Çok kullanışlı."]` <br> **Kelime tokenization:** `"NLTK harika"` → `["NLTK", "harika"]` |
+| **🧠 Projede kullanımı** | Wikipedia makalelerini cümlelere ayırmak için `sent_tokenize()` kullanıldı |
+| **📚 Benzer terimler** | NLTK, spaCy, sent_tokenize, word_tokenize, Subword tokenization (BPE) |
+
+---
+
+### 📌 BeautifulSoup
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | STEP 2 - Veri Toplama, Web Scraping |
+| **❓ Ne işe yarar?** | HTML ve XML dosyalarını ayrıştırmak (parse) için kullanılan Python kütüphanesi. Web'den çekilen sayfalardan veri çıkarmayı kolaylaştırır. |
+| **💡 Basit örnek** | `soup.find_all('p')` → HTML sayfasındaki tüm paragraf (`<p>`) etiketlerini bulur |
+| **🧠 Projede kullanımı** | Wikipedia sayfalarından ana metin içeriğini çıkarmak için kullanıldı. Uyarıları engellemek için `GuessedAtParserWarning` filtrelendi. |
+| **📚 Benzer terimler** | HTML parsing, Web scraping, lxml, html.parser, requests |
+
+---
+
+### 📌 Rate Limiting
+*Hız Sınırlama*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | STEP 2 - Veri Toplama, API Kullanımı |
+| **❓ Ne işe yarar?** | Bir API'ye (uygulama programlama arayüzü) belirli bir sürede yapılan istek sayısını sınırlayarak sunucunun aşırı yüklenmesini veya IP ban'lenmesini engeller. |
+| **💡 Basit örnek** | `time.sleep(0.25)` → Her istekten sonra 0.25 saniye bekle <br> → Saniyede 4 istekten fazlası engellenir |
+| **🧠 Projede kullanımı** | Wikipedia'ya hızlı istek atıp IP ban yememek için her sayfa çekiminden sonra `time.sleep(0.25)` eklendi |
+| **📚 Benzer terimler** | API throttling, Request limiting, time.sleep, Cooldown |
+
+---
+
+### 📌 Metadata
+*Üst Veri*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | STEP 2 - Veri Toplama, Veri Saklama |
+| **❓ Ne işe yarar?** | Veri hakkında veri. Bir veri setinin kaynağı, toplanma zamanı, boyutu gibi tanımlayıcı bilgileri ifade eder. |
+| **💡 Basit örnek** | `{"text": "Türkiye", "source_page": "Turkey", "word_count": 1, "collected_at": "2026-02-18T..."}` |
+| **🧠 Projede kullanımı** | Her cümle için kaynak sayfa, kelime sayısı, toplanma zamanı gibi bilgiler JSON dosyasında metadata olarak saklandı. |
+| **📚 Benzer terimler** | Data dictionary, Schema, JSON, Data provenance |
+
+---
+
+### 📌 JSON
+*JavaScript Object Notation*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 18.02.2026 |
+| **📍 Nerede?** | STEP 2 - Veri Toplama, Veri Saklama |
+| **❓ Ne işe yarar?** | Verileri metin tabanlı, insan tarafından okunabilir formatta saklamak ve taşımak için kullanılan hafif bir veri değişim formatı. |
+| **💡 Basit örnek** | `{"isim": "Türkiye", "nufus": 85000000}` |
+| **🧠 Projede kullanımı** | Toplanan cümleler ve metadata JSON formatında `dataset_3000_target.json` ve `dataset_latest.json` dosyalarına kaydedildi. |
+| **📚 Benzer terimler** | XML, YAML, CSV, Data serialization |
+
+---
+
 ## 📊 ÖZET TABLOSU
 
 | Terim                                         | Kısaltma   | Öğrenme Tarihi |
@@ -494,6 +587,12 @@
 | Entity Linking                                | **EL**     | 18.02.2026     |
 | Mention Detection                             | **MD**     | 18.02.2026     |
 | Entity Disambiguation                         | **ED**     | 18.02.2026     |
+| Natural Language Toolkit                      | **NLTK**   | 18.02.2026     |
+| Tokenization                                  | -          | 18.02.2026     |
+| BeautifulSoup                                 | **BS4**    | 18.02.2026     |
+| Rate Limiting                                 | -          | 18.02.2026     |
+| Metadata                                      | -          | 18.02.2026     |
+| JSON                                          | **JSON**   | 18.02.2026     |
 
 ---
 
@@ -517,7 +616,7 @@
 | 18.02.2026 | v2.3     | Entity Linking                                                | Varlık bağlama terimi eklendi                                     |
 | 18.02.2026 | v2.4     | Mention Detection (MD)                                        | Varlık tespiti terimi eklendi                                     |
 | 18.02.2026 | v2.5     | Entity Disambiguation (ED)                                    | Varlık anlam belirsizliği giderme terimi eklendi                  |
----
+| 18.02.2026 | v2.6     | NLTK, Tokenization, BS4, Rate Limiting, Metadata, JSON        | STEP 2 - Data Collection kapsamında kullanılan araçlar ve kavramlar eklendi |---
 
 *Bu belge proje ilerledikçe güncellenecektir.* 🔄
 
