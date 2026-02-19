@@ -73,10 +73,10 @@ class NoiseGenerator:
         changed = False
 
         if error_type == 'terminology':
-            for key, val in TERMINOLOGY_MAP.items():
-                if key in sentence:
-                    noisy_text = sentence.replace(key, val, 1)
-                    changed = True;
+            for target_val, noisy_val in TERMINOLOGY_MAP.items():
+                if noisy_val in sentence:  # Cümlede 'Türkiye' varsa
+                    noisy_text = sentence.replace(noisy_val, target_val, 1)
+                    changed = True
                     break
 
         elif error_type == 'common':
@@ -84,14 +84,14 @@ class NoiseGenerator:
                 pattern = r'\b' + re.escape(key) + r'\b'
                 if re.search(pattern, sentence, re.IGNORECASE):
                     noisy_text = re.sub(pattern, val, sentence, count=1, flags=re.IGNORECASE)
-                    changed = True;
+                    changed = True
                     break
 
         elif error_type == 'space':
             for key, val in SPACE_ERRORS.items():
                 if key in sentence:
                     noisy_text = sentence.replace(key, val, 1)
-                    changed = True;
+                    changed = True
                     break
 
         elif error_type == 'deascii':
