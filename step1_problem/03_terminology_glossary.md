@@ -1,22 +1,20 @@
 # 📚 TERMINOLOGY GLOSSARY
 ## Entity Normalization & Correction
 
-| **Son Güncelleme** | 18.02.2026 |
+| **Son Güncelleme** | 19.02.2026 |
 |:-------------------|:-----------|
-| **Toplam Terim**   | 36         |
+| **Toplam Terim**   | 38         |
 | **Hazırlayan**     | Büşra Kaya |
 
 ---
 
-
 ## 📋 İÇİNDEKİLER
 
-| # | Bölüm | Durum |
-| :--- | :--- |:------|
+| # | Bölüm                                               | Durum |
+|:--|:----------------------------------------------------|:------|
 | 1 | [STEP 1 - PROBLEM TANIMI](#step-1---problem-tanimi) | ✅ |
-| 2 | [STEP 2 - VERİ TOPLAMA](#step-2---veri-toplama) | ✅ |
-
----
+| 2 | [STEP 2 - VERİ TOPLAMA](#step-2---veri-toplama)     | ✅ |
+| 3 | [STEP 3 - GÜRÜLTÜ EKLEME](#step-3---gürültü-ekleme) | ✅ |
 
 ---
 
@@ -553,6 +551,40 @@
 
 ---
 
+## STEP 3 - GÜRÜLTÜ EKLEME
+*Sentetik hata üretimi, veri bozma ve hata tespiti sürecinde öğrenilen terimler*
+
+---
+
+### 📌 Regular Expressions (Regex)
+*Düzenli İfadeler*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 19.02.2026 |
+| **📍 Nerede?** | STEP 2 - Veri Toplama, STEP 3 - Gürültü Ekleme |
+| **❓ Ne işe yarar?** | Metin içinde desen eşleştirme, arama, değiştirme ve ayıklama işlemleri için kullanılan güçlü bir dil. |
+| **💡 Basit örnekler** | **1. Referans temizleme:** <br> `re.sub(r'\[\d+\]', '', text)` <br> `"Türkiye[1]"` → `"Türkiye"` <br><br> **2. Fazla boşluk temizleme:** <br> `re.sub(r'\s+', ' ', text)` <br> `"Çok    boşluk   var"` → `"Çok boşluk var"` <br><br> **3. Kelime sınırı ile arama:** <br> `re.search(r'\bgovernment\b', text)` <br> Sadece tam kelime olarak "government" arar. <br><br> **4. E-posta doğrulama:** <br> `r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'` |
+| **🧠 Projede kullanımı** | • Wikipedia'dan çekilen metinlerde **referansları temizleme** (`\[\d+\]`) <br> • **Fazla boşlukları** ve **satır sonlarını** temizleme (`\s+`, `\n+`) <br> • **Noktalama düzeltmeleri** (`\s+\.`, `\s+,`) <br> • Yaygın hata kalıplarını yakalama (örneğin `\bgovernment\b`) <br> • Gürültü ekleme sırasında kelime sınırlarını koruma |
+| **🔧 Özel karakterler** | **`.`** → Herhangi bir karakter (newline hariç) <br> **`\d`** → Rakam (`[0-9]`) <br> **`\w`** → Harf, rakam, alt çizgi (`[a-zA-Z0-9_]`) <br> **`\s`** → Boşluk karakteri (space, tab, newline) <br> **`^`** → Satır başı <br> **`$`** → Satır sonu <br> **`*`** → 0 veya daha fazla tekrar <br> **`+`** → 1 veya daha fazla tekrar <br> **`?`** → 0 veya 1 tekrar <br> **`{n}`** → n kadar tekrar <br> **`[abc]`** → a, b veya c karakterlerinden biri <br> **`(abc)`** → Gruplama |
+| **📚 Benzer terimler** | Pattern matching, String searching, Text processing, re module (Python), sed, grep, awk |
+
+---
+
+### 📌 Noise Quota
+*Gürültü Kotası*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 19.02.2026 |
+| **📍 Nerede?** | STEP 3 - Gürültü Ekleme, Veri Hazırlama |
+| **❓ Ne işe yarar?** | Gürültü ekleme sürecinde her hata tipi için hedeflenen cümle sayısını ifade eder. Toplam gürültülü cümle sayısının, hata tiplerinin ağırlıklarına göre dağıtılmasını sağlar. |
+| **💡 Basit örnek** | Toplam 1000 cümleye %35 gürültü eklenecek (350 cümle). <br> Hata tiplerinin ağırlıkları: <br> • deascii: %30 → quota = 105 cümle <br> • omission: %12 → quota = 42 cümle <br> • insertion: %8 → quota = 28 cümle <br> • transposition: %10 → quota = 35 cümle <br> • substitution: %15 → quota = 52 cümle <br> • space: %5 → quota = 17 cümle <br> • terminology: %8 → quota = 28 cümle <br> • common: %12 → quota = 42 cümle |
+| **🧠 Neden gerekli?** | • Her hata tipinden yeterli sayıda örnek olmasını garanti eder. <br> • Rastgele seçimde bazı hata tipleri hiç temsil edilmeyebilir. <br> • Dengeli ve çeşitli bir veri seti oluşturmayı sağlar. |
+| **📚 Benzer terimler** | Noise ratio, Error distribution, Sampling quota, Stratified sampling, Class balance |
+
+---
+
 ## 📊 ÖZET TABLOSU
 
 | Terim                                         | Kısaltma   | Öğrenme Tarihi |
@@ -593,31 +625,35 @@
 | Rate Limiting                                 | -          | 18.02.2026     |
 | Metadata                                      | -          | 18.02.2026     |
 | JSON                                          | **JSON**   | 18.02.2026     |
+| Regular Expressions                           | **Regex**  | 19.02.2026     |
+| Noise Quota                                   | -          | 19.02.2026     |
 
 ---
 
 ## 📌 DEĞİŞİKLİK KAYITLARI
 
-| Tarih | Versiyon | Eklenen Terimler                                              | Açıklama                                                          |
-| :--- |:---------|:--------------------------------------------------------------|:------------------------------------------------------------------|
-| 11.02.2026 | v1.0     | OOV, NER, Entity Norm, Spelling, Noisy Text, De-asciification | İlk oluşturma                                                     |
-| 12.02.2026 | v1.1     | BERT, GECToR, Transformer, Fine-tuning, OCR                   | Literatür taraması eklendi                                        |
-| 17.02.2026 | v1.2     | Multi-Head Attention, Positional Encoding                     | Transformer detaylandırıldı                                       |
-| 17.02.2026 | v1.3     | MLM, NSP, Dynamic Masking                                     | BERT eğitim yöntemi eklendi                                       |
-| 17.02.2026 | v1.4     | ELMo                                                          | Bağlamsal embedding modeli eklendi                                |
-| 17.02.2026 | v1.5     | Multi-Task Fine-Tuning                                        | Çok görevli eğitim yöntemi eklendi                                |
-| 17.02.2026 | v1.6     | Damerau–Levenshtein Distance                                  | Edit distance metriği eklendi                                     |
-| 17.02.2026 | v1.7     | String-to-String                                              | Metin dönüşüm terimi eklendi                                      |
-| 17.02.2026 | v1.8     | Soft-Masked BERT                                              | Yazım düzeltme modeli eklendi                                     |
-| 17.02.2026 | v1.9     | C2C (Character-to-Character)                                  | Karakter seviyesi işleme terimi eklendi                           |
-| 18.02.2026 | v2.0     | BART, ASR, WER                                                | Metin üretim modeli, konuşma tanıma ve hata metriği eklendi       |
-| 18.02.2026 | v2.1     | Heavy Encoder                                                 | Büyük ve karmaşık encoder modelleri için kullanılan terim eklendi |
-| 18.02.2026 | v2.2     | CANINE                                                        | Tokenization-free karakter seviyesi model eklendi                 |
-| 18.02.2026 | v2.3     | Entity Linking                                                | Varlık bağlama terimi eklendi                                     |
-| 18.02.2026 | v2.4     | Mention Detection (MD)                                        | Varlık tespiti terimi eklendi                                     |
-| 18.02.2026 | v2.5     | Entity Disambiguation (ED)                                    | Varlık anlam belirsizliği giderme terimi eklendi                  |
-| 18.02.2026 | v2.6     | NLTK, Tokenization, BS4, Rate Limiting, Metadata, JSON        | STEP 2 - Data Collection kapsamında kullanılan araçlar ve kavramlar eklendi |---
+| Tarih | Versiyon | Eklenen Terimler                                              | Açıklama                                                                    |
+| :--- |:---------|:--------------------------------------------------------------|:----------------------------------------------------------------------------|
+| 11.02.2026 | v1.0     | OOV, NER, Entity Norm, Spelling, Noisy Text, De-asciification | İlk oluşturma                                                               |
+| 12.02.2026 | v1.1     | BERT, GECToR, Transformer, Fine-tuning, OCR                   | Literatür taraması eklendi                                                  |
+| 17.02.2026 | v1.2     | Multi-Head Attention, Positional Encoding                     | Transformer detaylandırıldı                                                 |
+| 17.02.2026 | v1.3     | MLM, NSP, Dynamic Masking                                     | BERT eğitim yöntemi eklendi                                                 |
+| 17.02.2026 | v1.4     | ELMo                                                          | Bağlamsal embedding modeli eklendi                                          |
+| 17.02.2026 | v1.5     | Multi-Task Fine-Tuning                                        | Çok görevli eğitim yöntemi eklendi                                          |
+| 17.02.2026 | v1.6     | Damerau–Levenshtein Distance                                  | Edit distance metriği eklendi                                               |
+| 17.02.2026 | v1.7     | String-to-String                                              | Metin dönüşüm terimi eklendi                                                |
+| 17.02.2026 | v1.8     | Soft-Masked BERT                                              | Yazım düzeltme modeli eklendi                                               |
+| 17.02.2026 | v1.9     | C2C (Character-to-Character)                                  | Karakter seviyesi işleme terimi eklendi                                     |
+| 18.02.2026 | v2.0     | BART, ASR, WER                                                | Metin üretim modeli, konuşma tanıma ve hata metriği eklendi                 |
+| 18.02.2026 | v2.1     | Heavy Encoder                                                 | Büyük ve karmaşık encoder modelleri için kullanılan terim eklendi           |
+| 18.02.2026 | v2.2     | CANINE                                                        | Tokenization-free karakter seviyesi model eklendi                           |
+| 18.02.2026 | v2.3     | Entity Linking                                                | Varlık bağlama terimi eklendi                                               |
+| 18.02.2026 | v2.4     | Mention Detection (MD)                                        | Varlık tespiti terimi eklendi                                               |
+| 18.02.2026 | v2.5     | Entity Disambiguation (ED)                                    | Varlık anlam belirsizliği giderme terimi eklendi                            |
+| 18.02.2026 | v2.6     | NLTK, Tokenization, BS4, Rate Limiting, Metadata, JSON        | STEP 2 - Data Collection kapsamında kullanılan araçlar ve kavramlar eklendi |
+| 19.02.2026 | v2.7     | Regular Expressions (Regex)                                   | STEP 2 ve STEP 3'te kullanılan düzenli ifadeler eklendi                     |
+| 19.02.2026 | v2.8     | Noise Quota                                                   | Gürültü ekleme kotası terimi eklendi                                        |
 
+---
 *Bu belge proje ilerledikçe güncellenecektir.* 🔄
-
 ---
