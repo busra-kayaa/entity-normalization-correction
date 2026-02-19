@@ -3,18 +3,19 @@
 
 | **Son Güncelleme** | 19.02.2026 |
 |:-------------------|:-----------|
-| **Toplam Terim**   | 38         |
+| **Toplam Terim**   | 40         |
 | **Hazırlayan**     | Büşra Kaya |
 
 ---
 
 ## 📋 İÇİNDEKİLER
 
-| # | Bölüm                                               | Durum |
-|:--|:----------------------------------------------------|:------|
-| 1 | [STEP 1 - PROBLEM TANIMI](#step-1---problem-tanimi) | ✅ |
-| 2 | [STEP 2 - VERİ TOPLAMA](#step-2---veri-toplama)     | ✅ |
-| 3 | [STEP 3 - GÜRÜLTÜ EKLEME](#step-3---gürültü-ekleme) | ✅ |
+| # | Bölüm                                                 | Durum |
+|:--|:------------------------------------------------------|:------|
+| 1 | [STEP 1 - PROBLEM TANIMI](#step-1---problem-tanimi)   | ✅ |
+| 2 | [STEP 2 - VERİ TOPLAMA](#step-2---veri-toplama)       | ✅ |
+| 3 | [STEP 3 - GÜRÜLTÜ EKLEME](#step-3---gürültü-ekleme)   | ✅ |
+| 4 | [STEP 4 - VERİ SETİ BÖLME](#step-4---veri-seti-bölme) | ✅ |
 
 ---
 
@@ -585,74 +586,108 @@
 
 ---
 
+## STEP 4 - VERİ SETİ BÖLME
+*Train/Validation/Test split sürecinde öğrenilen terimler*
+
+---
+
+### 📌 Random Seed
+*Rastgelelik Çekirdeği*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 19.02.2026 |
+| **📍 Nerede?** | STEP 4 - Veri Seti Bölme |
+| **❓ Ne işe yarar?** | Rastgele işlemlerin tekrarlanabilir olmasını sağlar |
+| **💡 Basit örnek** | `random.seed(42)` → Her çalıştırmada aynı split elde edilir |
+| **📚 Benzer terimler** | Reproducibility, Deterministic behavior |
+
+---
+
+### 📌 Stratified Split
+*Tabakalı Bölme*
+
+| | |
+| :--- | :--- |
+| **🗓️ Ne zaman?** | 19.02.2026 |
+| **📍 Nerede?** | STEP 4 - Veri Seti Bölme |
+| **❓ Ne işe yarar?** | Her sette hata tiplerinin oranını koruyarak bölme |
+| **💡 Basit örnek** | Train setinde deascii %20 ise, validation/test'te de yaklaşık %20 olur |
+| **📚 Benzer terimler** | Class balance, Proportional splitting |
+
+---
+
 ## 📊 ÖZET TABLOSU
 
-| Terim                                         | Kısaltma   | Öğrenme Tarihi |
-|:----------------------------------------------|:-----------|:---------------|
-| De-asciification                              | -          | 11.02.2026     |
-| Out-of-Vocabulary                             | **OOV**    | 11.02.2026     |
-| Entity Normalization                          | -          | 11.02.2026     |
-| Named Entity Recognition                      | **NER**    | 11.02.2026     |
-| Context-Aware Spelling Correction             | -          | 11.02.2026     |
-| Noisy Text Normalization                      | -          | 11.02.2026     |
-| BERT                                          | -          | 12.02.2026     |
-| GECToR                                        | -          | 12.02.2026     |
-| Transformer                                   | -          | 12.02.2026     |
-| Fine-tuning                                   | -          | 12.02.2026     |
-| OCR                                           | -          | 12.02.2026     |
-| Multi-Head Attention                          | -          | 17.02.2026     |
-| Positional Encoding                           | -          | 17.02.2026     |
-| Masked Language Model                         | **MLM**    | 17.02.2026     |
-| Next Sentence Prediction                      | **NSP**    | 17.02.2026     |
-| Embeddings from Language Models               | **ELMo**   | 17.02.2026     |
-| Dynamic Masking                               | -          | 17.02.2026     |
-| Multi-Task Fine-Tuning                        | -          | 17.02.2026     |
-| Damerau–Levenshtein Distance                  | **DLD**    | 17.02.2026     |
-| String-to-String                              | **S2S**    | 17.02.2026     |
-| Soft-Masked BERT                              | -          | 17.02.2026     |
-| C2C (Character-to-Character)                  | **C2C**    | 17.02.2026     |
-| Bidirectional and Auto-Regressive Transformer | **BART**   | 18.02.2026     |
-| Automatic Speech Recognition                  | **ASR**    | 18.02.2026     |
-| Word Error Rate                               | **WER**    | 18.02.2026     |
-| Heavy Encoder                                 | -          | 18.02.2026     |
-| CANINE                                        | **CANINE** | 18.02.2026     |
-| Entity Linking                                | **EL**     | 18.02.2026     |
-| Mention Detection                             | **MD**     | 18.02.2026     |
-| Entity Disambiguation                         | **ED**     | 18.02.2026     |
-| Natural Language Toolkit                      | **NLTK**   | 18.02.2026     |
-| Tokenization                                  | -          | 18.02.2026     |
-| BeautifulSoup                                 | **BS4**    | 18.02.2026     |
-| Rate Limiting                                 | -          | 18.02.2026     |
-| Metadata                                      | -          | 18.02.2026     |
-| JSON                                          | **JSON**   | 18.02.2026     |
-| Regular Expressions                           | **Regex**  | 19.02.2026     |
-| Noise Quota                                   | -          | 19.02.2026     |
+| Terim                                          | Kısaltma   | Öğrenme Tarihi |
+|:-----------------------------------------------|:-----------|:---------------|
+| De-asciification                               | -          | 11.02.2026     |
+| Out-of-Vocabulary                              | **OOV**    | 11.02.2026     |
+| Entity Normalization                           | -          | 11.02.2026     |
+| Named Entity Recognition                       | **NER**    | 11.02.2026     |
+| Context-Aware Spelling Correction              | -          | 11.02.2026     |
+| Noisy Text Normalization                       | -          | 11.02.2026     |
+| BERT                                           | -          | 12.02.2026     |
+| GECToR                                         | -          | 12.02.2026     |
+| Transformer                                    | -          | 12.02.2026     |
+| Fine-tuning                                    | -          | 12.02.2026     |
+| OCR                                            | -          | 12.02.2026     |
+| Multi-Head Attention                           | -          | 17.02.2026     |
+| Positional Encoding                            | -          | 17.02.2026     |
+| Masked Language Model                          | **MLM**    | 17.02.2026     |
+| Next Sentence Prediction                       | **NSP**    | 17.02.2026     |
+| Embeddings from Language Models                | **ELMo**   | 17.02.2026     |
+| Dynamic Masking                                | -          | 17.02.2026     |
+| Multi-Task Fine-Tuning                         | -          | 17.02.2026     |
+| Damerau–Levenshtein Distance                   | **DLD**    | 17.02.2026     |
+| String-to-String                               | **S2S**    | 17.02.2026     |
+| Soft-Masked BERT                               | -          | 17.02.2026     |
+| C2C (Character-to-Character)                   | **C2C**    | 17.02.2026     |
+| Bidirectional and Auto-Regressive Transformer  | **BART**   | 18.02.2026     |
+| Automatic Speech Recognition                   | **ASR**    | 18.02.2026     |
+| Word Error Rate                                | **WER**    | 18.02.2026     |
+| Heavy Encoder                                  | -          | 18.02.2026     |
+| CANINE                                         | **CANINE** | 18.02.2026     |
+| Entity Linking                                 | **EL**     | 18.02.2026     |
+| Mention Detection                              | **MD**     | 18.02.2026     |
+| Entity Disambiguation                          | **ED**     | 18.02.2026     |
+| Natural Language Toolkit                       | **NLTK**   | 18.02.2026     |
+| Tokenization                                   | -          | 18.02.2026     |
+| BeautifulSoup                                  | **BS4**    | 18.02.2026     |
+| Rate Limiting                                  | -          | 18.02.2026     |
+| Metadata                                       | -          | 18.02.2026     |
+| JSON                                           | **JSON**   | 18.02.2026     |
+| Regular Expressions                            | **Regex**  | 19.02.2026     |
+| Noise Quota                                    | -          | 19.02.2026     |
+| Random Seed                                    | -          | 19.02.2026     |
+| Stratified Split                               | -          | 19.02.2026     |
 
 ---
 
 ## 📌 DEĞİŞİKLİK KAYITLARI
 
-| Tarih | Versiyon | Eklenen Terimler                                              | Açıklama                                                                    |
-| :--- |:---------|:--------------------------------------------------------------|:----------------------------------------------------------------------------|
-| 11.02.2026 | v1.0     | OOV, NER, Entity Norm, Spelling, Noisy Text, De-asciification | İlk oluşturma                                                               |
-| 12.02.2026 | v1.1     | BERT, GECToR, Transformer, Fine-tuning, OCR                   | Literatür taraması eklendi                                                  |
-| 17.02.2026 | v1.2     | Multi-Head Attention, Positional Encoding                     | Transformer detaylandırıldı                                                 |
-| 17.02.2026 | v1.3     | MLM, NSP, Dynamic Masking                                     | BERT eğitim yöntemi eklendi                                                 |
-| 17.02.2026 | v1.4     | ELMo                                                          | Bağlamsal embedding modeli eklendi                                          |
-| 17.02.2026 | v1.5     | Multi-Task Fine-Tuning                                        | Çok görevli eğitim yöntemi eklendi                                          |
-| 17.02.2026 | v1.6     | Damerau–Levenshtein Distance                                  | Edit distance metriği eklendi                                               |
-| 17.02.2026 | v1.7     | String-to-String                                              | Metin dönüşüm terimi eklendi                                                |
-| 17.02.2026 | v1.8     | Soft-Masked BERT                                              | Yazım düzeltme modeli eklendi                                               |
-| 17.02.2026 | v1.9     | C2C (Character-to-Character)                                  | Karakter seviyesi işleme terimi eklendi                                     |
-| 18.02.2026 | v2.0     | BART, ASR, WER                                                | Metin üretim modeli, konuşma tanıma ve hata metriği eklendi                 |
-| 18.02.2026 | v2.1     | Heavy Encoder                                                 | Büyük ve karmaşık encoder modelleri için kullanılan terim eklendi           |
-| 18.02.2026 | v2.2     | CANINE                                                        | Tokenization-free karakter seviyesi model eklendi                           |
-| 18.02.2026 | v2.3     | Entity Linking                                                | Varlık bağlama terimi eklendi                                               |
-| 18.02.2026 | v2.4     | Mention Detection (MD)                                        | Varlık tespiti terimi eklendi                                               |
-| 18.02.2026 | v2.5     | Entity Disambiguation (ED)                                    | Varlık anlam belirsizliği giderme terimi eklendi                            |
-| 18.02.2026 | v2.6     | NLTK, Tokenization, BS4, Rate Limiting, Metadata, JSON        | STEP 2 - Data Collection kapsamında kullanılan araçlar ve kavramlar eklendi |
-| 19.02.2026 | v2.7     | Regular Expressions (Regex)                                   | STEP 2 ve STEP 3'te kullanılan düzenli ifadeler eklendi                     |
-| 19.02.2026 | v2.8     | Noise Quota                                                   | Gürültü ekleme kotası terimi eklendi                                        |
+| Tarih | Versiyon | Eklenen Terimler                                              | Açıklama                                                                       |
+| :--- |:---------|:--------------------------------------------------------------|:-------------------------------------------------------------------------------|
+| 11.02.2026 | v1.0     | OOV, NER, Entity Norm, Spelling, Noisy Text, De-asciification | İlk oluşturma                                                                  |
+| 12.02.2026 | v1.1     | BERT, GECToR, Transformer, Fine-tuning, OCR                   | Literatür taraması eklendi                                                     |
+| 17.02.2026 | v1.2     | Multi-Head Attention, Positional Encoding                     | Transformer detaylandırıldı                                                    |
+| 17.02.2026 | v1.3     | MLM, NSP, Dynamic Masking                                     | BERT eğitim yöntemi eklendi                                                    |
+| 17.02.2026 | v1.4     | ELMo                                                          | Bağlamsal embedding modeli eklendi                                             |
+| 17.02.2026 | v1.5     | Multi-Task Fine-Tuning                                        | Çok görevli eğitim yöntemi eklendi                                             |
+| 17.02.2026 | v1.6     | Damerau–Levenshtein Distance                                  | Edit distance metriği eklendi                                                  |
+| 17.02.2026 | v1.7     | String-to-String                                              | Metin dönüşüm terimi eklendi                                                   |
+| 17.02.2026 | v1.8     | Soft-Masked BERT                                              | Yazım düzeltme modeli eklendi                                                  |
+| 17.02.2026 | v1.9     | C2C (Character-to-Character)                                  | Karakter seviyesi işleme terimi eklendi                                        |
+| 18.02.2026 | v2.0     | BART, ASR, WER                                                | Metin üretim modeli, konuşma tanıma ve hata metriği eklendi                    |
+| 18.02.2026 | v2.1     | Heavy Encoder                                                 | Büyük ve karmaşık encoder modelleri için kullanılan terim eklendi              |
+| 18.02.2026 | v2.2     | CANINE                                                        | Tokenization-free karakter seviyesi model eklendi                              |
+| 18.02.2026 | v2.3     | Entity Linking                                                | Varlık bağlama terimi eklendi                                                  |
+| 18.02.2026 | v2.4     | Mention Detection (MD)                                        | Varlık tespiti terimi eklendi                                                  |
+| 18.02.2026 | v2.5     | Entity Disambiguation (ED)                                    | Varlık anlam belirsizliği giderme terimi eklendi                               |
+| 18.02.2026 | v2.6     | NLTK, Tokenization, BS4, Rate Limiting, Metadata, JSON        | STEP 2 - Data Collection kapsamında kullanılan araçlar ve kavramlar eklendi    |
+| 19.02.2026 | v2.7     | Regular Expressions (Regex)                                   | STEP 2 ve STEP 3'te kullanılan düzenli ifadeler eklendi                        |
+| 19.02.2026 | v2.8     | Noise Quota                                                   | Gürültü ekleme kotası terimi eklendi                                           |
+| 19.02.2026 | v2.9     | Random Seed, Stratified Split                                 | STEP 4 - Veri seti bölme terimleri eklendi                                     |
 
 ---
 *Bu belge proje ilerledikçe güncellenecektir.* 🔄
