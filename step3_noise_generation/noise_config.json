@@ -1,0 +1,13 @@
+{
+    "noise_ratio": 0.35,
+        "error_types": {
+            "deascii": 0.20,
+            "omission": 0.12,
+            "insertion": 0.08,
+            "transposition": 0.10,
+            "substitution": 0.15,
+            "space": 0.15,
+            "terminology": 0.10,
+            "common": 0.10
+        }
+}
