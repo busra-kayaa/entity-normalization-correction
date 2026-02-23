@@ -1,0 +1,88 @@
+
+==================================================
+      GENİŞLETİLMİŞ MANUEL TEST RAPORU (T5-SMALL)
+==================================================
+Tarih: 2026-02-23 16:29:50
+Toplam Test Sayısı: 13
+Doğru Tahmin: 8
+Başarı Oranı: %61.54
+
+---------------- DETAYLAR -----------------------
+
+Girdi    : The Republic of Turkey was founded in 1923.
+Beklenen : The Republic of Türkiye was founded in 1923.
+Tahmin   : The Republic of Türkiye was founded in 1923.
+Durum    : DOĞRU
+----------------------------------------
+
+Girdi    : Tourism in turkey is growing fast.
+Beklenen : Tourism in Türkiye is growing fast.
+Tahmin   : Tourism in turkey is growing fast.
+Durum    : YANLIŞ
+----------------------------------------
+
+Girdi    : Made in Turkey
+Beklenen : Made in Türkiye
+Tahmin   : Made in Turkey
+Durum    : YANLIŞ
+----------------------------------------
+
+Girdi    : Istanbul very good.
+Beklenen : İstanbul very good.
+Tahmin   : Istanbul very good.
+Durum    : YANLIŞ
+----------------------------------------
+
+Girdi    : The goverment of Türkiye is here.
+Beklenen : The government of Türkiye is here.
+Tahmin   : The government of Türkiye is here.
+Durum    : DOĞRU
+----------------------------------------
+
+Girdi    : I recieved a new message.
+Beklenen : I received a new message.
+Tahmin   : I recieved a new message.
+Durum    : YANLIŞ
+----------------------------------------
+
+Girdi    : The enviroment protection is key.
+Beklenen : The environment protection is key.
+Tahmin   : The environment protection is key.
+Durum    : DOĞRU
+----------------------------------------
+
+Girdi    : Natural languge processing is fun.
+Beklenen : Natural language processing is fun.
+Tahmin   : Natural languge processing is fun.
+Durum    : YANLIŞ
+----------------------------------------
+
+Girdi    : NewYork is a crowded place.
+Beklenen : New York is a crowded place.
+Tahmin   : New York is a crowded place.
+Durum    : DOĞRU
+----------------------------------------
+
+Girdi    : He said , hello.
+Beklenen : He said, hello.
+Tahmin   : He said, hello.
+Durum    : DOĞRU
+----------------------------------------
+
+Girdi    : We live in Türkiye.
+Beklenen : We live in Türkiye.
+Tahmin   : We live in Türkiye.
+Durum    : DOĞRU
+----------------------------------------
+
+Girdi    : The weather is nice today.
+Beklenen : The weather is nice today.
+Tahmin   : The weather is nice today.
+Durum    : DOĞRU
+----------------------------------------
+
+Girdi    : Artificial intelligence is the future.
+Beklenen : Artificial intelligence is the future.
+Tahmin   : Artificial intelligence is the future.
+Durum    : DOĞRU
+----------------------------------------

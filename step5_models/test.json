@@ -1,0 +1,2720 @@
+[
+  {
+    "input": "Roosevelt was the running mate of James M.",
+    "target": "Roosevelt was the running mate of James M.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The duty is assigned to a committee whose number of members, duration of work and locatixn of work is determined by the proposal of the Parliamentary Speaker and the approval of the General Assembly.",
+    "target": "The duty is assigned to a committee whose number of members, duration of work and location of work is determined by the proposal of the Parliamentary Speaker and the approval of the General Assembly.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "The linguistic and cultural turns of the mid-20th century, especially, have led to increasingly interpretative, hermeneutic, and philosophical approaches towards the analysis of society.",
+    "target": "The linguistic and cultural turns of the mid-20th century, especially, have led to increasingly interpretative, hermeneutic, and philosophical approaches towards the analysis of society.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "It establishes the organization of the government, and sets out the principles and rules of the state's conduct along with its responsibilities in regard to its citizens.",
+    "target": "It establishes the organization of the government, and sets out the principles and rules of the state's conduct along with its responsibilities in regard to its citizens.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Fyreign Policy was founded in late 1970 by Samuel P.",
+    "target": "Foreign Policy was founded in late 1970 by Samuel P.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Mandela served 27 years in prison, split between Robben Island, Pollsmoor Prison, and Victor Verster Prison.",
+    "target": "Mandela served 27 years in prison, split between Robben Island, Pollsmoor Prison, and Victor Verster Prison.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "McDonald's has been criticized for its foods' nutrition, animal welfare and low worker wages.",
+    "target": "McDonald's has been criticized for its foods' nutrition, animal welfare and low worker wages.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Mos Maiorum was a set of rules of conduct bsaed on social norms created over the years by predecessors.",
+    "target": "Mos Maiorum was a set of rules of conduct based on social norms created over the years by predecessors.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "In contrast to the natural enviroment is the built environment.",
+    "target": "In contrast to the natural environment is the built environment.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "He was previously a co-founder of MicroWarehouse, a computer mail-order company, as well as vice president of marketing for Borland.",
+    "target": "He was previously a co-founder of MicroWarehouse, a computer mail-order company, as well as vice president of marketing for Borland.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The region is mentioned in the Jewish Mishnah, in Ketubot 13:11, and in several placse in the Talmud, including Yevamot 121a, Hullin 47b.",
+    "target": "The region is mentioned in the Jewish Mishnah, in Ketubot 13:11, and in several places in the Talmud, including Yevamot 121a, Hullin 47b.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "The president is required to be a member of the Ntional Assembly at the time of the election.",
+    "target": "The president is required to be a member of the National Assembly at the time of the election.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Communism is a part of the broader oscialist movement.",
+    "target": "Communism is a part of the broader socialist movement.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "Ideologically an African natioyalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.",
+    "target": "Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Born in the Colony of Virginia, Washington became the commander of the Virginia Regiment during the French and Indian War (1754–1763).",
+    "target": "Born in the Colony of Virginia, Washington became the commander of the Virginia Regiment during the French and Indian War (1754–1763).",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Furthermore, Federalists demanded tariff protection for their industries and, in Argentina, called for the end of the Buenos Aires customs as the only intermediary for foreign trade.",
+    "target": "Furthermore, Federalists demanded tariff protection for their industries and, in Argentina, called for the end of the Buenos Aires customs as the only intermediary for foreign trade.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The word is also used in reference to non-written works: to \"oral literature\" and \"the literature of preliterate culture\".",
+    "target": "The word is also used in reference to non-written works: to \"oral literature\" and \"the literature of preliterate culture\".",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "NACA's interest in space grew out of its rocketry program at the Pilotless Aircraft Research Division.",
+    "target": "NACA's interest in space grew out of its rocketry program at the Pilotless Aircraft Research Division.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Acts 2:5 states \"Now there were staying in Jerusalem God-fearing Jews from every nation under heaven,\" seemin to suggest that some of the Cappadocians were Jews, or part of the diaspora of Jews present in Jerusalem at the time.",
+    "target": "Acts 2:5 states \"Now there were staying in Jerusalem God-fearing Jews from every nation under heaven,\" seeming to suggest that some of the Cappadocians were Jews, or part of the diaspora of Jews present in Jerusalem at the time.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The Acts of Union 1707 declared that the Knigdom of England and the Kingdom of Scotland were \"United into One Kingdom by the Name of Great Britain\".",
+    "target": "The Acts of Union 1707 declared that the Kingdom of England and the Kingdom of Scotland were \"United into One Kingdom by the Name of Great Britain\".",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "Modern jurisprudence began in the 18th centuary and was based on the first principles of natural law, civil law, and the law of nations.",
+    "target": "Modern jurisprudence began in the 18th century and was based on the first principles of natural law, civil law, and the law of nations.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "NASA traces its roots to the National Advisory Committee for Aeronautics (NACA).",
+    "target": "NASA traces its roots to the National Advisory Committee for Aeronautics (NACA).",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Erdogan was released from prison in 1999 and formed the AKP, abandoning openly Islamist policies.",
+    "target": "Erdoğan was released from prison in 1999 and formed the AKP, abandoning openly Islamist policies.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "He declined a second presidential term and was succeeded by his deputy, Thabo Mbeki.",
+    "target": "He declined a second presidential term and was succeeded by his deputy, Thabo Mbeki.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "He was born in Stratford-upon-Avon, where he was baptised on 26 April 1564.",
+    "target": "He was born in Stratford-upon-Avon, where he was baptised on 26 April 1564.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "With the 2007 constitutional amendment referendum, it was decided that the president would be elected by the people, and in the first elections held on 10 August 2014 after this change, Recep Tayyip Erdogan was elected president by the people.",
+    "target": "With the 2007 constitutional amendment referendum, it was decided that the president would be elected by the people, and in the first elections held on 10 August 2014 after this change, Recep Tayyip Erdoğan was elected president by the people.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "On average, the Supreme Court receives about 7,000 petitions for writs of certiorari each year, but only grants about 80.",
+    "target": "On average, the Supreme Court receives about 7,000 petitions for writs of certiorari each year, but only grants about 80.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "He made substantial discoveries in anatomy, civil engineering, hydrodynamics, geology, optics, and tribology, but he did not publish his findings and they had little to no direct influence on subsequent science.",
+    "target": "He made substantial discoveries in anatomy, civil engineering, hydrodynamics, geology, optics, and tribology, but he did not publish his findings and they had little to no direct influence on subsequent science.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Influential traditions in the history of philosophy xnclude Western, Arabic–Persian, Indian, and Chinese philosophy.",
+    "target": "Influential traditions in the history of philosophy include Western, Arabic–Persian, Indian, and Chinese philosophy.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Under the original text of the 1988 Constitution the presidential term lasted 5 years, but it was reduced to 4 years in 1994 by a constitutional amendment.",
+    "target": "Under the original text of the 1988 Constitution the presidential term lasted 5 years, but it was reduced to 4 years in 1994 by a constitutional amendment.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Hurley and Chen said that the original idea for YouTube was a video version of an online dating service and had been influenced by the website Hot or Not.",
+    "target": "Hurley and Chen said that the original idea for YouTube was a video version of an online dating service and had been influenced by the website Hot or Not.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It often draws heavily from other fields, including anthropology, economics, geography, history, law, philosophy, and sociology.",
+    "target": "It often draws heavily from other fields, including anthropology, economics, geography, history, law, philosophy, and sociology.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Other important Anatolian Neolithic sites include Catalhoyuk and Alaca Hoyuk.",
+    "target": "Other important Anatolian Neolithic sites include Çatalhöyük and Alaca Höyük.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "In the 2020s, an ongoing period of rapid progress in advanced generative AI became known as the AI boom.",
+    "target": "In the 2020s, an ongoing period of rapid progress in advanced generative AI became known as the AI boom.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Archaeology, often referred to as the \"anthropology of the past,\" expolres human activity by examining physical remains.",
+    "target": "Archaeology, often referred to as the \"anthropology of the past,\" explores human activity by examining physical remains.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "The gaseous state of matter occurs between the liquid and plasma states, the latter of which provides the upper-temperature boundary for gases.",
+    "target": "The gaseous state of matter occurs between the liquid and plasma states, the latter of which provides the upper-temperature boundary for gases.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Leonardo di ser Piero da Vinci (15 April 1452 – 2 May 1519) was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.",
+    "target": "Leonardo di ser Piero da Vinci (15 April 1452 – 2 May 1519) was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Turkish women received equal civil and politcal rights during his presidency.",
+    "target": "Turkish women received equal civil and political rights during his presidency.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "As the leader of the nation with the largest economy by nominal GDP, the president possesses significant domestic and international hard and soft power.",
+    "target": "As the leader of the nation with the largest economy by nominal GDP, the president possesses significant domestic and international hard and soft power.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Trump began his second presidency by initiating mass layoffs of federal workers.",
+    "target": "Trump began his second presidency by initiating mass layoffs of federal workers.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "These definitions entail varying levels of formality and organizational complexity.",
+    "target": "These definitions entail varying levels of formality and organizational complexity.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "However glassware is not central to chemistry, and a great deal of experimental (as well as applied/industrial) chemistry is done without it.",
+    "target": "However glassware is not central to chemistry, and a great deal of experimental (as well as applied/industrial) chemistry is done without it.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Islam is the official religion and Arabic its official language.",
+    "target": "Islam is the official religion and Arabic its official language.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "History is related to many fields, including historiography, philosophy, education, and politics.",
+    "target": "History is related to many fields, including historiography, philosophy, education, and politics.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Over the next forty years, NACA would conduct aeronautical research in support of the US Air Force, US Army, US Navy, and the civil avieation sector.",
+    "target": "Over the next forty years, NACA would conduct aeronautical research in support of the US Air Force, US Army, US Navy, and the civil aviation sector.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "Renewables also cause much less air pollution than fossil fuels, improving public health, and are less noisy.",
+    "target": "Renewables also cause much less air pollution than fossil fuels, improving public health, and are less noisy.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Executive power is exercised by the Council of Ministers, which is appointed and headed by the President, who serves as country's head of state and head of goverment.",
+    "target": "Executive power is exercised by the Council of Ministers, which is appointed and headed by the President, who serves as country's head of state and head of government.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "These campaigns were directed against Greece in the west, Armenia in the east, France in the south, loyalists and separatists in various cities, and British and Ottoman troops around Constantinople (Istanbul).",
+    "target": "These campaigns were directed against Greece in the west, Armenia in the east, France in the south, loyalists and separatists in various cities, and British and Ottoman troops around Constantinople (İstanbul).",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "Following his re-election in 1864, he sought to heal the war-torn nation through Reconstruction.",
+    "target": "Following his re-election in 1864, he sought to heal the war-torn nation through Reconstruction.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Types of socialism vary based on the role of markets and planning in resource allocation, and the structure of management in organizations.",
+    "target": "Types of socialism vary based on the role of markets and planning in resource allocation, and the structure of management in organizations.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The bank's stated mission is to achieve the twin goals of ending extreme poverty and building shared prosperity.",
+    "target": "The bank's stated mission is to achieve the twin goals of ending extreme poverty and building shared prosperity.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The FP Group also prodbuces FP Events, Foreign Policy's events division, launched in 2012.",
+    "target": "The FP Group also produces FP Events, Foreign Policy's events division, launched in 2012.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The primeminister also selects individuals for appointment as governor general, provincial lieutenant governors, territorial commissioners, as well as to the Senate of Canada, Supreme Court of Canada, other federal courts, and senior members of the military and public service.",
+    "target": "The prime minister also selects individuals for appointment as governor general, provincial lieutenant governors, territorial commissioners, as well as to the Senate of Canada, Supreme Court of Canada, other federal courts, and senior members of the military and public service.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Major surviving programs and legislation implemented under Roosevelt include the Securities and Exchange Commission, the National Labor Relatioxs Act, the Federal Deposit Insurance Corporation, and Social Security.",
+    "target": "Major surviving programs and legislation implemented under Roosevelt include the Securities and Exchange Commission, the National Labor Relations Act, the Federal Deposit Insurance Corporation, and Social Security.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "No document is needed to begin the appointment; both the invitation and acceptance are usually oral.",
+    "target": "No document is needed to begin the appointment; both the invitation and acceptance are usually oral.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Scholars have tried to define conservatism as a set of beliefs or principles.",
+    "target": "Scholars have tried to define conservatism as a set of beliefs or principles.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Different schools of thought, such as positivism, the Annales school, Marxism, and postmodernism, have distinct methodological approaches.",
+    "target": "Different schools of thought, such as positivism, the Annales school, Marxism, and postmodernism, have distinct methodological approaches.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Their scope is further limited by a focus on political, military and diplomatic history, ignoring economic and social history.",
+    "target": "Their scope is further limited by a focus on political, military and diplomatic history, ignoring economic and social history.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Mattxr can be studied in solid, liquid, gas and plasma states, in isolation or in combination.",
+    "target": "Matter can be studied in solid, liquid, gas and plasma states, in isolation or in combination.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Universal natural resources and physical phenomena that lack clear-cut boundaries, such as air, water and climate, as well as energy, radiation, electric charge and magnetism, not originating from civilized human actions.",
+    "target": "Universal natural resources and physical phenomena that lack clear-cut boundaries, such as air, water and climate, as well as energy, radiation, electric charge and magnetism, not originating from civilized human actions.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Newtzn solved the two-body problem and introduced the three-body problem.",
+    "target": "Newton solved the two-body problem and introduced the three-body problem.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "For much of the 20th century, more than one third of the world's population lived under Communist governments.",
+    "target": "For much of the 20th century, more than one third of the world's population lived under Communist governments.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Modern geology significantly overlaps all other Earth sciences, including hydrology.",
+    "target": "Modern geology significantly overlaps all other Earth sciences, including hydrology.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "He was keenly aware of modernist trends in art and, while back with his parents, took up painting in 1881.",
+    "target": "He was keenly aware of modernist trends in art and, while back with his parents, took up painting in 1881.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Headquartered in Washington, D.C., NASA operates ten field centers across the United States and is organized into mission directorates for Science, Space Operations, Exploration Systems Development, Space Technology, Aeronautics Research, and Mission Support.",
+    "target": "Headquartered in Washington, D.C., NASA operates ten field centers across the United States and is organized into mission directorates for Science, Space Operations, Exploration Systems Development, Space Technology, Aeronautics Research, and Mission Support.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Meaning that, theoretically, the legislature can remove the government as it sees fit, regardless of electoral outcomes.",
+    "target": "Meaning that, theoretically, the legislature can remove the government as it sees fit, regardless of electoral outcomes.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In 2018, McDonald's was the world's second-largest private eployer after Walmart; most of its 1.7 million employees work in the restaurant's franchises.",
+    "target": "In 2018, McDonald's was the world's second-largest private employer after Walmart; most of its 1.7 million employees work in the restaurant's franchises.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "This is a more general overview of the development of the judiciary and judicial systems over the ecourse of history.",
+    "target": "This is a more general overview of the development of the judiciary and judicial systems over the course of history.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The Congress created the Continental Army which then surrounded Boston, forcing the British to withdraw by sea in March 1776, leaving Patriots in control in every colony.",
+    "target": "The Congress created the Continental Army which then surrounded Boston, forcing the British to withdraw by sea in March 1776, leaving Patriots in control in every colony.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Scientists on Earth have timely access to the data and can sugget experimental modifications to the crew.",
+    "target": "Scientists on Earth have timely access to the data and can suggest experimental modifications to the crew.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The English word winter cmes from the Proto-Germanic noun *wintru-, whose origin is unclear.",
+    "target": "The English word winter comes from the Proto-Germanic noun *wintru-, whose origin is unclear.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The earliest known Old Turkic inscriptions are the three monumental Orkhon inscriptions found in modern Mongolia.",
+    "target": "The earliest known Old Turkic inscriptions are the three monumental Orkhon inscriptions found in modern Mongolia.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Alternatives such as \"oral forms\" and \"oral genres\" have been suggested, but the word literature is widely used.",
+    "target": "Alternatives such as \"oral forms\" and \"oral genres\" have been suggested, but the word literature is widely used.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Mohandas Karamchand Gandhi (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and politcal thinker who employed nonviolent resistance to lead the successful campaign for India's independence from British rule.",
+    "target": "Mohandas Karamchand Gandhi (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political thinker who employed nonviolent resistance to lead the successful campaign for India's independence from British rule.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "The relief consists of a high plateau over 1,000 m in altitude that is pierced by volcanic peaks, with Mount Erciyes (ancient Argaeus) near Kayseri (ancient Caesarea) being the tallest at 3,916 m.",
+    "target": "The relief consists of a high plateau over 1,000 m in altitude that is pierced by volcanic peaks, with Mount Erciyes (ancient Argaeus) near Kayseri (ancient Caesarea) being the tallest at 3,916 m.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Sport sanctions are used as a way of psychological warfare, intended to crush the morale of the general population of the target country.",
+    "target": "Sport sanctions are used as a way of psychological warfare, intended to crush the morale of the general population of the target country.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Total lending as of 2015 for the last 10 years through Development Policy Financing was approximately $117 billion.",
+    "target": "Total lending as of 2015 for the last 10 years through Development Policy Financing was approximately $117 billion.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The use of the term \"literature\" here poses some issues due to its origins in the Latin littera, \"letter,\" essentially writing.",
+    "target": "The use of the term \"literature\" here poses some issues due to its origins in the Latin littera, \"letter,\" essentially writing.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "He was appointed president of the ANC's Transvaal branch, rising to prominence for his involvement in the 1952 Defiance Campaign and the 1955 Congress of the People.",
+    "target": "He was appointed president of the ANC's Transvaal branch, rising to prominence for his involvement in the 1952 Defiance Campaign and the 1955 Congress of the People.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Beyond egal definitions, several non-governmental organizations use other criteria to judge the level of press freedom worldwide.",
+    "target": "Beyond legal definitions, several non-governmental organizations use other criteria to judge the level of press freedom worldwide.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "As of April 2017, 117 of the 177 articles of the Constitution of 1982 were amended overall.",
+    "target": "As of April 2017, 117 of the 177 articles of the Constitution of 1982 were amended overall.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Since its purchase by Google, YouTube has expanded beyond the core website, creating mobile apps, network television, games, and the ability to link with other platforms.",
+    "target": "Since its purchase by Google, YouTube has expanded beyond the core website, creating mobile apps, network television, games, and the ability to link with other platforms.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "A product that is transferred or sold from a party in one country to a party in another country is an export from the originating country, and an import to the country receiving that product.",
+    "target": "A product that is transferred or sold from a party in one country to a party in another country is an export from the originating country, and an import to the country receiving that product.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "He was elected to the NewYork State Senate in 1910, before becoming the assistant secretary of the Navy under President Woodrow Wilson from 1913 to 1920.",
+    "target": "He was elected to the New York State Senate in 1910, before becoming the assistant secretary of the Navy under President Woodrow Wilson from 1913 to 1920.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The local ecclesiastical authorities, who were not consulted, would have traditionally been inclined to pardon scholars in such cases.",
+    "target": "The local ecclesiastical authorities, who were not consulted, would have traditionally been inclined to pardon scholars in such cases.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Türkiye's concept of laiklik (\"laicism\") calls for the separation of state and religion, but also describes the state's stance as one of \"active neutrality\", which involves state conrtol and legal regulation of religion.",
+    "target": "Türkiye's concept of laiklik (\"laicism\") calls for the separation of state and religion, but also describes the state's stance as one of \"active neutrality\", which involves state control and legal regulation of religion.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "Typically, they involve mutually related rights and obligations for actors.\" Sociologists and anthropologists have expansive definitions of institutions that include informal institutions.",
+    "target": "Typically, they involve mutually related rights and obligations for actors.\" Sociologists and anthropologists have expansive definitions of institutions that include informal institutions.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Therefore, the recent modification of this proposal operates with the Hittite katta peda-, literally \"place below\" as a starting point for the development of the toponym Cappadocia.",
+    "target": "Therefore, the recent modification of this proposal operates with the Hittite katta peda-, literally \"place below\" as a starting point for the development of the toponym Cappadocia.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Criminal law inlcudes the punishment and rehabilitation of people who violate such laws.",
+    "target": "Criminal law includes the punishment and rehabilitation of people who violate such laws.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "Each justice has a single vote in deciding the cases argued before the court.",
+    "target": "Each justice has a single vote in deciding the cases argued before the court.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In some cases, primeministers may choose to hold additional ministerial posts (e.g.",
+    "target": "In some cases, prime ministers may choose to hold additional ministerial posts (e.g.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The Grand Vizier was the most powerful person after sultan but sometimes the Grqnd Vizier of Ottoman Empire was more powerful than sultan himself.",
+    "target": "The Grand Vizier was the most powerful person after sultan but sometimes the Grand Vizier of Ottoman Empire was more powerful than sultan himself.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "These consist of particular traits or capabilities that researchers expect an intelligent system to display.",
+    "target": "These consist of particular traits or capabilities that researchers expect an intelligent system to display.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Austria is a parliamentary republic, the system of government in which real power is vested in the head of government.",
+    "target": "Austria is a parliamentary republic, the system of government in which real power is vested in the head of government.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Anthropology is the scientific study of humanity that crosses biology and sociology, concerned with human behavior, human biology, cultures, societies, and linguistics, in both the present and past, including archaic humans.",
+    "target": "Anthropology is the scientific study of humanity that crosses biology and sociology, concerned with human behavior, human biology, cultures, societies, and linguistics, in both the present and past, including archaic humans.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Chapter III of Title III of the Constitution deals with the executive branch of goverment and sets forth the powers of the president, as well as the qualifications for the office.",
+    "target": "Chapter III of Title III of the Constitution deals with the executive branch of government and sets forth the powers of the president, as well as the qualifications for the office.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "This threshold has been criticized, but a complaint with the European Court for HumanRights was turned down.",
+    "target": "This threshold has been criticized, but a complaint with the European Court for Human Rights was turned down.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The company celebrated its 100th anniversary on October 16, 2023.",
+    "target": "The company celebrated its 100th anniversary on October 16, 2023.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "FBI agents investigated him for possible communist ties, spied on his personal life, and secretly recorded him.",
+    "target": "FBI agents investigated him for possible communist ties, spied on his personal life, and secretly recorded him.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "This two-term limit, however, is not for life—a former president who has served for two consecutive terms may run for the presidency again after at least one term has elapsed.",
+    "target": "This two-term limit, however, is not for life—a former president who has served for two consecutive terms may run for the presidency again after at least one term has elapsed.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "There also exist other types of legislatures, such as the supreme state organs of power (SSOP) in communist states, which function within the bounds of unified power.",
+    "target": "There also exist other types of legislatures, such as the supreme state organs of power (SSOP) in communist states, which function within the bounds of unified power.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The IBRD and IDA provide loans at preferential rates to member countries, as well as grants to the pooest countries.",
+    "target": "The IBRD and IDA provide loans at preferential rates to member countries, as well as grants to the poorest countries.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "It also investigates their methods and ethical implications.",
+    "target": "It also investigates their methods and ethical implications.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In North America and Asia, it is generally regarded as a branch of anthropology, whereas in Europe, it is considered either an independent discipline or classified under related fields like history and palaeontology.",
+    "target": "In North America and Asia, it is generally regarded as a branch of anthropology, whereas in Europe, it is considered either an independent discipline or classified under related fields like history and palaeontology.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Miller stated that the ensuing positivy feedback and his \"dream collaboration\" working with M.I.A.",
+    "target": "Miller stated that the ensuing positive feedback and his \"dream collaboration\" working with M.I.A.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "King's death led to riots in US cities.",
+    "target": "King's death led to riots in US cities.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Around 2100–2050 BC Ur-Nammu, the Neo-Sumerian king of Ur, enacted written legal code whose text has been discovered: the Code of Ur-Nammu although an earlier code of Urukagin of Lagash ( 2380–2360 BC ) is also known to have existed.",
+    "target": "Around 2100–2050 BC Ur-Nammu, the Neo-Sumerian king of Ur, enacted written legal code whose text has been discovered: the Code of Ur-Nammu although an earlier code of Urukagina of Lagash ( 2380–2360 BC ) is also known to have existed.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Minerals are often identified through these tests.",
+    "target": "Minerals are often identified through these tests.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "His government subsequently proceeded to abolish the Ottoman sultanate in 1922 and proclaimed the Republic of Türkiye in its place in 1923.",
+    "target": "His government subsequently proceeded to abolish the Ottoman sultanate in 1922 and proclaimed the Republic of Türkiye in its place in 1923.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It became the band's best known song and was used in a 2013 iPhone advertisement.",
+    "target": "It became the band's best known song and was used in a 2013 iPhone advertisement.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In liberal democratic systems, there exist two: parliaments and congress legislatures.",
+    "target": "In liberal democratic systems, there exist two: parliaments and congress legislatures.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Undergraduate teaching at the university consists of lectures, small-group tutorials at the colleges and halls, seminars, laboratory work and tutorials provided by the central university faculties and departments.",
+    "target": "Undergraduate teaching at the university consists of lectures, small-group tutorials at the colleges and halls, seminars, laboratory work and tutorials provided by the central university faculties and departments.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Between 1961 and 1994, the office of head of state was the state presidency.",
+    "target": "Between 1961 and 1994, the office of head of state was the state presidency.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Sadat served as president until his assassination in October 1981, and shared the Nobel Peace Prize with Israeli primeminister Menachem Begin in 1978 for initiating peace talks between the two countries.",
+    "target": "Sadat served as president until his assassination in October 1981, and shared the Nobel Peace Prize with Israeli prime minister Menachem Begin in 1978 for initiating peace talks between the two countries.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Its present use first appeared in Renaissance Germany in the works of Magnus Hundt and Otto Casmann.",
+    "target": "Its present use first appeared in Renaissance Germany in the works of Magnus Hundt and Otto Casmann.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It hosts the annual Izmir International Fair.",
+    "target": "It hosts the annual İzmir International Fair.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "The last of these was begun in Delhi on 12 January 1948, when Gandhi was 78.",
+    "target": "The last of these was begun in Delhi on 12 January 1948, when Gandhi was 78.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "He was also the first to explain the Magnus effect.",
+    "target": "He was also the first to explain the Magnus effect.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Similarly, traditional Chinese law gave way to westernisation towards the final yeards of the Qing dynasty in the form of six private law codes based mainly on the Japanese model of German law.",
+    "target": "Similarly, traditional Chinese law gave way to westernisation towards the final years of the Qing dynasty in the form of six private law codes based mainly on the Japanese model of German law.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "According to the Stanford Encyclopedia of Philosophy, \"rights structure the form of governments, the content of laws, and the shape of morality as it is currently perceived\".",
+    "target": "According to the Stanford Encyclopedia of Philosophy, \"rights structure the form of governments, the content of laws, and the shape of morality as it is currently perceived\".",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Nevertheless, a scholarly tradition obsrevable in the 16th century claimed a far earlier 7th-century foundation by Archbishop Theodore of Tarsus (668–690).",
+    "target": "Nevertheless, a scholarly tradition observable in the 16th century claimed a far earlier 7th-century foundation by Archbishop Theodore of Tarsus (668–690).",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "However, in Austria most executive actions of great extent can only be exercised by the president, upon advice or with the countersignature of the chancellor or a specific minister.",
+    "target": "However, in Austria most executive actions of great extent can only be exercised by the president, upon advice or with the countersignature of the chancellor or a specific minister.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "A prliament is a type of legislature, or law-making body, of a state.",
+    "target": "A parliament is a type of legislature, or law-making body, of a state.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The primeminister advises the sovereign on the exercise of much of the royal prerogative, chairs the Cabinet, and selects its ministers.",
+    "target": "The prime minister advises the sovereign on the exercise of much of the royal prerogative, chairs the Cabinet, and selects its ministers.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "These types illustrate how legislatures differ not only in structure and function, but also in their constitutional relationship to other state institutions and in the theories of sovereignty and power that underpin them.",
+    "target": "These types illustrate how legislatures differ not only in structure and function, but also in their constitutional relationship to other state institutions and in the theories of sovereignty and power that underpin them.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "During the same period, Japan suffered major setbacks, including the crippling of its navy by the UnitedStates, the loss of key Western Pacific islands, and defeats in South-Central China and Burma.",
+    "target": "During the same period, Japan suffered major setbacks, including the crippling of its navy by the United States, the loss of key Western Pacific islands, and defeats in South-Central China and Burma.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Huntington, have added that while conservatism has core values, going back to the teachings of Edmund Burke, it is also a situational ideology, which aims to conserve diverse social traditions.",
+    "target": "Huntington, have added that while conservatism has core values, going back to the teachings of Edmund Burke, it is also a situational ideology, which aims to conserve diverse social traditions.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "Major areas of conflict included Europe and the MiddleEast, as well as parts of Africa and the Asia-Pacific.",
+    "target": "Major areas of conflict included Europe and the Middle East, as well as parts of Africa and the Asia-Pacific.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The city was formerly known as Attalia and was founded in around 200 BC by King Attalus II of Pergamon.",
+    "target": "The city was formerly known as Attalia and was founded in around 200 BC by King Attalus II of Pergamon.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "With its capital at Constantinople and control over a significant portion of the Mediterranean Basin, the Ottoman Empire was at the centre of interactions between the MiddleEast and Europe for six centuries.",
+    "target": "With its capital at Constantinople and control over a significant portion of the Mediterranean Basin, the Ottoman Empire was at the centre of interactions between the Middle East and Europe for six centuries.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The second-largest and oldest city is Mombasa, a maor port city located on Mombasa Island.",
+    "target": "The second-largest and oldest city is Mombasa, a major port city located on Mombasa Island.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Criticisms often arise from perspectives like cultural relativism, which argue that individual human rights are inappropriate for societies that prioritize a communal or collectivist identity, and may conflict with certain cultural or traditional practices.",
+    "target": "Criticisms often arise from perspectives like cultural relativism, which argue that individual human rights are inappropriate for societies that prioritize a communal or collectivist identity, and may conflict with certain cultural or traditional practices.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In 1905, he submitted a successful PhD dissertation to the University of Zurich.",
+    "target": "In 1905, he submitted a successful PhD dissertation to the University of Zurich.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The contemporary field of international relations, however, analyzes the connections existing between sovereign nation-states.",
+    "target": "The contemporary field of international relations, however, analyzes the connections existing between sovereign nation-states.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Renewable energy systems have rapidly become more efficient and cheaper over the past 30 years.",
+    "target": "Renewable energy systems have rapidly become more efficient and cheaper over the past 30 years.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the UnitedStates, serving from 1861 until his assassination in 1865.",
+    "target": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The Supreme Court of the UnitedStates (SCOTUS) is the highest court in the federal judiciary of the United States.",
+    "target": "The Supreme Court of the United States (SCOTUS) is the highest court in the federal judiciary of the United States.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Furthermore, the light must travel a longer distance through the atmosphere, allowing the atmosphere to dissipate more heat.",
+    "target": "Furthermore, the light must travel a longer distance through the atmosphere, allowing the atmosphere to dissipate more heat.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The bank is headquartered in Washington, D.C., in the UnitedStates.",
+    "target": "The bank is headquartered in Washington, D.C., in the United States.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The TAF consist of the Land Forces, the Naval Forces and the Air Forces.",
+    "target": "The TAF consist of the Land Forces, the Naval Forces and the Air Forces.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Mehmed II conquered Constantinople (modern-day Istanbul) in 1453.",
+    "target": "Mehmed II conquered Constantinople (modern-day Istanbul) in 1453.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "One of the three major ideologies along with liberalism and socialism, conservatism is the dominant ideology in many nations across the world, including Hungary, India, Iran, Israel, Italy, Japan, Poland, Russia, Singapore, and SouthKorea.",
+    "target": "One of the three major ideologies along with liberalism and socialism, conservatism is the dominant ideology in many nations across the world, including Hungary, India, Iran, Israel, Italy, Japan, Poland, Russia, Singapore, and South Korea.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Towards the end of the 1980s, a decond restructuring process was initiated.",
+    "target": "Towards the end of the 1980s, a second restructuring process was initiated.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Three centuries after the decline of Mycenaean Greece during the Bronze Age collapse, Greek urban poleis began to form in the 8th century BC, ushering in the Archaic period and the colonization of the Mediterranean Basin.",
+    "target": "Three centuries after the decline of Mycenaean Greece during the Bronze Age collapse, Greek urban poleis began to form in the 8th century BC, ushering in the Archaic period and the colonization of the Mediterranean Basin.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In the 19th century, Louis Sullivan declared that \"form follows function\".",
+    "target": "In the 19th century, Louis Sullivan declared that \"form follows function\".",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "He worried abaout his mental stability, and often neglected his physical health, did not eat properly and drank heavily.",
+    "target": "He worried about his mental stability, and often neglected his physical health, did not eat properly and drank heavily.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The earliest surviving text on architectural theories is the 1st century BC treatise De architectura by the Roman architect Vitruvius, according to whom a good building embodies firmitas, utilitas, and venustas (durability, utility, and beauty).",
+    "target": "The earliest surviving text on architectural theories is the 1st century BC treatise De architectura by the Roman architect Vitruvius, according to whom a good building embodies firmitas, utilitas, and venustas (durability, utility, and beauty).",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Rules are formal, typically written expectations that outline required behavior, while norms are informal, often unwritten guidelines about appropriate behavior that are shaped by custom and social practice.",
+    "target": "Rules are formal, typically written expectations that outline required behavior, while norms are informal, often unwritten guidelines about appropriate behavior that are shaped by custom and social practice.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Upon the 1620 Battle of White Mountain and the suppression of the Bohemian revolt, Emperor Ferdinand II had separate Court Chancelleries established in order to strengthen the unity of the Habsburg hereditary lands.",
+    "target": "Upon the 1620 Battle of White Mountain and the suppression of the Bohemian revolt, Emperor Ferdinand II had separate Court Chancelleries established in order to strengthen the unity of the Habsburg hereditary lands.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The Soviet Union's launch of Sputnik 1 ushered in the Space Age and kicked off the Space Race.",
+    "target": "The Soviet Union's launch of Sputnik 1 ushered in the Space Age and kicked off the Space Race.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "While psychological knowledge is often applied to the assessment and treatment of mental health problems, it is also directed towards understanding and solving problems in several spheres of human activity.",
+    "target": "While psychological knowledge is often applied to the assessment and treatment of mental health problems, it is also directed towards understanding and solving problems in several spheres of human activity.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "One reason that explains the emergence of governments includes agriculture.",
+    "target": "One reason that explains the emergence of governments includes agriculture.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In January 2024, YouTube had more than 2.7 billion monthly active users, who collectively consumed more than one billion hours of video content every day.",
+    "target": "In January 2024, YouTube had more than 2.7 billion monthly active users, who collectively consumed more than one billion hours of video content every day.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Leaders of politcal parties are generally expected to run as a presidential candidate for their party.",
+    "target": "Leaders of political parties are generally expected to run as a presidential candidate for their party.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "Parties are important in the politics of autocracies as well as democracies, though usually democracies have more political parties than autocracies.",
+    "target": "Parties are important in the politics of autocracies as well as democracies, though usually democracies have more political parties than autocracies.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The majority of the inhabitabnts said they practiced Ethiopian Orthodox Christianity, with 63.62% of the population reporting they observed this belief, while 24.7% of the population were Muslim, and 10.57% were Protestant.",
+    "target": "The majority of the inhabitants said they practiced Ethiopian Orthodox Christianity, with 63.62% of the population reporting they observed this belief, while 24.7% of the population were Muslim, and 10.57% were Protestant.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The UnitedStates of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America.",
+    "target": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.",
+    "target": "It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "YouTube has had unprecedented social impact, influencing popular culture, internet trends, and creatixg multimillionaire celebrities.",
+    "target": "YouTube has had unprecedented social impact, influencing popular culture, internet trends, and creating multimillionaire celebrities.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "These include ocean heating, ocean acidification and sea level rise.",
+    "target": "These include ocean heating, ocean acidification and sea level rise.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In international relations, actors are simply the individuals and collective entities, such as states, international organizations, and non-state groups, which can make behavioral choices, whether lawful or unlawful.",
+    "target": "In international relations, actors are simply the individuals and collective entities, such as states, international organizations, and non-state groups, which can make behavioral choices, whether lawful or unlawful.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Every crime is composed of criminal elements.",
+    "target": "Every crime is composed of criminal elements.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "No candidate has ever been rejected by the General Assembly, and only once, in 1950, has a candiate been voted upon despite a UNSC veto.",
+    "target": "No candidate has ever been rejected by the General Assembly, and only once, in 1950, has a candidate been voted upon despite a UNSC veto.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "In case of a coalition cabinet, the chancellor commonly is the leadeer of the party most represented in the National Council, with the leader of the party able to grant a majority, usually serving as the vice chancellor.",
+    "target": "In case of a coalition cabinet, the chancellor commonly is the leader of the party most represented in the National Council, with the leader of the party able to grant a majority, usually serving as the vice chancellor.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The arts can refer to common, popular, or everyday practicez as well as more sophisticated, systematic, or institutionalized ones.",
+    "target": "The arts can refer to common, popular, or everyday practices as well as more sophisticated, systematic, or institutionalized ones.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Polybius explained the system of checks and balances in detail, crediting Lycurgus of Sparta with the first goverment of this kind.",
+    "target": "Polybius explained the system of checks and balances in detail, crediting Lycurgus of Sparta with the first government of this kind.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "CPJ shares information on breaking cases with other press freedom organizations worldwide through the International Freedom of Expression Exchange, a global network of more than 119 free expression organizations.",
+    "target": "CPJ shares information on breaking cases with other press freedom organizations worldwide through the International Freedom of Expression Exchange, a global network of more than 119 free expression organizations.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "While never formally affiliated with any Protestant denomination, Harvard trained Congregational clergy until its curriculum and student body were gradually secularized in the 18th century.",
+    "target": "While never formally affiliated with any Protestant denomination, Harvard trained Congregational clergy until its curriculum and student body were gradually secularized in the 18th century.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "He rose to prominence with his role in the Defence of Gallipoli during WorldWar I.",
+    "target": "He rose to prominence with his role in the Defence of Gallipoli during World War I.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Thus, conservatives from different parts of the world, each upholdinag their respective traditions, may disagree on a wide range of issues.",
+    "target": "Thus, conservatives from different parts of the world, each upholding their respective traditions, may disagree on a wide range of issues.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "Western philosophy originated in Ancient Greece and covers a wide area of philosophical subfields.",
+    "target": "Western philosophy originated in Ancient Greece and covers a wide area of philosophical subfields.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "As the Hittite kingdom was disintegrating, further waves of Indo-European peoples migrated from southeastern Europe, which was followed by warfare.",
+    "target": "As the Hittite kingdom was disintegrating, further waves of Indo-European peoples migrated from southeastern Europe, which was followed by warfare.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The primeminister's official residence and office is 10 Downing Street in London.",
+    "target": "The prime minister's official residence and office is 10 Downing Street in London.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "In the Chola Empire, around 920 CE, in Uthiramerur (in present-day Tamil Nadu), palm leaves were used for zelecting the village committee members.",
+    "target": "In the Chola Empire, around 920 CE, in Uthiramerur (in present-day Tamil Nadu), palm leaves were used for selecting the village committee members.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Istanbul is the largest city in Türkiye, constituting the country's economic, cultural, and historical center.",
+    "target": "Istanbul is the largest city in Türkiye, constituting the country's economic, cultural, and historical center.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The University of Cambridge includes 31 semi-autonomous constituent colleges and more than 150 academic departments, faculties, and other institutions organised into six schools.",
+    "target": "The University of Cambridge includes 31 semi-autonomous constituent colleges and more than 150 academic departments, faculties, and other institutions organised into six schools.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "His friendship with Gaugzin ended after a confrontation with a razor when, in a rage, he mutilated his left ear.",
+    "target": "His friendship with Gauguin ended after a confrontation with a razor when, in a rage, he mutilated his left ear.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Its soft power influence can be observed in the legal and political systems of many of its former colonies, and British culture remains globally influential, particularly in language, literature, music and sport.",
+    "target": "Its soft power influence can be observed in the legal and political systems of many of its former colonies, and British culture remains globally influential, particularly in language, literature, music and sport.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The GNU implementation was originazly written by Eric Decker.",
+    "target": "The GNU implementation was originally written by Eric Decker.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Malaysia, Brunei, Singapore and Hong Kong also adopted the common law.",
+    "target": "Malaysia, Brunei, Singapore and Hong Kong also adopted the common law.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The massive environmental changes of humanity in the Anthropocene have fundamentally affected all natural environments including: climate change, biodiversity loss and pollution from plastic and other chemicals in the air and water.",
+    "target": "The massive environmental changes of humanity in the Anthropocene have fundamentally affected all natural environments including: climate change, biodiversity loss and pollution from plastic and other chemicals in the air and water.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "With an area of 29.86 square kilometers, Adama has a population density of 7,374.82; all are urban inhabitants.",
+    "target": "With an area of 29.86 square kilometers, Adama has a population density of 7,374.82; all are urban inhabitants.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "When it is winter in the Northern Hemisphere, it is summey in the Southern Hemisphere, and vice versa.",
+    "target": "When it is winter in the Northern Hemisphere, it is summer in the Southern Hemisphere, and vice versa.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Examples of literature incude fiction, drama, poetry, and prose.",
+    "target": "Examples of literature include fiction, drama, poetry, and prose.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Constantinople's lcation between the Golden Horn and the Sea of Marmara reduced the land area that required defensive walls.",
+    "target": "Constantinople's location between the Golden Horn and the Sea of Marmara reduced the land area that required defensive walls.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The Constitution of the Fifth Republic, adopted in 1958, greatly increased the president's powers.",
+    "target": "The Constitution of the Fifth Republic, adopted in 1958, greatly increased the president's powers.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The politics of Türkiye take place in the framework of a constitutional republic and presidential system, with various levels and branches of power.",
+    "target": "The politics of Türkiye take place in the framework of a constitutional republic and presidential system, with various levels and branches of power.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "While the traditional MiddleEastern views on interest were the result of the urbanized, economically developed character of the societies that produced them, the new Jewish prohibition on interest showed a pastoral, tribal influence.",
+    "target": "While the traditional Middle Eastern views on interest were the result of the urbanized, economically developed character of the societies that produced them, the new Jewish prohibition on interest showed a pastoral, tribal influence.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The president may be removed either by a motioz of no-confidence or an impeachment trial.",
+    "target": "The president may be removed either by a motion of no-confidence or an impeachment trial.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "A plague began around 541, and a devastating war with Persia drained the empire's resources.",
+    "target": "A plague began around 541, and a devastating war with Persia drained the empire's resources.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It co-existed in Anatolia with Palaians and Luwians, approximately between 1700 and 1200 BC.",
+    "target": "It co-existed in Anatolia with Palaians and Luwians, approximately between 1700 and 1200 BC.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The longest-serving primeminister to date is Shinzo Abe, who served in two non-consecutive terms for 8 years, 267 days: from 26 September 2006 until 26 September 2007, and from 26 December 2012 until 16 September 2020.",
+    "target": "The longest-serving prime minister to date is Shinzo Abe, who served in two non-consecutive terms for 8 years, 267 days: from 26 September 2006 until 26 September 2007, and from 26 December 2012 until 16 September 2020.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Metaphysics examines the most general features of reality, existence, objects, and properties.",
+    "target": "Metaphysics examines the most general features of reality, existence, objects, and properties.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Washington crossed the Delaware River and won the battles of Trenton in late 1776 and of Princeton in early 1777, then lost the battles of Brandywine and of Germantown later that year.",
+    "target": "Washington crossed the Delaware River and won the battles of Trenton in late 1776 and of Princeton in early 1777, then lost the battles of Brandywine and of Germantown later that year.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It is both the process and the product of sketching, conceiving, planning, designing, and constructing buildings or other structures.",
+    "target": "It is both the process and the product of sketching, conceiving, planning, designing, and constructing buildings or other structures.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The current model of atomic structure is the quantum mechanical model.",
+    "target": "The current model of atomic structure is the quantum mechanical model.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It investigates issues such as the definition of law; legal validity; legal norms and values; and the relationship between law and other fields of study, including economics, ethics, history, sociology, and political philosophy.",
+    "target": "It investigates issues such as the definition of law; legal validity; legal norms and values; and the relationship between law and other fields of study, including economics, ethics, history, sociology, and political philosophy.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The Martin Luther King Jr.",
+    "target": "The Martin Luther King Jr.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Oxford is home to a number of scholarships, including the Rhods Scholarship, one of the oldest international graduate scholarship programmes in the world.",
+    "target": "Oxford is home to a number of scholarships, including the Rhodes Scholarship, one of the oldest international graduate scholarship programmes in the world.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Loans or grants for specific projects are often linked to wider policdy changes in the sector or the country's economy as a whole.",
+    "target": "Loans or grants for specific projects are often linked to wider policy changes in the sector or the country's economy as a whole.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The trcaits described below have received the most attention and cover the scope of AI research.",
+    "target": "The traits described below have received the most attention and cover the scope of AI research.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The act also divided the country into judicial districts, which were in turn organized into circuits.",
+    "target": "The act also divided the country into judicial districts, which were in turn organized into circuits.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Monarchy is political or sociocultural in nature, and is generally (but not always) associated with hereditary rule.",
+    "target": "Monarchy is political or sociocultural in nature, and is generally (but not always) associated with hereditary rule.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Electoral reform describes the procesbs of introducing fair electoral systems where they are not in place, or improving the fairness or effectiveness of existing systems.",
+    "target": "Electoral reform describes the process of introducing fair electoral systems where they are not in place, or improving the fairness or effectiveness of existing systems.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "Rights are an important concept in law and ethics, especially theories of justice and deontology.",
+    "target": "Rights are an important concept in law and ethics, especially theories of justice and deontology.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Mandela was born into the Thembu royal family in Mvezo, South Africa.",
+    "target": "Mandela was born into the Thembu royal family in Mvezo, South Africa.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Napoleon shattered the coalition with a decisive victory at the Battle of Austerlitz, which led to the dissolution of the Holy Roman Empire.",
+    "target": "Napoleon shattered the coalition with a decisive victory at the Battle of Austerlitz, which led to the dissolution of the Holy Roman Empire.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Often described as a Big Tech company, Microsoft is the argest software company by revenue, one of the most valuable public companies, and one of the most valuable brands globally.",
+    "target": "Often described as a Big Tech company, Microsoft is the largest software company by revenue, one of the most valuable public companies, and one of the most valuable brands globally.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Historical research relies on primary and secondary sources to reconstruct past events and validate interpretations.",
+    "target": "Historical research relies on primary and secondary sources to reconstruct past events and validate interpretations.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Newton invented a double-reflecting quadran and was first to theorise the Goos–Hänchen effect.",
+    "target": "Newton invented a double-reflecting quadrant and was first to theorise the Goos–Hänchen effect.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "This also reduces social categorization effects because it leads to team members focusing more on their shared goals than on their differences.",
+    "target": "This also reduces social categorization effects because it leads to team members focusing more on their shared goals than on their differences.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Before the city was founded as a Greek colony the area was dominated by Colchians (west Georgian) and Chaldian (Anatolian) tribes.",
+    "target": "Before the city was founded as a Greek colony the area was dominated by Colchians (west Georgian) and Chaldian (Anatolian) tribes.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Kenya, officially the Republic of Kenya, is a country located in East Africa.",
+    "target": "Kenya, officially the Republic of Kenya, is a country located in East Africa.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Caterina – who later appears in Leonardo's notes as only \"Caterina\" or \"Catelina\" – is usually identifed as the Caterina Buti del Vacca, who married the local artisan Antonio di Piero Buti del Vacca, nicknamed L'Accattabriga, 'the quarrelsome one'.",
+    "target": "Caterina – who later appears in Leonardo's notes as only \"Caterina\" or \"Catelina\" – is usually identified as the Caterina Buti del Vacca, who married the local artisan Antonio di Piero Buti del Vacca, nicknamed L'Accattabriga, 'the quarrelsome one'.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The 19th century saw many movements advocating \"universal suffrage\", most notably in Europe and North America.",
+    "target": "The 19th century saw many movements advocating \"universal suffrage\", most notably in Europe and North America.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The parliament's minutes are translated into the four languages: Arabic, Russian, English and French, but not in the Kurdish language which is the second most spoken native language in Türkiye.",
+    "target": "The parliament's minutes are translated into the four languages: Arabic, Russian, English and French, but not in the Kurdish language which is the second most spoken native language in Türkiye.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "He was later re-elected to a second term in 2018 after winning the 2018 presidential election.",
+    "target": "He was later re-elected to a second term in 2018 after winning the 2018 presidential election.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Erdogan led the AKP to two more election victories in 2007 and 2011.",
+    "target": "Erdoğan led the AKP to two more election victories in 2007 and 2011.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "In April 1917, the UnitedStates joined the Allies after Germany resumed unrestricted submarine warfare against Atlantic shipping.",
+    "target": "In April 1917, the United States joined the Allies after Germany resumed unrestricted submarine warfare against Atlantic shipping.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "A Moon landing or lunar landing is the arrival of a spacecraft on the surface of the Moon, including both crewed and robotic missions.",
+    "target": "A Moon landing or lunar landing is the arrival of a spacecraft on the surface of the Moon, including both crewed and robotic missions.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "In the 7th century, North Africa and the MiddleEast—once part of the Byzantine Empire—came under the rule of the Umayyad Caliphate, an Islamic empire, after conquest by Muhammad's successors.",
+    "target": "In the 7th century, North Africa and the Middle East—once part of the Byzantine Empire—came under the rule of the Umayyad Caliphate, an Islamic empire, after conquest by Muhammad's successors.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Paleo-Indians first migrated from North Asia to North America at least 15,000 years ago, and formed various civilizations.",
+    "target": "Paleo-Indians first migrated from North Asia to North America at least 15,000 years ago, and formed various civilizations.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Both, in their roles as government leader in the Senate, succeeded primeministers who had died in office—John A.",
+    "target": "Both, in their roles as government leader in the Senate, succeeded prime ministers who had died in office—John A.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "From the 1990s, many Communist parties adopted democratic principles and came to share power with others in goverment, such as the CPN UML and the Nepal Communist Party, which support People's Multiparty Democracy in Nepal.",
+    "target": "From the 1990s, many Communist parties adopted democratic principles and came to share power with others in government, such as the CPN UML and the Nepal Communist Party, which support People's Multiparty Democracy in Nepal.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "Credit is thought to have preceded the existence of coinage by several thousands of years.",
+    "target": "Credit is thought to have preceded the existence of coinage by several thousands of years.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Additionally, the new Addis Ababa-Djibouti Railway runs through Adama.",
+    "target": "Additionally, the new Addis Ababa-Djibouti Railway runs through Adama.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "These are normally performed by a pediatrician, family practice physician, a physical therapist, physician assistant, a certified nurse practitioner or other perimary care provider.",
+    "target": "These are normally performed by a pediatrician, family practice physician, a physical therapist, physician assistant, a certified nurse practitioner or other primary care provider.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The Renaissance's intellectual basis was founded in its version of humanism, derived from the concept of Roman humanitas and the rediscovery of classical Greek philosophy, such as that of Protagoras, who said that \"man is the measure of all things\".",
+    "target": "The Renaissance's intellectual basis was founded in its version of humanism, derived from the concept of Roman humanitas and the rediscovery of classical Greek philosophy, such as that of Protagoras, who said that \"man is the measure of all things\".",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Whereas lawyers are interested in what the law is on a specific issue in a specific jurisdiction, analytical philosophers of law are interested in identifying the features of law shared across cultures, times, and places.",
+    "target": "Whereas lawyers are interested in what the law is on a specific issue in a specific jurisdiction, analytical philosophers of law are interested in identifying the features of law shared across cultures, times, and places.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The word goverment derives from the Greek verb κυβερνάω meaning to steer with a gubernaculum (rudder), the metaphorical sense being attested in the literature of classical antiquity, including Plato's Ship of State.",
+    "target": "The word government derives from the Greek verb κυβερνάω meaning to steer with a gubernaculum (rudder), the metaphorical sense being attested in the literature of classical antiquity, including Plato's Ship of State.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "It was instrumental in the advancement of Christianity during Roman and Byzantine times, before the Ottomans conquered the city in 1453 and transformed it into an Islamic stronghold and the seat of the last caliphate.",
+    "target": "It was instrumental in the advancement of Christianity during Roman and Byzantine times, before the Ottomans conquered the city in 1453 and transformed it into an Islamic stronghold and the seat of the last caliphate.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "As of 2025, 58 people (55 men and 3 women) have served as primeminister, the first of whom was Robert Walpole taking office on 3 April 1721.",
+    "target": "As of 2025, 58 people (55 men and 3 women) have served as prime minister, the first of whom was Robert Walpole taking office on 3 April 1721.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Social media platforms frequently use content moderation to filter or remove user-generated content that is deemed against the terems of service, even if that content is not illegal.",
+    "target": "Social media platforms frequently use content moderation to filter or remove user-generated content that is deemed against the terms of service, even if that content is not illegal.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "Since the Neolithic Revolution, agriculture has been an efficient method to reate food surplus.",
+    "target": "Since the Neolithic Revolution, agriculture has been an efficient method to create food surplus.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Males, the dominant cultural group in North Amercica and Europe, often dominated the electorate and continue to do so in many countries.",
+    "target": "Males, the dominant cultural group in North America and Europe, often dominated the electorate and continue to do so in many countries.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The agency maintains major ground and communications infrastructure including the Deep Space Network and the Near Space Network.",
+    "target": "The agency maintains major ground and communications infrastructure including the Deep Space Network and the Near Space Network.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "His plays have been translated into every major living language and are performed more often than those of any other playwright.",
+    "target": "His plays have been translated into every major living language and are performed more often than those of any other playwright.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "However, Athenian democracy was not representative, but rather direct, and therefore the ekklesia was different from the parliamentary system.",
+    "target": "However, Athenian democracy was not representative, but rather direct, and therefore the ekklesia was different from the parliamentary system.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The main difference is that international trade is typically more costly than domestic trade.",
+    "target": "The main difference is that international trade is typically more costly than domestic trade.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In the first half of 2007, Merkel served as president of the European Council and played a central role in the negotiation of the Treaty of Lisbon and the Berlin Declaration.",
+    "target": "In the first half of 2007, Merkel served as president of the European Council and played a central role in the negotiation of the Treaty of Lisbon and the Berlin Declaration.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It was abolished under the 1975 Constitution.",
+    "target": "It was abolished under the 1975 Constitution.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Kenya is a presidential representative democratic republic, in which elected officials represent the people and the president is the head of state and government.",
+    "target": "Kenya is a presidential representative democratic republic, in which elected officials represent the people and the president is the head of state and government.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Virginia (1967), banning segregation in public transport and striking down laws against interracial marriage.",
+    "target": "Virginia (1967), banning segregation in public transport and striking down laws against interracial marriage.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "His second term was preoccupied with foreign affairs, especially Anglo-American relations and preservation of what remained of the British Empire, with Idndia no longer a part of it.",
+    "target": "His second term was preoccupied with foreign affairs, especially Anglo-American relations and preservation of what remained of the British Empire, with India no longer a part of it.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "In 1638, the university acquired English North America's first known printing press.",
+    "target": "In 1638, the university acquired English North America's first known printing press.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It was later known as the Junta Grande when representativs from the provinces joined.",
+    "target": "It was later known as the Junta Grande when representatives from the provinces joined.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "These are reported to the primary care provider.",
+    "target": "These are reported to the primary care provider.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In 451–449 BC, the Mos Maiorum was written down in the Twelve Tables.",
+    "target": "In 451–449 BC, the Mos Maiorum was written down in the Twelve Tables.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In the early 2nd millennium BC, since silver used in exchange for livestock or grain could not multiply of its own, the Laws of Eshnunna instituted a legal interest rate, specifically on deposits of dowry.",
+    "target": "In the early 2nd millennium BC, since silver used in exchange for livestock or grain could not multiply of its own, the Laws of Eshnunna instituted a legal interest rate, specifically on deposits of dowry.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The origins of globalization can be traced back to the 18th and 19th centuries, a period marked by significant advancements in transportation and communication technologies.",
+    "target": "The origins of globalization can be traced back to the 18th and 19th centuries, a period marked by significant advancements in transportation and communication technologies.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Randolph and Hastins met with Jeff Bezos, whose Amazon offered to acquire Netflix for between $14 and $16 million.",
+    "target": "Randolph and Hastings met with Jeff Bezos, whose Amazon offered to acquire Netflix for between $14 and $16 million.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The country's first constitution in 1824 established a bicameral legislature and enshrined principles such as freedom of religion and the press, but retained slavery, which was gradually abolished throughout the 19th century until its final abolition in 1888.",
+    "target": "The country's first constitution in 1824 established a bicameral legislature and enshrined principles such as freedom of religion and the press, but retained slavery, which was gradually abolished throughout the 19th century until its final abolition in 1888.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "For example, many jurisdictions recognize broad claim rights to things like \"life, liberty, and property\"; these rights impose an obligation upon others not to assault or restrain a person, or use their property, without the claim-holder's permission.",
+    "target": "For example, many jurisdictions recognize broad claim rights to things like \"life, liberty, and property\"; these rights impose an obligation upon others not to assault or restrain a person, or use their property, without the claim-holder's permission.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Foreign relations of Türkiye refers to the diplomatic and trade ties between Türkiye and other nations.",
+    "target": "Foreign relations of Türkiye refers to the diplomatic and trade ties between Türkiye and other nations.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Some psychologists attempt to understand the role of mental functions in individual and scial behavior.",
+    "target": "Some psychologists attempt to understand the role of mental functions in individual and social behavior.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The city is Türkiye's biggest international sea resort on the Tukrish Riviera.",
+    "target": "The city is Türkiye's biggest international sea resort on the Turkish Riviera.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "Under Neefe's tutelage in 1783, he published his first work, a set of keyboard variations.",
+    "target": "Under Neefe's tutelage in 1783, he published his first work, a set of keyboard variations.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In most systems, the primeminister is the presiding member and chairman of the cabinet.",
+    "target": "In most systems, the prime minister is the presiding member and chairman of the cabinet.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "According to Legal Positivists, what law is and what law ought to be have no necessary connection to one another, so it is theoretically possible to engage in analytic jurisprudence without simultaneously engaging in normative jurisprudence.",
+    "target": "According to Legal Positivists, what law is and what law ought to be have no necessary connection to one another, so it is theoretically possible to engage in analytic jurisprudence without simultaneously engaging in normative jurisprudence.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "She was the first woman to be elected chancellor, and the first chancellor of reunified Germany to have been raised in the formey East Germany.",
+    "target": "She was the first woman to be elected chancellor, and the first chancellor of reunified Germany to have been raised in the former East Germany.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "There are numerous titles in a monarchical rule which can belong to the sovereign.",
+    "target": "There are numerous titles in a monarchical rule which can belong to the sovereign.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It can be symbolically depicted through a chemical equation, which usually involves atoms as subjects.",
+    "target": "It can be symbolically depicted through a chemical equation, which usually involves atoms as subjects.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It is so entrenched in Mexican politics that it has remained in place even as it was relaxed for ther offices.",
+    "target": "It is so entrenched in Mexican politics that it has remained in place even as it was relaxed for other offices.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Keir Starmer succeeded Rishi Sunak as primeminister on 5 July 2024, following the 2024 general election.",
+    "target": "Keir Starmer succeeded Rishi Sunak as prime minister on 5 July 2024, following the 2024 general election.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Freedom of speech is a principle that supports the freedom of an individual or a community to articulate their opinaions and ideas without fear of retaliation, censorship, or legal sanction.",
+    "target": "Freedom of speech is a principle that supports the freedom of an individual or a community to articulate their opinions and ideas without fear of retaliation, censorship, or legal sanction.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "Covering roughly half of South America's land area, it borders all other countries and territories on the continent except Ecuador and Chile.",
+    "target": "Covering roughly half of South America's land area, it borders all other countries and territories on the continent except Ecuador and Chile.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "There is no organization, person, or institution which can interfere in the running of the courts, and the executive and legislative structures must obey the courts' decisions.",
+    "target": "There is no organization, person, or institution which can interfere in the running of the courts, and the executive and legislative structures must obey the courts' decisions.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The city was constructed intentionally to rival Rome, and it was claimed that several elevations within its walcls matched Rome's seven hills.",
+    "target": "The city was constructed intentionally to rival Rome, and it was claimed that several elevations within its walls matched Rome's seven hills.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "A goverment is the system or group of people governing an organized community, generally a state.",
+    "target": "A government is the system or group of people governing an organized community, generally a state.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "Part of NASA's Commercial Lunar Payload Services initiative, Firefly operated 10 NASA instruments aboard Blue Ghost.",
+    "target": "Part of NASA's Commercial Lunar Payload Services initiative, Firefly operated 10 NASA instruments aboard Blue Ghost.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The head of state continued to be the king, but he was represented locally by the viceroy.",
+    "target": "The head of state continued to be the king, but he was represented locally by the viceroy.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Arts festivals were established at the end of the 20th century, while infrastructure improvements have produced a complex transportation network.",
+    "target": "Arts festivals were established at the end of the 20th century, while infrastructure improvements have produced a complex transportation network.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Legislative power is invested in the 600-seat Grand National Assembly of Turkey (Turkey Büyük Millet Meclisi), representing 81 provinces.",
+    "target": "Legislative power is invested in the 600-seat Grand National Assembly of Türkiye (Türkiye Büyük Millet Meclisi), representing 81 provinces.",
+    "is_noisy": true,
+    "error_type": "terminology"
+  },
+  {
+    "input": "The first written codes of law were designed by the Sumerians.",
+    "target": "The first written codes of law were designed by the Sumerians.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In later Latin works the term republic can also be used in a general way to refer to any regime, or to refer specifically to governments which work for the public good.",
+    "target": "In later Latin works the term republic can also be used in a general way to refer to any regime, or to refer specifically to governments which work for the public good.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Its preface includes a prescient poem by Ben Jonson, a former rival of Shakespeare, who hailed Shakepseare with the now-famous epithet: \"not of an age, but for all time\".",
+    "target": "Its preface includes a prescient poem by Ben Jonson, a former rival of Shakespeare, who hailed Shakespeare with the now-famous epithet: \"not of an age, but for all time\".",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "After winning the 2024 presidential election against Vice President Kamala Harris, he was sentenced to a discharge, and two federal felony indictments against him for retention of classified documents and obstruction of the 2020 election were dismissed without prejudice.",
+    "target": "After winning the 2024 presidential election against Vice President Kamala Harris, he was sentenced to a discharge, and two federal felony indictments against him for retention of classified documents and obstruction of the 2020 election were dismissed without prejudice.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In the British tradition, judicial matters had been the responsibility of the royal (executive) authority.",
+    "target": "In the British tradition, judicial matters had been the responsibility of the royal (executive) authority.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "For them, the publication of Charles Darwin's On the Origin of Species was the epiphany of everything they had begun to suspect.",
+    "target": "For them, the publication of Charles Darwin's On the Origin of Species was the epiphany of everything they had begun to suspect.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The UN voted for sanctions twelve times in the 1990s alone.",
+    "target": "The UN voted for sanctions twelve times in the 1990s alone.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In August 1775, King George III proclaimed Massachusetts to be in a state of rebellion.",
+    "target": "In August 1775, King George III proclaimed Massachusetts to be in a state of rebellion.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The post–Cold War era has produced an increase in the number of events described as summits.",
+    "target": "The post–Cold War era has produced an increase in the number of events described as summits.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Similar debates surround the purpose of history—for example, whether its main aim is theoretical, to uncover the truth, or practical, to learn lessons from the past.",
+    "target": "Similar debates surround the purpose of history—for example, whether its main aim is theoretical, to uncover the truth, or practical, to learn lessons from the past.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "A monarch () is a head of state for life or until abdication, and therefore the head of state of a monarchy.",
+    "target": "A monarch () is a head of state for life or until abdication, and therefore the head of state of a monarchy.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Some of Presley's most famous films inclyded Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964).",
+    "target": "Some of Presley's most famous films included Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964).",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Darwin and Wallace unveiled evolution in the late 1850s.",
+    "target": "Darwin and Wallace unveiled evolution in the late 1850s.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Some, but not all, clidnical and counseling psychologists rely on symbolic interpretation.",
+    "target": "Some, but not all, clinical and counseling psychologists rely on symbolic interpretation.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "As a moderate Republican, Lincoln had to navigate conflicting political opinions from contentious factions during the war effort.",
+    "target": "As a moderate Republican, Lincoln had to navigate conflicting political opinions from contentious factions during the war effort.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "He rose rapidly through the ranks after winning the siege of Toulon in 1793 and defeating royalist insurgents in Paris on 13 Vendémiaire in 1795.",
+    "target": "He rose rapidly through the ranks after winning the siege of Toulon in 1793 and defeating royalist insurgents in Paris on 13 Vendémiaire in 1795.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In 2023, Trump was found liable in civil cases for sexual abuse and defamation and for buisness fraud.",
+    "target": "In 2023, Trump was found liable in civil cases for sexual abuse and defamation and for business fraud.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "If done for a group of people the routine physical is a form of screening, as the aim of the examination is to detect early signs of diseases to prevent them.",
+    "target": "If done for a group of people the routine physical is a form of screening, as the aim of the examination is to detect early signs of diseases to prevent them.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Turkeey became one of the early members of the Council of Europe in 1950.",
+    "target": "Türkiye became one of the early members of the Council of Europe in 1950.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "A mass movement for civil rights, led by Martin Luther King Jr.",
+    "target": "A mass movement for civil rights, led by Martin Luther King Jr.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation.",
+    "target": "The arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Winter is the coldest and darkest season of the year in temperate and polar climates.",
+    "target": "Winter is the coldest and darkest season of the year in temperate and polar climates.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In 2020, Bob Chapek became the head of Disney after Iger's retirement.",
+    "target": "In 2020, Bob Chapek became the head of Disney after Iger's retirement.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Van Gogh's work was only beginning to gain critical attention before his death from suicide at age 37.",
+    "target": "Van Gogh's work was only beginning to gain critical attention before his death from suicide at age 37.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The word gas was first used by the early 17th-century Brabantian or Southern Netherlandish chemist Jan Baptist van Helmont.",
+    "target": "The word gas was first used by the early 17th-century Brabantian or Southern Netherlandish chemist Jan Baptist van Helmont.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It marked the transition from the Middle Ages to modernity and was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity.",
+    "target": "It marked the transition from the Middle Ages to modernity and was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "These data then become part of the medical record.",
+    "target": "These data then become part of the medical record.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Siblings Richard and Maurice McDonald, with the goal of making $1 million before they tured 50, opened the first McDonald's at 1398 North E Street at West 14th Street in San Bernardino, California, on May 15, 1940.",
+    "target": "Siblings Richard and Maurice McDonald, with the goal of making $1 million before they turned 50, opened the first McDonald's at 1398 North E Street at West 14th Street in San Bernardino, California, on May 15, 1940.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The first human-made object to touch the Moon was Luna 2 in 1959.",
+    "target": "The first human-made object to touch the Moon was Luna 2 in 1959.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "A new National Constitution was proposed only in 1826, during the Presidency of Unitarian Bernardino Rivadavia, but it was again rejected by the Provinces, leading to the dissolution of the National goverment the following year.",
+    "target": "A new National Constitution was proposed only in 1826, during the Presidency of Unitarian Bernardino Rivadavia, but it was again rejected by the Provinces, leading to the dissolution of the National Government the following year.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "A professional practitioner or researcher involved in the discipline is called a psychologist.",
+    "target": "A professional practitioner or researcher involved in the discipline is called a psychologist.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Be a resident of Mexico for the entire year proir to the election (although absences of 30 days or fewer are explicitly stated not to interrupt residency).",
+    "target": "Be a resident of Mexico for the entire year prior to the election (although absences of 30 days or fewer are explicitly stated not to interrupt residency).",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "The establishing structure (Ruling institution of the Ottoman Empire) of the Ottoman Empire (13th century) was an Islamic state in which the head of the Ottoman state was the Sultan.",
+    "target": "The establishing structure (Ruling institution of the Ottoman Empire) of the Ottoman Empire (13th century) was an Islamic state in which the head of the Ottoman state was the Sultan.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "A justice may write an opinion in concurrence with the court, or they may write a dissent, and these concurrences or dissents may also be joined by other justices.",
+    "target": "A justice may write an opinion in concurrence with the court, or they may write a dissent, and these concurrences or dissents may also be joined by other justices.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Most Turkish citizens in Istanbul are ethnic Turks, while ethnic Kurds are the largest ethnic minority.",
+    "target": "Most Turkish citizens in Istanbul are ethnic Turks, while ethnic Kurds are the largest ethnic minority.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The present corporation credits its founding to franchised businessman Ray Kroc on April 15, 1955.",
+    "target": "The present corporation credits its founding to franchised businessman Ray Kroc on April 15, 1955.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "While no official papal bull established Oxford, the university emerged in the 12th century as part of Western Europe's Catholic educational system.",
+    "target": "While no official papal bull established Oxford, the university emerged in the 12th century as part of Western Europe's Catholic educational system.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In the following decades, Türkiye benefited from American political, economic, and diplomatic support—particularly on critical issues such as its longstanding bid for EuropeanUnion membership.",
+    "target": "In the following decades, Türkiye benefited from American political, economic, and diplomatic support—particularly on critical issues such as its longstanding bid for European Union membership.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "A month after Lincoln assumed the presidency, Confederate forces attacked Fort Sumter, starting the Civil War.",
+    "target": "A month after Lincoln assumed the presidency, Confederate forces attacked Fort Sumter, starting the Civil War.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Legislatures are among the principal institutions of state, typically contrasted with the executive and judicial institutions.",
+    "target": "Legislatures are among the principal institutions of state, typically contrasted with the executive and judicial institutions.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Egypt fought several armed conflicts with Israel in 1948, 1956, 1967 and 1973, and occupied the Gaza Strip intermittently until 1967.",
+    "target": "Egypt fought several armed conflicts with Israel in 1948, 1956, 1967 and 1973, and occupied the Gaza Strip intermittently until 1967.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Along with Thao Mbeki, the last apartheid president, F.",
+    "target": "Along with Thabo Mbeki, the last apartheid president, F.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Both the chancellor as well as the cabinet are appointed by the president and can be dismissed by the president.",
+    "target": "Both the chancellor as well as the cabinet are appointed by the president and can be dismissed by the president.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Indian and Chinese arhitecture influenced forms all over Asia and Buddhist architecture in particular took diverse local flavors.",
+    "target": "Indian and Chinese architecture influenced forms all over Asia and Buddhist architecture in particular took diverse local flavors.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The Italian Renaissance concluded in 1527 when Holy Roman Emperor Charles V launched an assault on Rome during the war of the League of Cognac.",
+    "target": "The Italian Renaissance concluded in 1527 when Holy Roman Emperor Charles V launched an assault on Rome during the war of the League of Cognac.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "The Soviet Union (Interkosmos), the UnitedStates (NASA), China (CNSA), India (ISRO), and Japan (JAXA) are the only five nations to have successfully achieved soft landings.",
+    "target": "The Soviet Union (Interkosmos), the United States (NASA), China (CNSA), India (ISRO), and Japan (JAXA) are the only five nations to have successfully achieved soft landings.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Faced with an imminent Allied invasion, the prospect of further atomic bombings, and a Soviet decdlaration of war and invasion of Manchuria, Japan announced its unconditional surrender on 15 August, and signed a surrender document on 2 September 1945.",
+    "target": "Faced with an imminent Allied invasion, the prospect of further atomic bombings, and a Soviet declaration of war and invasion of Manchuria, Japan announced its unconditional surrender on 15 August, and signed a surrender document on 2 September 1945.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "Therefore the chancellor often requires the president's consent to implement greater decisions.",
+    "target": "Therefore the chancellor often requires the president's consent to implement greater decisions.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Among these was Nathuram Godse, a militant Hindu nationalist from Pune, western India, who assassinated Gandhi by firing three bullets into his chest at an interfaith prayer meeting in Delhi on 30 January 1948.",
+    "target": "Among these was Nathuram Godse, a militant Hindu nationalist from Pune, western India, who assassinated Gandhi by firing three bullets into his chest at an interfaith prayer meeting in Delhi on 30 January 1948.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The effects of annuaal check-ups on overall costs, patient disability and mortality, disease detection, and intermediate end points such a blood pressure or cholesterol, are inconclusive.",
+    "target": "The effects of annual check-ups on overall costs, patient disability and mortality, disease detection, and intermediate end points such a blood pressure or cholesterol, are inconclusive.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "In 1968, he returned to the stage in the acclaimed NBC television comeback special Elvis, which led to an extended Las Vegas concert residency and several highly profitable tours.",
+    "target": "In 1968, he returned to the stage in the acclaimed NBC television comeback special Elvis, which led to an extended Las Vegas concert residency and several highly profitable tours.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "In Europe, some people practiced equal division of land and regalian rights among sons or brothers, as in the Germanic states of the Holy Roman Empire, until after the medieval era and sometimes (e.g., Ernestine duchies) into the 19th century.",
+    "target": "In Europe, some people practiced equal division of land and regalian rights among sons or brothers, as in the Germanic states of the Holy Roman Empire, until after the medieval era and sometimes (e.g., Ernestine duchies) into the 19th century.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The university's founding followed the arrival of scholars who left the University of Oxford for Cambridge after a dispute with local townspeople.",
+    "target": "The university's founding followed the arrival of scholars who left the University of Oxford for Cambridge after a dispute with local townspeople.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "On 23 March 1954, at the first meeting of the Constitution Drafting Committee, Mao Zedong explained why the position of Chairman of the State was established: \"In order to ensure national security, a Chairman was established.",
+    "target": "On 23 March 1954, at the first meeting of the Constitution Drafting Committee, Mao Zedong explained why the position of Chairman of the State was established: \"In order to ensure national security, a Chairman was established.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In some monarchies the monarch may also exercise executive powers (known as the royal prerogative) without the approval of parliament.",
+    "target": "In some monarchies the monarch may also exercise executive powers (known as the royal prerogative) without the approval of parliament.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The same has been said about ancient India, where some form of deliberative assemblies existed, and therefore there was some form of democracy.",
+    "target": "The same has been said about ancient India, where some form of deliberative assemblies existed, and therefore there was some form of democracy.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Though Farouk's infant son was formally declared by the revolutionaries as King Fuad II, all effective executive power was vested in Naguib and the Revolutionary Command Council.",
+    "target": "Though Farouk's infant son was formally declared by the revolutionaries as King Fuad II, all effective executive power was vested in Naguib and the Revolutionary Command Council.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The Franks, under the Carolingian dynasty, briefly established the Carolingian Empire during the later 8th and early 9th centuries.",
+    "target": "The Franks, under the Carolingian dynasty, briefly established the Carolingian Empire during the later 8th and early 9th centuries.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "A summit or summit meeting is an international meeting of heads of state or government, usually with considerable media exposure, tight security, and a prearranged agenda.",
+    "target": "A summit or summit meeting is an international meeting of heads of state or government, usually with considerable media exposure, tight security, and a prearranged agenda.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "oFlio Magazine Gold Editorial Excellence (Eddie) Award – Consumer Magazine, News/Commentary/General Interest (single article), \"What America Must Do\" by Kenneth Rogoff, Jan/Feb 2008.",
+    "target": "Folio Magazine Gold Editorial Excellence (Eddie) Award – Consumer Magazine, News/Commentary/General Interest (single article), \"What America Must Do\" by Kenneth Rogoff, Jan/Feb 2008.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "A separate paper by Acemoglu, Robinson, and Francisco A.",
+    "target": "A separate paper by Acemoglu, Robinson, and Francisco A.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It maintains programmatic partnerships with agencies such as ESA, JAXA, CSA, Roscosmos (for ISS operations), NOAA, and the USGS.",
+    "target": "It maintains programmatic partnerships with agencies such as ESA, JAXA, CSA, Roscosmos (for ISS operations), NOAA, and the USGS.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "His victory prompted a majority of the slave staes to begin to secede and form the Confederate States.",
+    "target": "His victory prompted a majority of the slave states to begin to secede and form the Confederate States.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Gandhi adopted the short dhoti woven with hand-spun yarn as a mark of identification with India's rural poor.",
+    "target": "Gandhi adopted the short dhoti woven with hand-spun yarn as a mark of identification with India's rural poor.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "A monarch usually exercises the highest authority and power in the state.",
+    "target": "A monarch usually exercises the highest authority and power in the state.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Conservatism is a cultural, social, and political philosophy and ideology that seeks to promote and preserve traditional institutions, customs, and values.",
+    "target": "Conservatism is a cultural, social, and political philosophy and ideology that seeks to promote and preserve traditional institutions, customs, and values.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The city was the home of the Ecumenical Patriarch of Constantinople and guardian of Christendom's holiest relics, such as the Crown of Thorns and the True Cross.",
+    "target": "The city was the home of the Ecumenical Patriarch of Constantinople and guardian of Christendom's holiest relics, such as the Crown of Thorns and the True Cross.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "He faced criticism of his command, low troop morale, and a lack of provisions for his forces as the war continued.",
+    "target": "He faced criticism of his command, low troop morale, and a lack of provisions for his forces as the war continued.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The CEO plays a key role in enablng the team to do so.",
+    "target": "The CEO plays a key role in enabling the team to do so.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Parties in the case could be assisted by jurists.",
+    "target": "Parties in the case could be assisted by jurists.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Traditionally, at least one path must precede the expression, but newer versions allow for no path argument, defaulting to the working directory.",
+    "target": "Traditionally, at least one path must precede the expression, but newer versions allow for no path argument, defaulting to the working directory.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Although it was still a dusty, npaved road, it was regularly graded and graveled.",
+    "target": "Although it was still a dusty, unpaved road, it was regularly graded and graveled.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The names given could be \"primeminister\", although other terms were also used such as \"chief minister\", \"grand chancellor\", \"chancellor\", \"grand vizier\", \"counselor\", and others.",
+    "target": "The names given could be \"prime minister\", although other terms were also used such as \"chief minister\", \"grand chancellor\", \"chancellor\", \"grand vizier\", \"counselor\", and others.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The GNU implementation provides features beyond the POSIX specification.",
+    "target": "The GNU implementation provides features beyond the POSIX specification.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It grew rapidly from 1167, when Henry II prohibited English students from attending the University of Paris.",
+    "target": "It grew rapidly from 1167, when Henry II prohibited English students from attending the University of Paris.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The city was founded as \"Attaleia\" (Ancient Greek: Ἀττάλεια), named after its founder Attalos II, king of Pergamon.",
+    "target": "The city was founded as \"Attaleia\" (Ancient Greek: Ἀττάλεια), named after its founder Attalos II, king of Pergamon.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Numan Kurtulmus was elected after the snap elections on 7 June 2023.",
+    "target": "Numan Kurtulmuş was elected after the snap elections on 7 June 2023.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "Clzmate change in a broader sense also includes previous long-term changes to Earth's climate.",
+    "target": "Climate change in a broader sense also includes previous long-term changes to Earth's climate.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "In the resulting Treaty of Paris in 1783, the British acknowledged the sovereign independence of the UnitedStates.",
+    "target": "In the resulting Treaty of Paris in 1783, the British acknowledged the sovereign independence of the United States.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "However, in practical terms, carrying out trade at an international level is typically a more complex process than domestic trade.",
+    "target": "However, in practical terms, carrying out trade at an international level is typically a more complex process than domestic trade.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The arts are considered various practices or objects done by people with skill, creativity, and imagination across cultures and history.",
+    "target": "The arts are considered various practices or objects done by people with skill, creativity, and imagination across cultures and history.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In contrast, the French-American historian Jacques Barzun speculated that Van Helmont had borrowed the word from the German Gäscht, meanig the froth resulting from fermentation.",
+    "target": "In contrast, the French-American historian Jacques Barzun speculated that Van Helmont had borrowed the word from the German Gäscht, meaning the froth resulting from fermentation.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Türkiye's demographics were significantly affected by the Armenian genocide and deportations of Greek-speaking, Orthodox Christian Rum people.",
+    "target": "Türkiye's demographics were significantly affected by the Armenian genocide and deportations of Greek-speaking, Orthodox Christian Rum people.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Under the Constitution of Mexico, the president heads the executive branch of the federal government and is the commander in chief of the Mexican Armed Forces.",
+    "target": "Under the Constitution of Mexico, the president heads the executive branch of the federal government and is the commander in chief of the Mexican Armed Forces.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In early 1978, after six years of close partnership, the Carnegie Endowment for International Peace acquired full ownership of Foreign Policy.",
+    "target": "In early 1978, after six years of close partnership, the Carnegie Endowment for International Peace acquired full ownership of Foreign Policy.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "After escalating conflict between students and the Oxford townspeople, some Oxford academics fled northeast to Cambridge, where they established the University of Cambridge in 1209.",
+    "target": "After escalating conflict between students and the Oxford townspeople, some Oxford academics fled northeast to Cambridge, where they established the University of Cambridge in 1209.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The dissolution of the Russian, German, Austro-Hungarian, and Ottoman empires led to new national boundaries and the creation of new independent states including Poland, Finland, the Baltic states, Czechoslovakia, and Yugoslavia.",
+    "target": "The dissolution of the Russian, German, Austro-Hungarian, and Ottoman empires led to new national boundaries and the creation of new independent states including Poland, Finland, the Baltic states, Czechoslovakia, and Yugoslavia.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "His successors conquered much of Anatolia and expanded into the Balkans by the mid-14th century, transforming their petty kingdom into a transcontinental empire.",
+    "target": "His successors conquered much of Anatolia and expanded into the Balkans by the mid-14th century, transforming their petty kingdom into a transcontinental empire.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "During this time, Beethoven beagan to grow increasingly deaf.",
+    "target": "During this time, Beethoven began to grow increasingly deaf.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "In the last phase of his life he wrote tragicomedies (also known as romances) such as The Winter's Tale and The Tempest, and collaorated with other playwrights.",
+    "target": "In the last phase of his life he wrote tragicomedies (also known as romances) such as The Winter's Tale and The Tempest, and collaborated with other playwrights.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "In 1954, the Supreme Court struck down state laws establishing racial segregation in public schools in Brown v.",
+    "target": "In 1954, the Supreme Court struck down state laws establishing racial segregation in public schools in Brown v.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Not all of these are republics in the sense of hcaving elected governments, nor is the word \"republic\" used in the names of all states with elected governments.",
+    "target": "Not all of these are republics in the sense of having elected governments, nor is the word \"republic\" used in the names of all states with elected governments.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "It is integrated with Earth system science and planetary science.",
+    "target": "It is integrated with Earth system science and planetary science.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In most political systems, the laws enacted by legislatures are referred to as primary legislation.",
+    "target": "In most political systems, the laws enacted by legislatures are referred to as primary legislation.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "After the end of WorldWar II, NACA became interested in the possibilities of guided missiles and supersonic aircraft, developing and testing the Bell X-1 in a joint program with the US Air Force.",
+    "target": "After the end of World War II, NACA became interested in the possibilities of guided missiles and supersonic aircraft, developing and testing the Bell X-1 in a joint program with the US Air Force.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Ethics investigates moral principles and what constitutes right conduct.",
+    "target": "Ethics investigates moral principles and what constitutes right conduct.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In 1928, Disney established itself as a leader in the animation industry with the short film Steamboat Willie.",
+    "target": "In 1928, Disney established itself as a leader in the animation industry with the short film Steamboat Willie.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Naturalness usually varies in a continuum, from 100% natural in one extreme to 0% natural in the other.",
+    "target": "Naturalness usually varies in a continuum, from 100% natural in one extreme to 0% natural in the other.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Branches associated with specific research methods and sources include quantitative history, comparative history, and oral history.",
+    "target": "Branches associated with specific research methods and sources include quantitative history, comparative history, and oral history.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The kingdom of Cappadocia still existed in the time of Strabo (c. 64 BC – c. AD 24) as a nominally independent state.",
+    "target": "The kingdom of Cappadocia still existed in the time of Strabo (c. 64 BC – c. AD 24) as a nominally independent state.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The origins of Argentina as a nation can be traced to 1776, when it was searated by King Charles III of Spain from the existing Viceroyalty of Peru, creating the new Viceroyalty of the Río de la Plata.",
+    "target": "The origins of Argentina as a nation can be traced to 1776, when it was separated by King Charles III of Spain from the existing Viceroyalty of Peru, creating the new Viceroyalty of the Río de la Plata.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The role includes responsibility for directing the world's most expensive military, which has the second-largest nuclear arsenal.",
+    "target": "The role includes responsibility for directing the world's most expensive military, which has the second-largest nuclear arsenal.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Born in Bonn, Beethoven displayed his musical talent at a young age.",
+    "target": "Born in Bonn, Beethoven displayed his musical talent at a young age.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Having survived the events that caused the fall of the Western Roman Empire in the 5th cnetury AD, it endured until the fall of Constantinople to the Ottoman Empire in 1453.",
+    "target": "Having survived the events that caused the fall of the Western Roman Empire in the 5th century AD, it endured until the fall of Constantinople to the Ottoman Empire in 1453.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "Higher temperatures are also causing more intense storms, droughts, and other weather extremes.",
+    "target": "Higher temperatures are also causing more intense storms, droughts, and other weather extremes.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Furthermore, the World Bank Group is recognized as a leading funder of climate investments in developing countries.",
+    "target": "Furthermore, the World Bank Group is recognized as a leading funder of climate investments in developing countries.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The large-scale movements of the Migration Period, including various Germanic peoples, formed new kingdoms in what remained of the Western Roman Empire.",
+    "target": "The large-scale movements of the Migration Period, including various Germanic peoples, formed new kingdoms in what remained of the Western Roman Empire.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It operated until February 29, 2024.",
+    "target": "It operated until February 29, 2024.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "From this point, criminal law formalized the mechanisms for enforcement, which allowed for its development as a discernible entity.",
+    "target": "From this point, criminal law formalized the mechanisms for enforcement, which allowed for its development as a discernible entity.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In 1944, the Western Allies invaded Fance at Normandy, and the Soviet Union advanced into Central Europe.",
+    "target": "In 1944, the Western Allies invaded France at Normandy, and the Soviet Union advanced into Central Europe.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The current holder of the officde Christian Stocker was sworn in on 3 March 2025 as chancellor.",
+    "target": "The current holder of the office Christian Stocker was sworn in on 3 March 2025 as chancellor.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "Founded as a radical revolutionary group seeking to prevent a collapse of the Ottoman Empire, by the eve of WorldWar I it decided that the solution was to implement nationalist and centralizing policies.",
+    "target": "Founded as a radical revolutionary group seeking to prevent a collapse of the Ottoman Empire, by the eve of World War I it decided that the solution was to implement nationalist and centralizing policies.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "She then became the party's first female leader, and the first female leader of the Opposition, two years later.",
+    "target": "She then became the party's first female leader, and the first female leader of the Opposition, two years later.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The University of Cambridge is a publi collegiate research university in Cambridge, England.",
+    "target": "The University of Cambridge is a public collegiate research university in Cambridge, England.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "This claim lacks documentary support, at least in the surviving record.",
+    "target": "This claim lacks documentary support, at least in the surviving record.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Izmir is the third most populous city in Türkiye, after Istanbul and Ankara.",
+    "target": "İzmir is the third most populous city in Türkiye, after Istanbul and Ankara.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "On the eve of WorldWar II, he endorsed a letter to President Franklin D.",
+    "target": "On the eve of World War II, he endorsed a letter to President Franklin D.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "The Allies evacuated Anatolia and eastern Thrace, the Ottoman government was overthrown, the monarchy abolished, and the Grand National Assembly of Türkiye declared the Republic of Türkiye on 29 October 1923.",
+    "target": "The Allies evacuated Anatolia and eastern Thrace, the Ottoman government was overthrown, the monarchy abolished, and the Grand National Assembly of Türkiye declared the Republic of Türkiye on 29 October 1923.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "At the age of 18, Shkaespeare married 26-year-old Anne Hathaway.",
+    "target": "At the age of 18, Shakespeare married 26-year-old Anne Hathaway.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "In 2005, under the new CEO Bob Iger, the company continued to expand into a major entertainment conglomerate with the acquisitions of Pixar in 2006, Marvel Entertainment in 2009, Lucasfilm in 2012, and 21st Century Fox in 2019.",
+    "target": "In 2005, under the new CEO Bob Iger, the company continued to expand into a major entertainment conglomerate with the acquisitions of Pixar in 2006, Marvel Entertainment in 2009, Lucasfilm in 2012, and 21st Century Fox in 2019.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Where freedom of the press is lacking, governments may require pre-publication approval, or punish distribution of documents critical of the government or certain political perspectives.",
+    "target": "Where freedom of the press is lacking, governments may require pre-publication approval, or punish distribution of documents critical of the government or certain political perspectives.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The station is expected to remain operational until the end of 2030, after which it will be de-orbited using the US Deorbit Vehicle.",
+    "target": "The station is expected to remain operational until the end of 2030, after which it will be de-orbited using the US Deorbit Vehicle.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Biological psychologists seek an understanding of the emergent properties of brains, linking the discipline to neuroscience.",
+    "target": "Biological psychologists seek an understanding of the emergent properties of brains, linking the discipline to neuroscience.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The objective of the sanctioning country is to impose significant costs on the target country to coerce a policy change or attain a specific action from the target government.",
+    "target": "The objective of the sanctioning country is to impose significant costs on the target country to coerce a policy change or attain a specific action from the target government.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "While traditionally most monarchs have been male, female monarchs have also ruled, and the term queen regnant refers to a ruling monarch, as distinct from a queen consort, the wife of a reigning king.",
+    "target": "While traditionally most monarchs have been male, female monarchs have also ruled, and the term queen regnant refers to a ruling monarch, as distinct from a queen consort, the wife of a reigning king.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "February 11, 1731] – December 14, 1799) was a Founding Father and the first president of the UnitedStates, serving from 1789 to 1797.",
+    "target": "February 11, 1731] – December 14, 1799) was a Founding Father and the first president of the United States, serving from 1789 to 1797.",
+    "is_noisy": true,
+    "error_type": "space"
+  },
+  {
+    "input": "Having been betrothed to her the previous year, Ser Piero married Albiera Amadori and after her death in 1464, went on to have three subsequent marriages.",
+    "target": "Having been betrothed to her the previous year, Ser Piero married Albiera Amadori and after her death in 1464, went on to have three subsequent marriages.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In the fiscal year ending 31 July 2024, the university had a total consolidated income of £3.05 billion, of which £778.9 milxion was from research grants and contracts.",
+    "target": "In the fiscal year ending 31 July 2024, the university had a total consolidated income of £3.05 billion, of which £778.9 million was from research grants and contracts.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Dunn wrote that IR was about \"relations that take place across national boundaries\" and \"between autonomous political groups in a world system\".",
+    "target": "Dunn wrote that IR was about \"relations that take place across national boundaries\" and \"between autonomous political groups in a world system\".",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Examples of visual arts include architecture, ceramic art, drawing, filmmaking, painting, photography, and sculpture.",
+    "target": "Examples of visual arts include architecture, ceramic art, drawing, filmmaking, painting, photography, and sculpture.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In an attempt to establish control over the power vacuum in Anatolia, the Allies persuaded Greek Prime Minister Eleftherios Venizelos to launch an expeditionary force into Anatolia and occupy Smyrna (Izmir), beginning the Turkish War of Independence.",
+    "target": "In an attempt to establish control over the power vacuum in Anatolia, the Allies persuaded Greek Prime Minister Eleftherios Venizelos to launch an expeditionary force into Anatolia and occupy Smyrna (İzmir), beginning the Turkish War of Independence.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "An institution is a humanly devised structure of rules and norms that shape and constrain social behavior.",
+    "target": "An institution is a humanly devised structure of rules and norms that shape and constrain social behavior.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Many notable film studios such as Universal Pictures, Paramount Pictures, Warner Bros., Walt Disney Studios, and Sony Pictures are located in or near Hollywood.",
+    "target": "Many notable film studios such as Universal Pictures, Paramount Pictures, Warner Bros., Walt Disney Studios, and Sony Pictures are located in or near Hollywood.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Constitution establishes a separation of powers between the Legislative Power (7.1), Executive Power (8.1), and Judicial Power (9.1) of the state.",
+    "target": "Constitution establishes a separation of powers between the Legislative Power (7.1), Executive Power (8.1), and Judicial Power (9.1) of the state.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Elections may fill offices in the legislature, sometimes in the executive and judiciary, and for regional and local government, such as cities or towns.",
+    "target": "Elections may fill offices in the legislature, sometimes in the executive and judiciary, and for regional and local government, such as cities or towns.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Most were either Athenian or pro-Athenian, whxch is why far more is known about the history and politics of Athens than of many other cities.",
+    "target": "Most were either Athenian or pro-Athenian, which is why far more is known about the history and politics of Athens than of many other cities.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Brazil became a presidential republic following a military coup d'état in 1889.",
+    "target": "Brazil became a presidential republic following a military coup d'état in 1889.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "After threts from Germany and the Soviet Union, Türkiye maintained neutrality.",
+    "target": "After threats from Germany and the Soviet Union, Türkiye maintained neutrality.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "The Bank's lending and operational decisions are made by a president and a bozrd of 25 executive directors.",
+    "target": "The Bank's lending and operational decisions are made by a president and a board of 25 executive directors.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Six government space agencies, Interkosmos, NASA, CNSA, DOS, JAXA and ESA, have reached the Moon with uncrewed missions.",
+    "target": "Six government space agencies, Interkosmos, NASA, CNSA, DOS, JAXA and ESA, have reached the Moon with uncrewed missions.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Congress, together with the Warren Court, continued to protect and expand the voting rights of all Americans, especially African Americans, through the Civil Rights Act of 1964, Voting Rights Act of 1965 and several Suprem Court rulings.",
+    "target": "Congress, together with the Warren Court, continued to protect and expand the voting rights of all Americans, especially African Americans, through the Civil Rights Act of 1964, Voting Rights Act of 1965 and several Supreme Court rulings.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "It is common for the members of a party to hold similar ideas about politics, and parties may promote specific ideological or policy goals.",
+    "target": "It is common for the members of a party to hold similar ideas about politics, and parties may promote specific ideological or policy goals.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "According to its submission guidelines, Foreign Policy articles \"strike the balance\" between informed specialist research and general readability, and tend to be written in plain rather than \"wonky\" language.",
+    "target": "According to its submission guidelines, Foreign Policy articles \"strike the balance\" between informed specialist research and general readability, and tend to be written in plain rather than \"wonky\" language.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Within each branch, there are competing schools of philosophy that promote different principles, theories, or methods.",
+    "target": "Within each branch, there are competing schools of philosophy that promote different principles, theories, or methods.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The command first appeared in Version 5 Unix as part of the Programmer's Workbench project, and was written by Dick Haight alongside cpio, which were designed to be used together.",
+    "target": "The command first appeared in Version 5 Unix as part of the Programmer's Workbench project, and was written by Dick Haight alongside cpio, which were designed to be used together.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Movements towards a peacefully unified European state have existed since the 1920s, notably the Paneuropean Union.",
+    "target": "Movements towards a peacefully unified European state have existed since the 1920s, notably the Paneuropean Union.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The command was ported to the IBM i operaying system.",
+    "target": "The command was ported to the IBM i operating system.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Institutions are also a central concern for law, the formal mechanism for politcal rule-making and enforcement.",
+    "target": "Institutions are also a central concern for law, the formal mechanism for political rule-making and enforcement.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "However, more recent scholarship has challenged notions that rights did not exist in the ancient world.",
+    "target": "However, more recent scholarship has challenged notions that rights did not exist in the ancient world.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Millet structure allowed a great degree of religious, cultural and ethnic continuity to non-Muslim populations across the subdivisions of the Ottoman Empire and at the same time it permitted their incorporation into the Ottoman administrative, economic and political system.",
+    "target": "Millet structure allowed a great degree of religious, cultural and ethnic continuity to non-Muslim populations across the subdivisions of the Ottoman Empire and at the same time it permitted their incorporation into the Ottoman administrative, economic and political system.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "This name, still in use in Greek, was later evolved in Turkish as Adalia and then Antalya.",
+    "target": "This name, still in use in Greek, was later evolved in Turkish as Adalia and then Antalya.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "A Black church leader, King participated in and led marches for the right to vote, desegregation, labor rights, and other civxl rights.",
+    "target": "A Black church leader, King participated in and led marches for the right to vote, desegregation, labor rights, and other civil rights.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "During the High Middle Ages, which began after 1000, the population of Europe increased significantly as technological and agricultural innovations allowed trade to flourish and the Medieval Warm Period climate change allowed crop yields to increase.",
+    "target": "During the High Middle Ages, which began after 1000, the population of Europe increased significantly as technological and agricultural innovations allowed trade to flourish and the Medieval Warm Period climate change allowed crop yields to increase.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The empire was largely dismantled in 1204, following the sack of Constantinople during the Fourth Crusade; its former territories were then divided into competing Greek rump states and Latin realms.",
+    "target": "The empire was largely dismantled in 1204, following the sack of Constantinople during the Fourth Crusade; its former territories were then divided into competing Greek rump states and Latin realms.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "In the Sovereign Military Order of Malta, the Grand Master is styled \"Sovereign\", e.g.",
+    "target": "In the Sovereign Military Order of Malta, the Grand Master is styled \"Sovereign\", e.g.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The Pala King Gopala (ruled c. 750s – 770s CE) in early medieval Bengal was elected by a group of feudal chieftains.",
+    "target": "The Pala King Gopala (ruled c. 750s – 770s CE) in early medieval Bengal was elected by a group of feudal chieftains.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "It is a way to transform human responses and what humans deem worthwhile goals or pursuits.",
+    "target": "It is a way to transform human responses and what humans deem worthwhile goals or pursuits.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The idea is often endorszd by the slogan \"one man, one vote\".",
+    "target": "The idea is often endorsed by the slogan \"one man, one vote\".",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Freedom of the press is not construed as an absence of interference by outside entities, such as a government or religious organization, but rather as a right for authors to have their works published by other people.",
+    "target": "Freedom of the press is not construed as an absence of interference by outside entities, such as a government or religious organization, but rather as a right for authors to have their works published by other people.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Türkiye is a presidential representative democracy and a constitutional republic within a pluriform multi-party system, in which the president (the head of state and head of goverment), parliament, and judiciary share powers reserved to the national government.",
+    "target": "Türkiye is a presidential representative democracy and a constitutional republic within a pluriform multi-party system, in which the president (the head of state and head of government), parliament, and judiciary share powers reserved to the national government.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "Although a republic is most often a single sovereign state, subnational state entities that have governments that are republican in nature may be referred to as republics.",
+    "target": "Although a republic is most often a single sovereign state, subnational state entities that have governments that are republican in nature may be referred to as republics.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Roosevelt was unable to expand the Supreme Court in 1937, the same year the conservative coalition was formed to block the implementation of further New Deal programs and reforms.",
+    "target": "Roosevelt was unable to expand the Supreme Court in 1937, the same year the conservative coalition was formed to block the implementation of further New Deal programs and reforms.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The first written evidence of czmpound interest dates roughly 2400 BC.",
+    "target": "The first written evidence of compound interest dates roughly 2400 BC.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "They may be ative to Anatolia or non-native.",
+    "target": "They may be native to Anatolia or non-native.",
+    "is_noisy": true,
+    "error_type": "omission"
+  },
+  {
+    "input": "Scotland, Wales and Northern Ireland have their own governments and parliaments which contrbol various devolved matters.",
+    "target": "Scotland, Wales and Northern Ireland have their own governments and parliaments which control various devolved matters.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "During its early history, Aintab was largely a fortress overshadowed by the city of Duluk, some 12 km to the north.",
+    "target": "During its early history, Aintab was largely a fortress overshadowed by the city of Dülük, some 12 km to the north.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "In May 2022, Erdogan temporarily blocked Finland and Sweden from joining NATO.",
+    "target": "In May 2022, Erdoğan temporarily blocked Finland and Sweden from joining NATO.",
+    "is_noisy": true,
+    "error_type": "deascii"
+  },
+  {
+    "input": "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity.",
+    "target": "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "On 18 June 1953, just under a year after the coup d'état, the Council abolished the monarchy of Egypt and Sudan, and declared Egypt a republic, with Mohamed Naguib as its president.",
+    "target": "On 18 June 1953, just under a year after the coup d'état, the Council abolished the monarchy of Egypt and Sudan, and declared Egypt a republic, with Mohamed Naguib as its president.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "This was the ninth opened McDonald's restaurant overall, although this location was demolished in 1984 in response to the San Ysidro McDonald's massacre.",
+    "target": "This was the ninth opened McDonald's restaurant overall, although this location was demolished in 1984 in response to the San Ysidro McDonald's massacre.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "It has evolved, and now chemistry encompasses various areas of specialisation, or subdisciplines, that continue to increase in number and interrelate to create further interdisciplinary fields of study.",
+    "target": "It has evolved, and now chemistry encompasses various areas of specialisation, or subdisciplines, that continue to increase in number and interrelate to create further interdisciplinary fields of study.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "The Turkish National Movement carried out massacres and deportations to eliminate native Christian populations – a continuation of the Armenian genocide and other ethnic cleansing operations during World War I.",
+    "target": "The Turkish National Movement carried out massacres and deportations to eliminate native Christian populations – a continuation of the Armenian genocide and other ethnic cleansing operations during World War I.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Legiselative power is vested in the Grand National Assembly.",
+    "target": "Legislative power is vested in the Grand National Assembly.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "The city sderved as a naval base for Attalus's powerful fleet.",
+    "target": "The city served as a naval base for Attalus's powerful fleet.",
+    "is_noisy": true,
+    "error_type": "insertion"
+  },
+  {
+    "input": "He was awarded the Nobel Prize in Ltierature in 1953.",
+    "target": "He was awarded the Nobel Prize in Literature in 1953.",
+    "is_noisy": true,
+    "error_type": "transposition"
+  },
+  {
+    "input": "They exiled him to the Mediterranean xsland of Elba and restored the Bourbons to power.",
+    "target": "They exiled him to the Mediterranean island of Elba and restored the Bourbons to power.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Owing to political circumstances, this constitution never came into force, and the central power was dissolved, leaving the country as a federation of provinces.",
+    "target": "Owing to political circumstances, this constitution never came into force, and the central power was dissolved, leaving the country as a federation of provinces.",
+    "is_noisy": false,
+    "error_type": "none"
+  },
+  {
+    "input": "Such freedom implies no or minimal censorship or prior restraint from goverment, and is often protected by laws or a provision in a constitution.",
+    "target": "Such freedom implies no or minimal censorship or prior restraint from government, and is often protected by laws or a provision in a constitution.",
+    "is_noisy": true,
+    "error_type": "common"
+  },
+  {
+    "input": "The internet has reshaped social networks and power relations, illustrating the growing impxrtance of digital sociology.",
+    "target": "The internet has reshaped social networks and power relations, illustrating the growing importance of digital sociology.",
+    "is_noisy": true,
+    "error_type": "substitution"
+  },
+  {
+    "input": "Modern-day Kenya emerged from a protectorate, established by the British Empire in 1895, and the subsequent Kenya Colony, which began in 1920.",
+    "target": "Modern-day Kenya emerged from a protectorate, established by the British Empire in 1895, and the subsequent Kenya Colony, which began in 1920.",
+    "is_noisy": false,
+    "error_type": "none"
+  }
+]

@@ -75,3 +75,14 @@ Thumbs.db
 
 # 📁 Makaleler (Telif hakkı nedeniyle GitHub'a eklenmez)
 references/
+
+# Model ağırlıkları (BÜYÜK DOSYALAR)
+**/final_model/
+**/t5_base_results/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+checkpoint-*/
+**/checkpoint-*

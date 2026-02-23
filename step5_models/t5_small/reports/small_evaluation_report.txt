@@ -1,0 +1,19 @@
+
+==================================================
+      ENTITY NORMALIZATION EVALUATION (T5-SMALL)
+==================================================
+Tarih: 2026-02-23 16:41:51
+Model: T5-Small (Fine-tuned)
+Test Verisi: test.json
+Toplam Örnek Sayısı: 453
+
+---------------- METRİKLER -----------------------
+🎯 Accuracy (Tam Eşleşme): %75.50
+✨ Precision: 0.7550
+📈 Recall: 0.7550
+🏆 F1-Score: 0.7550
+
+---------------- ÖZET ----------------------------
+✅ Başarılı Düzenleme: 342
+❌ Hatalı Düzenleme  : 111
+==================================================
