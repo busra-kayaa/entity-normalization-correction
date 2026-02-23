@@ -108,14 +108,14 @@
     "error_type": "none"
   },
   {
-    "input": "Considered an alpha global city, Istanbux accounts for about thirty percent of Turkey's economy.",
-    "target": "Considered an alpha global city, Istanbul accounts for about thirty percent of Turkey's economy.",
+    "input": "Considered an alpha global city, Istanbux accounts for about thirty percent of Türkiye's economy.",
+    "target": "Considered an alpha global city, Istanbul accounts for about thirty percent of Türkiye's economy.",
     "is_noisy": true,
     "error_type": "substitution"
   },
   {
     "input": "Turkish (Türkçe, Türk dili, also known as Turkey Türkçesi 'Turkish of Turkey') is the most widely spoken of the Turkic languages with around 90 million speakers.",
-    "target": "Turkish (Türkçe, Türk dili, also known as Türkiye Türkçesi 'Turkish of Turkey') is the most widely spoken of the Turkic languages with around 90 million speakers.",
+    "target": "Turkish (Türkçe, Türk dili, also known as Türkiye Türkçesi 'Turkish of Türkiye') is the most widely spoken of the Turkic languages with around 90 million speakers.",
     "is_noisy": true,
     "error_type": "terminology"
   },
@@ -156,8 +156,8 @@
     "error_type": "none"
   },
   {
-    "input": "Cappadocia (; Turkish: Kapadokya, from Greek: Καππαδοκία) is a historical region in Central Anatolia region, Turkey.",
-    "target": "Cappadocia (; Turkish: Kapadokya, from Greek: Καππαδοκία) is a historical region in Central Anatolia region, Turkey.",
+    "input": "Cappadocia (; Turkish: Kapadokya, from Greek: Καππαδοκία) is a historical region in Central Anatolia region, Türkiye.",
+    "target": "Cappadocia (; Turkish: Kapadokya, from Greek: Καππαδοκία) is a historical region in Central Anatolia region, Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -180,8 +180,8 @@
     "error_type": "none"
   },
   {
-    "input": "In a non-binding vote on 13 March 2019, the European Parliament called on the EU governments to suspend EU accession talks with Turkey, citing violations of guman rights and the rule of law.",
-    "target": "In a non-binding vote on 13 March 2019, the European Parliament called on the EU governments to suspend EU accession talks with Turkey, citing violations of human rights and the rule of law.",
+    "input": "In a non-binding vote on 13 March 2019, the European Parliament called on the EU governments to suspend EU accession talks with Türkiye, citing violations of guman rights and the rule of law.",
+    "target": "In a non-binding vote on 13 March 2019, the European Parliament called on the EU governments to suspend EU accession talks with Türkiye, citing violations of human rights and the rule of law.",
     "is_noisy": true,
     "error_type": "substitution"
   },
@@ -384,8 +384,8 @@
     "error_type": "none"
   },
   {
-    "input": "In the 19th and early 20th centuries, persecution of Muslims during the Ottomay contraction and in the Russian Empire resulted in large-scale loss of life and mass migration into modern-day Turkey from the Balkans, Caucasus, and Crimea.",
-    "target": "In the 19th and early 20th centuries, persecution of Muslims during the Ottoman contraction and in the Russian Empire resulted in large-scale loss of life and mass migration into modern-day Turkey from the Balkans, Caucasus, and Crimea.",
+    "input": "In the 19th and early 20th centuries, persecution of Muslims during the Ottomay contraction and in the Russian Empire resulted in large-scale loss of life and mass migration into modern-day Türkiye from the Balkans, Caucasus, and Crimea.",
+    "target": "In the 19th and early 20th centuries, persecution of Muslims during the Ottoman contraction and in the Russian Empire resulted in large-scale loss of life and mass migration into modern-day Türkiye from the Balkans, Caucasus, and Crimea.",
     "is_noisy": true,
     "error_type": "substitution"
   },
@@ -396,8 +396,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey's actions related with religion are carefully analyzed and evaluated through the Presidency of Religious Affairs (Diyanet Isleri Baskanligi or simply Diyanet).",
-    "target": "Turkey's actions related with religion are carefully analyzed and evaluated through the Presidency of Religious Affairs (Diyanet İşleri Başkanlığı or simply Diyanet).",
+    "input": "Türkiye's actions related with religion are carefully analyzed and evaluated through the Presidency of Religious Affairs (Diyanet Isleri Baskanligi or simply Diyanet).",
+    "target": "Türkiye's actions related with religion are carefully analyzed and evaluated through the Presidency of Religious Affairs (Diyanet İşleri Başkanlığı or simply Diyanet).",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -642,8 +642,8 @@
     "error_type": "none"
   },
   {
-    "input": "He oversaw the transformation of Turkey's parliamentary system into a presidenital system, introducing term limits and expanding executive powers, and Turkey's migrant crisis.",
-    "target": "He oversaw the transformation of Turkey's parliamentary system into a presidential system, introducing term limits and expanding executive powers, and Turkey's migrant crisis.",
+    "input": "He oversaw the transformation of Türkiye's parliamentary system into a presidenital system, introducing term limits and expanding executive powers, and Türkiye's migrant crisis.",
+    "target": "He oversaw the transformation of Türkiye's parliamentary system into a presidential system, introducing term limits and expanding executive powers, and Türkiye's migrant crisis.",
     "is_noisy": true,
     "error_type": "transposition"
   },
@@ -858,8 +858,8 @@
     "error_type": "deascii"
   },
   {
-    "input": "The revolution concluded the collapse of the Ottoman Empire and the Eastern question, ending the Ottoman sultanate and the Ottoman caliphate, and establishing the Republic of Turkey.",
-    "target": "The revolution concluded the collapse of the Ottoman Empire and the Eastern question, ending the Ottoman sultanate and the Ottoman caliphate, and establishing the Republic of Turkey.",
+    "input": "The revolution concluded the collapse of the Ottoman Empire and the Eastern question, ending the Ottoman sultanate and the Ottoman caliphate, and establishing the Republic of Türkiye.",
+    "target": "The revolution concluded the collapse of the Ottoman Empire and the Eastern question, ending the Ottoman sultanate and the Ottoman caliphate, and establishing the Republic of Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -1098,8 +1098,8 @@
     "error_type": "none"
   },
   {
-    "input": "The Grand National Assembly in Ankara was recognized as the legitimate Turkish government, which signed the Treaty of Lausanne, a treaty more favorable to Turkey than Sèvres.",
-    "target": "The Grand National Assembly in Ankara was recognized as the legitimate Turkish government, which signed the Treaty of Lausanne, a treaty more favorable to Turkey than Sèvres.",
+    "input": "The Grand National Assembly in Ankara was recognized as the legitimate Turkish government, which signed the Treaty of Lausanne, a treaty more favorable to Türkiye than Sèvres.",
+    "target": "The Grand National Assembly in Ankara was recognized as the legitimate Turkish government, which signed the Treaty of Lausanne, a treaty more favorable to Türkiye than Sèvres.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -2082,8 +2082,8 @@
     "error_type": "none"
   },
   {
-    "input": "The reforms, among other measures, abolished the position of Prime Minister and designated the President as both head of state and government, effectively transforming Turkey from a parliamentary regime into a presidential one.",
-    "target": "The reforms, among other measures, abolished the position of Prime Minister and designated the President as both head of state and government, effectively transforming Turkey from a parliamentary regime into a presidential one.",
+    "input": "The reforms, among other measures, abolished the position of Prime Minister and designated the President as both head of state and government, effectively transforming Türkiye from a parliamentary regime into a presidential one.",
+    "target": "The reforms, among other measures, abolished the position of Prime Minister and designated the President as both head of state and government, effectively transforming Türkiye from a parliamentary regime into a presidential one.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -2400,8 +2400,8 @@
     "error_type": "transposition"
   },
   {
-    "input": "According to the UnitedStates government, the other defining aspect of Turkey's foreign policy has been the country's long-standing strategic alliance with the United States.",
-    "target": "According to the United States government, the other defining aspect of Turkey's foreign policy has been the country's long-standing strategic alliance with the United States.",
+    "input": "According to the UnitedStates government, the other defining aspect of Türkiye's foreign policy has been the country's long-standing strategic alliance with the United States.",
+    "target": "According to the United States government, the other defining aspect of Türkiye's foreign policy has been the country's long-standing strategic alliance with the United States.",
     "is_noisy": true,
     "error_type": "space"
   },
@@ -2640,8 +2640,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey joined NATO in 1952, strengthening its bilateral ties with the UnitedStates.",
-    "target": "Turkey joined NATO in 1952, strengthening its bilateral ties with the United States.",
+    "input": "Türkiye joined NATO in 1952, strengthening its bilateral ties with the UnitedStates.",
+    "target": "Türkiye joined NATO in 1952, strengthening its bilateral ties with the United States.",
     "is_noisy": true,
     "error_type": "space"
   },
@@ -2670,8 +2670,8 @@
     "error_type": "omission"
   },
   {
-    "input": "Ofdficially a secular state, Turkey has a Muslim-majority population.",
-    "target": "Officially a secular state, Turkey has a Muslim-majority population.",
+    "input": "Ofdficially a secular state, Türkiye has a Muslim-majority population.",
+    "target": "Officially a secular state, Türkiye has a Muslim-majority population.",
     "is_noisy": true,
     "error_type": "insertion"
   },
@@ -2844,8 +2844,8 @@
     "error_type": "substitution"
   },
   {
-    "input": "Since its ratification in 1982, the current constitution has overseen many important events and changes in the Republic of Turkey, and it has been modified many times to keep up with global and regional geopolitical conjunctures.",
-    "target": "Since its ratification in 1982, the current constitution has overseen many important events and changes in the Republic of Turkey, and it has been modified many times to keep up with global and regional geopolitical conjunctures.",
+    "input": "Since its ratification in 1982, the current constitution has overseen many important events and changes in the Republic of Türkiye, and it has been modified many times to keep up with global and regional geopolitical conjunctures.",
+    "target": "Since its ratification in 1982, the current constitution has overseen many important events and changes in the Republic of Türkiye, and it has been modified many times to keep up with global and regional geopolitical conjunctures.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -3432,14 +3432,14 @@
     "error_type": "substitution"
   },
   {
-    "input": "As of December 2024, Turkey maintains diplomatic relations with 189 member states of the United Nations.",
-    "target": "As of December 2024, Turkey maintains diplomatic relations with 189 member states of the United Nations.",
+    "input": "As of December 2024, Türkiye maintains diplomatic relations with 189 member states of the United Nations.",
+    "target": "As of December 2024, Türkiye maintains diplomatic relations with 189 member states of the United Nations.",
     "is_noisy": false,
     "error_type": "none"
   },
   {
-    "input": "First inhabited by modrn humans during the Late Paleolithic, present-day Turkey was home to various ancient peoples.",
-    "target": "First inhabited by modern humans during the Late Paleolithic, present-day Turkey was home to various ancient peoples.",
+    "input": "First inhabited by modrn humans during the Late Paleolithic, present-day Türkiye was home to various ancient peoples.",
+    "target": "First inhabited by modern humans during the Late Paleolithic, present-day Türkiye was home to various ancient peoples.",
     "is_noisy": true,
     "error_type": "omission"
   },
@@ -3786,8 +3786,8 @@
     "error_type": "none"
   },
   {
-    "input": "Recognized as the \"capital of tourism\" in Turkey and a pivotal part of the Turkish Riviera, Antalya sits on Anatolia's southwest coast, flanked by the Taurus Mountains.",
-    "target": "Recognized as the \"capital of tourism\" in Turkey and a pivotal part of the Turkish Riviera, Antalya sits on Anatolia's southwest coast, flanked by the Taurus Mountains.",
+    "input": "Recognized as the \"capital of tourism\" in Türkiye and a pivotal part of the Turkish Riviera, Antalya sits on Anatolia's southwest coast, flanked by the Taurus Mountains.",
+    "target": "Recognized as the \"capital of tourism\" in Türkiye and a pivotal part of the Turkish Riviera, Antalya sits on Anatolia's southwest coast, flanked by the Taurus Mountains.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -4146,8 +4146,8 @@
     "error_type": "none"
   },
   {
-    "input": "Recep Tayyip Erdogan (born 26 February 1954) is a Turkish politician who has been the president of Turkey since 2014.",
-    "target": "Recep Tayyip Erdoğan (born 26 February 1954) is a Turkish politician who has been the president of Turkey since 2014.",
+    "input": "Recep Tayyip Erdogan (born 26 February 1954) is a Turkish politician who has been the president of Türkiye since 2014.",
+    "target": "Recep Tayyip Erdoğan (born 26 February 1954) is a Turkish politician who has been the president of Türkiye since 2014.",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -4260,8 +4260,8 @@
     "error_type": "none"
   },
   {
-    "input": "Ankara is Turkey's capital and second-largest city.",
-    "target": "Ankara is Turkey's capital and second-largest city.",
+    "input": "Ankara is Türkiye's capital and second-largest city.",
+    "target": "Ankara is Türkiye's capital and second-largest city.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -4302,8 +4302,8 @@
     "error_type": "none"
   },
   {
-    "input": "Although the Republic of Turkey established its capital in Ankara, palaces and imperial mosques still line Istanbul's hills as visible reminders of the city's previous centrl role.",
-    "target": "Although the Republic of Turkey established its capital in Ankara, palaces and imperial mosques still line Istanbul's hills as visible reminders of the city's previous central role.",
+    "input": "Although the Republic of Türkiye established its capital in Ankara, palaces and imperial mosques still line Istanbul's hills as visible reminders of the city's previous centrl role.",
+    "target": "Although the Republic of Türkiye established its capital in Ankara, palaces and imperial mosques still line Istanbul's hills as visible reminders of the city's previous central role.",
     "is_noisy": true,
     "error_type": "omission"
   },
@@ -4542,8 +4542,8 @@
     "error_type": "deascii"
   },
   {
-    "input": "In the post–Cold War era, Turkey's geostrategic importance shifted towards its proximity to the Middle East, the Caucasus, and the Balkans.",
-    "target": "In the post–Cold War era, Turkey's geostrategic importance shifted towards its proximity to the Middle East, the Caucasus, and the Balkans.",
+    "input": "In the post–Cold War era, Türkiye's geostrategic importance shifted towards its proximity to the Middle East, the Caucasus, and the Balkans.",
+    "target": "In the post–Cold War era, Türkiye's geostrategic importance shifted towards its proximity to the Middle East, the Caucasus, and the Balkans.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -4716,8 +4716,8 @@
     "error_type": "transposition"
   },
   {
-    "input": "In response, Britain and France negotiated a tripartite treaty with Turkey in 1939 in which they gave Turkey a line of credit to purchase war materials from the West and a loan to facilitate the purchase of commodities.",
-    "target": "In response, Britain and France negotiated a tripartite treaty with Turkey in 1939 in which they gave Turkey a line of credit to purchase war materials from the West and a loan to facilitate the purchase of commodities.",
+    "input": "In response, Britain and France negotiated a tripartite treaty with Türkiye in 1939 in which they gave Türkiye a line of credit to purchase war materials from the West and a loan to facilitate the purchase of commodities.",
+    "target": "In response, Britain and France negotiated a tripartite treaty with Türkiye in 1939 in which they gave Türkiye a line of credit to purchase war materials from the West and a loan to facilitate the purchase of commodities.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -5178,8 +5178,8 @@
     "error_type": "omission"
   },
   {
-    "input": "Following the defeat of the empire after the war, he led the Turkish National Movement, which lead an anti-colonial resistance against Turkey's partition among the victorious Allied powers.",
-    "target": "Following the defeat of the empire after the war, he led the Turkish National Movement, which lead an anti-colonial resistance against Turkey's partition among the victorious Allied powers.",
+    "input": "Following the defeat of the empire after the war, he led the Turkish National Movement, which lead an anti-colonial resistance against Türkiye's partition among the victorious Allied powers.",
+    "target": "Following the defeat of the empire after the war, he led the Turkish National Movement, which lead an anti-colonial resistance against Türkiye's partition among the victorious Allied powers.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -5358,8 +5358,8 @@
     "error_type": "none"
   },
   {
-    "input": "The Truman Doctrine in 1947 enunciated American intnetions to guarantee the security of Turkey and Greece during the Cold War, and resulted in large-scale U.S.",
-    "target": "The Truman Doctrine in 1947 enunciated American intentions to guarantee the security of Turkey and Greece during the Cold War, and resulted in large-scale U.S.",
+    "input": "The Truman Doctrine in 1947 enunciated American intnetions to guarantee the security of Türkiye and Greece during the Cold War, and resulted in large-scale U.S.",
+    "target": "The Truman Doctrine in 1947 enunciated American intentions to guarantee the security of Türkiye and Greece during the Cold War, and resulted in large-scale U.S.",
     "is_noisy": true,
     "error_type": "transposition"
   },
@@ -5478,8 +5478,8 @@
     "error_type": "none"
   },
   {
-    "input": "This resulted in the transfxr of sovereignty from the sultan-caliph to the nation, setting the stage for nationalist revolutionary reform in Republican Turkey.",
-    "target": "This resulted in the transfer of sovereignty from the sultan-caliph to the nation, setting the stage for nationalist revolutionary reform in Republican Turkey.",
+    "input": "This resulted in the transfxr of sovereignty from the sultan-caliph to the nation, setting the stage for nationalist revolutionary reform in Republican Türkiye.",
+    "target": "This resulted in the transfer of sovereignty from the sultan-caliph to the nation, setting the stage for nationalist revolutionary reform in Republican Türkiye.",
     "is_noisy": true,
     "error_type": "substitution"
   },
@@ -5664,8 +5664,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey's relations with the Arab World and Iran have been strained due to its recognition of Israel in 1949 and its alliance with Israel during the Israeli-Palestinian conflict.",
-    "target": "Turkey's relations with the Arab World and Iran have been strained due to its recognition of Israel in 1949 and its alliance with Israel during the Israeli-Palestinian conflict.",
+    "input": "Türkiye's relations with the Arab World and Iran have been strained due to its recognition of Israel in 1949 and its alliance with Israel during the Israeli-Palestinian conflict.",
+    "target": "Türkiye's relations with the Arab World and Iran have been strained due to its recognition of Israel in 1949 and its alliance with Israel during the Israeli-Palestinian conflict.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -5694,8 +5694,8 @@
     "error_type": "none"
   },
   {
-    "input": "After becoming a member of NATO in 1952, Turkey initiated a comprehensive modernization program for its armed forces.",
-    "target": "After becoming a member of NATO in 1952, Turkey initiated a comprehensive modernization program for its armed forces.",
+    "input": "After becoming a member of NATO in 1952, Türkiye initiated a comprehensive modernization program for its armed forces.",
+    "target": "After becoming a member of NATO in 1952, Türkiye initiated a comprehensive modernization program for its armed forces.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -5988,8 +5988,8 @@
     "error_type": "deascii"
   },
   {
-    "input": "Following the 2017 constitutional referendum, fundamental changes were introduced including changing the parliamentary system in Turkey to a presidential system.",
-    "target": "Following the 2017 constitutional referendum, fundamental changes were introduced including changing the parliamentary system in Turkey to a presidential system.",
+    "input": "Following the 2017 constitutional referendum, fundamental changes were introduced including changing the parliamentary system in Türkiye to a presidential system.",
+    "target": "Following the 2017 constitutional referendum, fundamental changes were introduced including changing the parliamentary system in Türkiye to a presidential system.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -6348,8 +6348,8 @@
     "error_type": "none"
   },
   {
-    "input": "It is the capital of the Gaziantep Province, in the westernmost part of Turkey's Southeastern Anatolia Region and partially in the aMediterranean Region.",
-    "target": "It is the capital of the Gaziantep Province, in the westernmost part of Turkey's Southeastern Anatolia Region and partially in the Mediterranean Region.",
+    "input": "It is the capital of the Gaziantep Province, in the westernmost part of Türkiye's Southeastern Anatolia Region and partially in the aMediterranean Region.",
+    "target": "It is the capital of the Gaziantep Province, in the westernmost part of Türkiye's Southeastern Anatolia Region and partially in the Mediterranean Region.",
     "is_noisy": true,
     "error_type": "insertion"
   },
@@ -6415,7 +6415,7 @@
   },
   {
     "input": "In support of the United Nations, Turkeey contributed personnel to the Korean War in 1950 and joined NATO in 1952.",
-    "target": "In support of the United Nations, Turkey contributed personnel to the Korean War in 1950 and joined NATO in 1952.",
+    "target": "In support of the United Nations, Türkiye contributed personnel to the Korean War in 1950 and joined NATO in 1952.",
     "is_noisy": true,
     "error_type": "insertion"
   },
@@ -6594,8 +6594,8 @@
     "error_type": "none"
   },
   {
-    "input": "Grand National Assembly of Turkey is the unicameral legislative branch of the Turkish government.",
-    "target": "Grand National Assembly of Turkey is the unicameral legislative branch of the Turkish government.",
+    "input": "Grand National Assembly of Türkiye is the unicameral legislative branch of the Turkish government.",
+    "target": "Grand National Assembly of Türkiye is the unicameral legislative branch of the Turkish government.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -6649,7 +6649,7 @@
   },
   {
     "input": "The president of Turkey, officially the president of the Republic of Turkey (Turkish: Türkiye Cumhuriyeti Cumhurbaşkanı), is the head of state and head of government of Turkey.",
-    "target": "The president of Turkey, officially the president of the Republic of Türkiye (Turkish: Türkiye Cumhuriyeti Cumhurbaşkanı), is the head of state and head of government of Turkey.",
+    "target": "The president of Türkiye, officially the president of the Republic of Türkiye (Turkish: Türkiye Cumhuriyeti Cumhurbaşkanı), is the head of state and head of government of Türkiye.",
     "is_noisy": true,
     "error_type": "terminology"
   },
@@ -6702,8 +6702,8 @@
     "error_type": "none"
   },
   {
-    "input": "It is the fifth-most populous city in Turkey.",
-    "target": "It is the fifth-most populous city in Turkey.",
+    "input": "It is the fifth-most populous city in Türkiye.",
+    "target": "It is the fifth-most populous city in Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -7068,8 +7068,8 @@
     "error_type": "none"
   },
   {
-    "input": "The succesful Turkish War of Independence, led by Mustafa Kemal Atatürk against the occupying Allies, led to the emergence of the Republic of Turkey and the abolition of the sultanate in 1922.",
-    "target": "The successful Turkish War of Independence, led by Mustafa Kemal Atatürk against the occupying Allies, led to the emergence of the Republic of Turkey and the abolition of the sultanate in 1922.",
+    "input": "The succesful Turkish War of Independence, led by Mustafa Kemal Atatürk against the occupying Allies, led to the emergence of the Republic of Türkiye and the abolition of the sultanate in 1922.",
+    "target": "The successful Turkish War of Independence, led by Mustafa Kemal Atatürk against the occupying Allies, led to the emergence of the Republic of Türkiye and the abolition of the sultanate in 1922.",
     "is_noisy": true,
     "error_type": "common"
   },
@@ -7152,8 +7152,8 @@
     "error_type": "omission"
   },
   {
-    "input": "The city was finally besieged and conquered by the Ottoman Empire in 1453, remaining under its control until the early 20th century, after which it was renamed Istanbul under the Empire's successor state, the Republic of Turkey.",
-    "target": "The city was finally besieged and conquered by the Ottoman Empire in 1453, remaining under its control until the early 20th century, after which it was renamed Istanbul under the Empire's successor state, the Republic of Turkey.",
+    "input": "The city was finally besieged and conquered by the Ottoman Empire in 1453, remaining under its control until the early 20th century, after which it was renamed Istanbul under the Empire's successor state, the Republic of Türkiye.",
+    "target": "The city was finally besieged and conquered by the Ottoman Empire in 1453, remaining under its control until the early 20th century, after which it was renamed Istanbul under the Empire's successor state, the Republic of Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -7644,8 +7644,8 @@
     "error_type": "none"
   },
   {
-    "input": "Present-day Turkey has been inhabited by modern humans since the late Paleolithic period and contains some of the world's oldest Neolithic sites.",
-    "target": "Present-day Turkey has been inhabited by modern humans since the late Paleolithic period and contains some of the world's oldest Neolithic sites.",
+    "input": "Present-day Türkiye has been inhabited by modern humans since the late Paleolithic period and contains some of the world's oldest Neolithic sites.",
+    "target": "Present-day Türkiye has been inhabited by modern humans since the late Paleolithic period and contains some of the world's oldest Neolithic sites.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -7716,8 +7716,8 @@
     "error_type": "substitution"
   },
   {
-    "input": "He led sweeping reforms, which modernized Turkey into a secular, industrializing nation.",
-    "target": "He led sweeping reforms, which modernized Turkey into a secular, industrializing nation.",
+    "input": "He led sweeping reforms, which modernized Türkiye into a secular, industrializing nation.",
+    "target": "He led sweeping reforms, which modernized Türkiye into a secular, industrializing nation.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -7728,8 +7728,8 @@
     "error_type": "none"
   },
   {
-    "input": "The history of Turkey, understood as the history of the area now forming the territory of the Republic of Turkey, includes the history of both Anatolia (the Asian part of Turkey) and Eastern Thrace (the European part of Turkey).",
-    "target": "The history of Turkey, understood as the history of the area now forming the territory of the Republic of Turkey, includes the history of both Anatolia (the Asian part of Turkey) and Eastern Thrace (the European part of Turkey).",
+    "input": "The history of Türkiye, understood as the history of the area now forming the territory of the Republic of Türkiye, includes the history of both Anatolia (the Asian part of Türkiye) and Eastern Thrace (the European part of Türkiye).",
+    "target": "The history of Türkiye, understood as the history of the area now forming the territory of the Republic of Türkiye, includes the history of both Anatolia (the Asian part of Türkiye) and Eastern Thrace (the European part of Türkiye).",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -7740,8 +7740,8 @@
     "error_type": "transposition"
   },
   {
-    "input": "Turkey's political system is based on a separation of powers.",
-    "target": "Turkey's political system is based on a separation of powers.",
+    "input": "Türkiye's political system is based on a separation of powers.",
+    "target": "Türkiye's political system is based on a separation of powers.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -7806,8 +7806,8 @@
     "error_type": "none"
   },
   {
-    "input": "Izmir (sometimes Izmir) was adopted in English and most foreign languages after Turkey adopted the Latin alphabet in 1928 and urged other countries to use the city's Turkish name.",
-    "target": "Izmir (sometimes İzmir) was adopted in English and most foreign languages after Turkey adopted the Latin alphabet in 1928 and urged other countries to use the city's Turkish name.",
+    "input": "Izmir (sometimes Izmir) was adopted in English and most foreign languages after Türkiye adopted the Latin alphabet in 1928 and urged other countries to use the city's Turkish name.",
+    "target": "Izmir (sometimes İzmir) was adopted in English and most foreign languages after Türkiye adopted the Latin alphabet in 1928 and urged other countries to use the city's Turkish name.",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -7872,8 +7872,8 @@
     "error_type": "none"
   },
   {
-    "input": "The Istanbul-Izmit area is one of the main industrial regions in Turkey.",
-    "target": "The Istanbul-İzmit area is one of the main industrial regions in Turkey.",
+    "input": "The Istanbul-Izmit area is one of the main industrial regions in Türkiye.",
+    "target": "The Istanbul-İzmit area is one of the main industrial regions in Türkiye.",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -8052,8 +8052,8 @@
     "error_type": "transposition"
   },
   {
-    "input": "The city was occupied by Italy for three years in the aftermath of WorldWar I, but was returned to Turkey during the Turkish War of Independence.",
-    "target": "The city was occupied by Italy for three years in the aftermath of World War I, but was returned to Turkey during the Turkish War of Independence.",
+    "input": "The city was occupied by Italy for three years in the aftermath of WorldWar I, but was returned to Türkiye during the Turkish War of Independence.",
+    "target": "The city was occupied by Italy for three years in the aftermath of World War I, but was returned to Türkiye during the Turkish War of Independence.",
     "is_noisy": true,
     "error_type": "space"
   },
@@ -8160,8 +8160,8 @@
     "error_type": "none"
   },
   {
-    "input": "Antalya is one of the largest cities in Turkey and the capital of ntalya Province, the fifth-most populous province.",
-    "target": "Antalya is one of the largest cities in Turkey and the capital of Antalya Province, the fifth-most populous province.",
+    "input": "Antalya is one of the largest cities in Türkiye and the capital of ntalya Province, the fifth-most populous province.",
+    "target": "Antalya is one of the largest cities in Türkiye and the capital of Antalya Province, the fifth-most populous province.",
     "is_noisy": true,
     "error_type": "omission"
   },
@@ -8322,8 +8322,8 @@
     "error_type": "none"
   },
   {
-    "input": "In 1928, as one of Ataturk's reforms in the early years of the Republic of Turkey, the Perso-Arabic script-based Ottoman Turkish alphabet was replaced with the Latin script-based Turkish alphabet.",
-    "target": "In 1928, as one of Atatürk's reforms in the early years of the Republic of Turkey, the Perso-Arabic script-based Ottoman Turkish alphabet was replaced with the Latin script-based Turkish alphabet.",
+    "input": "In 1928, as one of Ataturk's reforms in the early years of the Republic of Türkiye, the Perso-Arabic script-based Ottoman Turkish alphabet was replaced with the Latin script-based Turkish alphabet.",
+    "target": "In 1928, as one of Atatürk's reforms in the early years of the Republic of Türkiye, the Perso-Arabic script-based Ottoman Turkish alphabet was replaced with the Latin script-based Turkish alphabet.",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -8532,8 +8532,8 @@
     "error_type": "none"
   },
   {
-    "input": "In the late 1930s, Nazi Germany made a major effort to promote anti-Soviet propaganda in Turkey.",
-    "target": "In the late 1930s, Nazi Germany made a major effort to promote anti-Soviet propaganda in Turkey.",
+    "input": "In the late 1930s, Nazi Germany made a major effort to promote anti-Soviet propaganda in Türkiye.",
+    "target": "In the late 1930s, Nazi Germany made a major effort to promote anti-Soviet propaganda in Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -8562,8 +8562,8 @@
     "error_type": "none"
   },
   {
-    "input": "Gaziantep, historically Aintab and still informlly called Antep, is a major city in south-central Turkey.",
-    "target": "Gaziantep, historically Aintab and still informally called Antep, is a major city in south-central Turkey.",
+    "input": "Gaziantep, historically Aintab and still informlly called Antep, is a major city in south-central Türkiye.",
+    "target": "Gaziantep, historically Aintab and still informally called Antep, is a major city in south-central Türkiye.",
     "is_noisy": true,
     "error_type": "omission"
   },
@@ -8616,8 +8616,8 @@
     "error_type": "transposition"
   },
   {
-    "input": "In wartime, the Chief of the Genezal Staff acts as the Commander-in-Chief on behalf of the President, who represents the Supreme Military Command of the TAF on behalf of the Grand National Assembly of Turkey.",
-    "target": "In wartime, the Chief of the General Staff acts as the Commander-in-Chief on behalf of the President, who represents the Supreme Military Command of the TAF on behalf of the Grand National Assembly of Turkey.",
+    "input": "In wartime, the Chief of the Genezal Staff acts as the Commander-in-Chief on behalf of the President, who represents the Supreme Military Command of the TAF on behalf of the Grand National Assembly of Türkiye.",
+    "target": "In wartime, the Chief of the General Staff acts as the Commander-in-Chief on behalf of the President, who represents the Supreme Military Command of the TAF on behalf of the Grand National Assembly of Türkiye.",
     "is_noisy": true,
     "error_type": "substitution"
   },
@@ -9414,8 +9414,8 @@
     "error_type": "none"
   },
   {
-    "input": "The history of secularism in Turkey extends to the Tanzimat reforms of Ottoman Empire.",
-    "target": "The history of secularism in Turkey extends to the Tanzimat reforms of Ottoman Empire.",
+    "input": "The history of secularism in Türkiye extends to the Tanzimat reforms of Ottoman Empire.",
+    "target": "The history of secularism in Türkiye extends to the Tanzimat reforms of Ottoman Empire.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -9480,8 +9480,8 @@
     "error_type": "none"
   },
   {
-    "input": "Recep Tayyip Erdogan is the 12th and current president of Turkey, who has held the office since 28 August 2014.",
-    "target": "Recep Tayyip Erdoğan is the 12th and current president of Turkey, who has held the office since 28 August 2014.",
+    "input": "Recep Tayyip Erdogan is the 12th and current president of Türkiye, who has held the office since 28 August 2014.",
+    "target": "Recep Tayyip Erdoğan is the 12th and current president of Türkiye, who has held the office since 28 August 2014.",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -9696,8 +9696,8 @@
     "error_type": "none"
   },
   {
-    "input": "Cappadocia lies in central Anatolia, in the heartland of what is now Turkey.",
-    "target": "Cappadocia lies in central Anatolia, in the heartland of what is now Turkey.",
+    "input": "Cappadocia lies in central Anatolia, in the heartland of what is now Türkiye.",
+    "target": "Cappadocia lies in central Anatolia, in the heartland of what is now Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -9780,8 +9780,8 @@
     "error_type": "none"
   },
   {
-    "input": "Trabzon is a city on the Black Sea coast of notheastern Turkey and the capital of Trabzon Province.",
-    "target": "Trabzon is a city on the Black Sea coast of northeastern Turkey and the capital of Trabzon Province.",
+    "input": "Trabzon is a city on the Black Sea coast of notheastern Türkiye and the capital of Trabzon Province.",
+    "target": "Trabzon is a city on the Black Sea coast of northeastern Türkiye and the capital of Trabzon Province.",
     "is_noisy": true,
     "error_type": "omission"
   },
@@ -10254,8 +10254,8 @@
     "error_type": "transposition"
   },
   {
-    "input": "It is the national language of Turkey and one of two official languages of Cyprus.",
-    "target": "It is the national language of Turkey and one of two official languages of Cyprus.",
+    "input": "It is the national language of Türkiye and one of two official languages of Cyprus.",
+    "target": "It is the national language of Türkiye and one of two official languages of Cyprus.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -10368,8 +10368,8 @@
     "error_type": "none"
   },
   {
-    "input": "The president of Turkey is referred to as Cumhurbaskani (\"Republic leader\"), and previously archaically as Cumhurreisi or Reis-i Cumhur, also meaning \"head of the republic/people\".",
-    "target": "The president of Turkey is referred to as Cumhurbaşkanı (\"Republic leader\"), and previously archaically as Cumhurreisi or Reis-i Cumhur, also meaning \"head of the republic/people\".",
+    "input": "The president of Türkiye is referred to as Cumhurbaskani (\"Republic leader\"), and previously archaically as Cumhurreisi or Reis-i Cumhur, also meaning \"head of the republic/people\".",
+    "target": "The president of Türkiye is referred to as Cumhurbaşkanı (\"Republic leader\"), and previously archaically as Cumhurreisi or Reis-i Cumhur, also meaning \"head of the republic/people\".",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -10398,8 +10398,8 @@
     "error_type": "omission"
   },
   {
-    "input": "With a population over 15 million, it is home to 18% of the population of Turkey.",
-    "target": "With a population over 15 million, it is home to 18% of the population of Turkey.",
+    "input": "With a population over 15 million, it is home to 18% of the population of Türkiye.",
+    "target": "With a population over 15 million, it is home to 18% of the population of Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -11244,8 +11244,8 @@
     "error_type": "none"
   },
   {
-    "input": "Today Trabzon is the second largest city and port on the zlack Sea coast of Turkey with a population of almost 300,000.",
-    "target": "Today Trabzon is the second largest city and port on the Black Sea coast of Turkey with a population of almost 300,000.",
+    "input": "Today Trabzon is the second largest city and port on the zlack Sea coast of Türkiye with a population of almost 300,000.",
+    "target": "Today Trabzon is the second largest city and port on the Black Sea coast of Türkiye with a population of almost 300,000.",
     "is_noisy": true,
     "error_type": "substitution"
   },
@@ -11526,8 +11526,8 @@
     "error_type": "space"
   },
   {
-    "input": "Turkey is home to over 86 million people; most are ethnic Turks, while urds are the largest ethnic minority.",
-    "target": "Turkey is home to over 86 million people; most are ethnic Turks, while Kurds are the largest ethnic minority.",
+    "input": "Türkiye is home to over 86 million people; most are ethnic Turks, while urds are the largest ethnic minority.",
+    "target": "Türkiye is home to over 86 million people; most are ethnic Turks, while Kurds are the largest ethnic minority.",
     "is_noisy": true,
     "error_type": "omission"
   },
@@ -11784,8 +11784,8 @@
     "error_type": "insertion"
   },
   {
-    "input": "The Turkish Armed Forces (TAF; Turkish: Turk Silahli Kuvvetleri, TSK) are the military forces of the Republic of Turkey.",
-    "target": "The Turkish Armed Forces (TAF; Turkish: Türk Silahlı Kuvvetleri, TSK) are the military forces of the Republic of Turkey.",
+    "input": "The Turkish Armed Forces (TAF; Turkish: Turk Silahli Kuvvetleri, TSK) are the military forces of the Republic of Türkiye.",
+    "target": "The Turkish Armed Forces (TAF; Turkish: Türk Silahlı Kuvvetleri, TSK) are the military forces of the Republic of Türkiye.",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -11814,8 +11814,8 @@
     "error_type": "omission"
   },
   {
-    "input": "Traditionally, the presidency was mostly a ceremonial position, with real executive authority being exercised by the primeminister of Turkey.",
-    "target": "Traditionally, the presidency was mostly a ceremonial position, with real executive authority being exercised by the prime minister of Turkey.",
+    "input": "Traditionally, the presidency was mostly a ceremonial position, with real executive authority being exercised by the primeminister of Türkiye.",
+    "target": "Traditionally, the presidency was mostly a ceremonial position, with real executive authority being exercised by the prime minister of Türkiye.",
     "is_noisy": true,
     "error_type": "space"
   },
@@ -11874,8 +11874,8 @@
     "error_type": "none"
   },
   {
-    "input": "International conferences gave Turkey full control of the strategic straits linking the Black Sea and the Mediterranean through the Treaty of Lausanne in 1923 and the Montreux Convention of 1936.",
-    "target": "International conferences gave Turkey full control of the strategic straits linking the Black Sea and the Mediterranean through the Treaty of Lausanne in 1923 and the Montreux Convention of 1936.",
+    "input": "International conferences gave Türkiye full control of the strategic straits linking the Black Sea and the Mediterranean through the Treaty of Lausanne in 1923 and the Montreux Convention of 1936.",
+    "target": "International conferences gave Türkiye full control of the strategic straits linking the Black Sea and the Mediterranean through the Treaty of Lausanne in 1923 and the Montreux Convention of 1936.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -12000,8 +12000,8 @@
     "error_type": "none"
   },
   {
-    "input": "The Constitution asserts that Turkey is a secular (2.1) and democratic (2.1) republic (1.1) that derives its sovereignty (6.1) from the people.",
-    "target": "The Constitution asserts that Turkey is a secular (2.1) and democratic (2.1) republic (1.1) that derives its sovereignty (6.1) from the people.",
+    "input": "The Constitution asserts that Türkiye is a secular (2.1) and democratic (2.1) republic (1.1) that derives its sovereignty (6.1) from the people.",
+    "target": "The Constitution asserts that Türkiye is a secular (2.1) and democratic (2.1) republic (1.1) that derives its sovereignty (6.1) from the people.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -12030,8 +12030,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey emerged as a more homogenous nation state.",
-    "target": "Turkey emerged as a more homogenous nation state.",
+    "input": "Türkiye emerged as a more homogenous nation state.",
+    "target": "Türkiye emerged as a more homogenous nation state.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -12066,8 +12066,8 @@
     "error_type": "none"
   },
   {
-    "input": "In 1948, both Turkey and Greece were included in the Marshall Plan and the OEEC for rebuilding European economies.",
-    "target": "In 1948, both Turkey and Greece were included in the Marshall Plan and the OEEC for rebuilding European economies.",
+    "input": "In 1948, both Türkiye and Greece were included in the Marshall Plan and the OEEC for rebuilding European economies.",
+    "target": "In 1948, both Türkiye and Greece were included in the Marshall Plan and the OEEC for rebuilding European economies.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -12217,7 +12217,7 @@
   },
   {
     "input": "The Constitution of Turkey, formally known as the Constitution of the Republic of Turkey (Turkish: Türkiye Cumhuriyeti Anayasası), and informally as the Constitution of 1982 (Turkish: 1982 Anayasası), is Turkey's fundamental law.",
-    "target": "The Constitution of Turkey, formally known as the Constitution of the Republic of Türkiye (Turkish: Türkiye Cumhuriyeti Anayasası), and informally as the Constitution of 1982 (Turkish: 1982 Anayasası), is Turkey's fundamental law.",
+    "target": "The Constitution of Türkiye, formally known as the Constitution of the Republic of Türkiye (Turkish: Türkiye Cumhuriyeti Anayasası), and informally as the Constitution of 1982 (Turkish: 1982 Anayasası), is Türkiye's fundamental law.",
     "is_noisy": true,
     "error_type": "terminology"
   },
@@ -12474,8 +12474,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey applied for full membership of the EEC in 1987, joined the European Union Customs Union in 1995, and started accession negotiations with the European Union in 2005.",
-    "target": "Turkey applied for full membership of the EEC in 1987, joined the European Union Customs Union in 1995, and started accession negotiations with the European Union in 2005.",
+    "input": "Türkiye applied for full membership of the EEC in 1987, joined the European Union Customs Union in 1995, and started accession negotiations with the European Union in 2005.",
+    "target": "Türkiye applied for full membership of the EEC in 1987, joined the European Union Customs Union in 1995, and started accession negotiations with the European Union in 2005.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -12529,7 +12529,7 @@
   },
   {
     "input": "The office of the president of Turkey was established with the proclamation of the Republic of Turkey on 29 October 1923, with the first president and founder being Mustafa Kemal Atatürk.",
-    "target": "The office of the president of Turkey was established with the proclamation of the Republic of Türkiye on 29 October 1923, with the first president and founder being Mustafa Kemal Atatürk.",
+    "target": "The office of the president of Türkiye was established with the proclamation of the Republic of Türkiye on 29 October 1923, with the first president and founder being Mustafa Kemal Atatürk.",
     "is_noisy": true,
     "error_type": "terminology"
   },
@@ -12576,8 +12576,8 @@
     "error_type": "none"
   },
   {
-    "input": "Coming from an Islamist background and promoting socially conservative policies, Turkey has experienced increasing authoritarianism, democratic backsliding and suppression of dissent under Erdogan's rule.",
-    "target": "Coming from an Islamist background and promoting socially conservative policies, Turkey has experienced increasing authoritarianism, democratic backsliding and suppression of dissent under Erdoğan's rule.",
+    "input": "Coming from an Islamist background and promoting socially conservative policies, Türkiye has experienced increasing authoritarianism, democratic backsliding and suppression of dissent under Erdogan's rule.",
+    "target": "Coming from an Islamist background and promoting socially conservative policies, Türkiye has experienced increasing authoritarianism, democratic backsliding and suppression of dissent under Erdoğan's rule.",
     "is_noisy": true,
     "error_type": "deascii"
   },

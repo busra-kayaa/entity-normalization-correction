@@ -198,8 +198,8 @@
     "error_type": "space"
   },
   {
-    "input": "As of December 2025, it is the most populous city in Europe, with a population of more than 16 million residents, straddling the Bosporus Strait and lying in both Europe and Asia, and is the financial beneficiary of Turkey.",
-    "target": "As of December 2025, it is the most populous city in Europe, with a population of more than 16 million residents, straddling the Bosporus Strait and lying in both Europe and Asia, and is the financial beneficiary of Turkey.",
+    "input": "As of December 2025, it is the most populous city in Europe, with a population of more than 16 million residents, straddling the Bosporus Strait and lying in both Europe and Asia, and is the financial beneficiary of Türkiye.",
+    "target": "As of December 2025, it is the most populous city in Europe, with a population of more than 16 million residents, straddling the Bosporus Strait and lying in both Europe and Asia, and is the financial beneficiary of Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -354,8 +354,8 @@
     "error_type": "transposition"
   },
   {
-    "input": "Prior to declaring war against the Axis powers on February 23, 1945, Turkey's primary ally had been the UnitedStates, with both countries aiming to contain Soviet expansion.",
-    "target": "Prior to declaring war against the Axis powers on February 23, 1945, Turkey's primary ally had been the United States, with both countries aiming to contain Soviet expansion.",
+    "input": "Prior to declaring war against the Axis powers on February 23, 1945, Türkiye's primary ally had been the UnitedStates, with both countries aiming to contain Soviet expansion.",
+    "target": "Prior to declaring war against the Axis powers on February 23, 1945, Türkiye's primary ally had been the United States, with both countries aiming to contain Soviet expansion.",
     "is_noisy": true,
     "error_type": "space"
   },
@@ -918,8 +918,8 @@
     "error_type": "omission"
   },
   {
-    "input": "Istanbul straddles the Bosphorus – one of the world's busiest waterways – in northwestern Turkey, between the Sea of Marmara and the Black Sea.",
-    "target": "Istanbul straddles the Bosphorus – one of the world's busiest waterways – in northwestern Turkey, between the Sea of Marmara and the Black Sea.",
+    "input": "Istanbul straddles the Bosphorus – one of the world's busiest waterways – in northwestern Türkiye, between the Sea of Marmara and the Black Sea.",
+    "target": "Istanbul straddles the Bosphorus – one of the world's busiest waterways – in northwestern Türkiye, between the Sea of Marmara and the Black Sea.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -942,8 +942,8 @@
     "error_type": "none"
   },
   {
-    "input": "In February 2023, the city was significantly damaged by the 2023 Turkey–Syria earthquake.",
-    "target": "In February 2023, the city was significantly damaged by the 2023 Turkey–Syria earthquake.",
+    "input": "In February 2023, the city was significantly damaged by the 2023 Türkiye–Syria earthquake.",
+    "target": "In February 2023, the city was significantly damaged by the 2023 Türkiye–Syria earthquake.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -978,8 +978,8 @@
     "error_type": "none"
   },
   {
-    "input": "Historically, the foreign relations of the Ottoman Empire and later Turkey balanced regional and global powers against one another, forming alliances that best protected the interests of the incumbent regime.",
-    "target": "Historically, the foreign relations of the Ottoman Empire and later Turkey balanced regional and global powers against one another, forming alliances that best protected the interests of the incumbent regime.",
+    "input": "Historically, the foreign relations of the Ottoman Empire and later Türkiye balanced regional and global powers against one another, forming alliances that best protected the interests of the incumbent regime.",
+    "target": "Historically, the foreign relations of the Ottoman Empire and later Türkiye balanced regional and global powers against one another, forming alliances that best protected the interests of the incumbent regime.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -1812,8 +1812,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey remained neutral during most of WorldWar II, but was involved in the Korean War.",
-    "target": "Turkey remained neutral during most of World War II, but was involved in the Korean War.",
+    "input": "Türkiye remained neutral during most of WorldWar II, but was involved in the Korean War.",
+    "target": "Türkiye remained neutral during most of World War II, but was involved in the Korean War.",
     "is_noisy": true,
     "error_type": "space"
   },
@@ -2281,7 +2281,7 @@
   },
   {
     "input": "Turkey, officially the Republic of Turkey, is a country mainly located in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe.",
-    "target": "Turkey, officially the Republic of Türkiye, is a country mainly located in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe.",
+    "target": "Türkiye, officially the Republic of Türkiye, is a country mainly located in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe.",
     "is_noisy": true,
     "error_type": "terminology"
   },
@@ -2550,8 +2550,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey is one of five NATO member states which are part of the nuclear sharing policy of the alliance, together with Belgium, Germany, Italy, and the Netherlands.",
-    "target": "Turkey is one of five NATO member states which are part of the nuclear sharing policy of the alliance, together with Belgium, Germany, Italy, and the Netherlands.",
+    "input": "Türkiye is one of five NATO member states which are part of the nuclear sharing policy of the alliance, together with Belgium, Germany, Italy, and the Netherlands.",
+    "target": "Türkiye is one of five NATO member states which are part of the nuclear sharing policy of the alliance, together with Belgium, Germany, Italy, and the Netherlands.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -2574,8 +2574,8 @@
     "error_type": "none"
   },
   {
-    "input": "Until the 1923 population exchange between Greece and Turkey, Izmir had a very large Greek population.",
-    "target": "Until the 1923 population exchange between Greece and Turkey, İzmir had a very large Greek population.",
+    "input": "Until the 1923 population exchange between Greece and Türkiye, Izmir had a very large Greek population.",
+    "target": "Until the 1923 population exchange between Greece and Türkiye, İzmir had a very large Greek population.",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -2700,8 +2700,8 @@
     "error_type": "none"
   },
   {
-    "input": "Ataturk's personality cult and the Kemalist historiography developed around it have had significant and ongoing influences on Turkey's political culture and historical narrative.",
-    "target": "Atatürk's personality cult and the Kemalist historiography developed around it have had significant and ongoing influences on Turkey's political culture and historical narrative.",
+    "input": "Ataturk's personality cult and the Kemalist historiography developed around it have had significant and ongoing influences on Türkiye's political culture and historical narrative.",
+    "target": "Atatürk's personality cult and the Kemalist historiography developed around it have had significant and ongoing influences on Türkiye's political culture and historical narrative.",
     "is_noisy": true,
     "error_type": "deascii"
   }

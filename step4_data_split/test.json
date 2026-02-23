@@ -510,8 +510,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey's concept of laiklik (\"laicism\") calls for the separation of state and religion, but also describes the state's stance as one of \"active neutrality\", which involves state conrtol and legal regulation of religion.",
-    "target": "Turkey's concept of laiklik (\"laicism\") calls for the separation of state and religion, but also describes the state's stance as one of \"active neutrality\", which involves state control and legal regulation of religion.",
+    "input": "Türkiye's concept of laiklik (\"laicism\") calls for the separation of state and religion, but also describes the state's stance as one of \"active neutrality\", which involves state conrtol and legal regulation of religion.",
+    "target": "Türkiye's concept of laiklik (\"laicism\") calls for the separation of state and religion, but also describes the state's stance as one of \"active neutrality\", which involves state control and legal regulation of religion.",
     "is_noisy": true,
     "error_type": "transposition"
   },
@@ -648,8 +648,8 @@
     "error_type": "none"
   },
   {
-    "input": "His government subsequently proceeded to abolish the Ottoman sultanate in 1922 and proclaimed the Republic of Turkey in its place in 1923.",
-    "target": "His government subsequently proceeded to abolish the Ottoman sultanate in 1922 and proclaimed the Republic of Turkey in its place in 1923.",
+    "input": "His government subsequently proceeded to abolish the Ottoman sultanate in 1922 and proclaimed the Republic of Türkiye in its place in 1923.",
+    "target": "His government subsequently proceeded to abolish the Ottoman sultanate in 1922 and proclaimed the Republic of Türkiye in its place in 1923.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -1044,8 +1044,8 @@
     "error_type": "substitution"
   },
   {
-    "input": "Istanbul is the largest city in Turkey, constituting the country's economic, cultural, and historical center.",
-    "target": "Istanbul is the largest city in Turkey, constituting the country's economic, cultural, and historical center.",
+    "input": "Istanbul is the largest city in Türkiye, constituting the country's economic, cultural, and historical center.",
+    "target": "Istanbul is the largest city in Türkiye, constituting the country's economic, cultural, and historical center.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -1116,8 +1116,8 @@
     "error_type": "none"
   },
   {
-    "input": "The politics of Turkey take place in the framework of a constitutional republic and presidential system, with various levels and branches of power.",
-    "target": "The politics of Turkey take place in the framework of a constitutional republic and presidential system, with various levels and branches of power.",
+    "input": "The politics of Türkiye take place in the framework of a constitutional republic and presidential system, with various levels and branches of power.",
+    "target": "The politics of Türkiye take place in the framework of a constitutional republic and presidential system, with various levels and branches of power.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -1290,8 +1290,8 @@
     "error_type": "none"
   },
   {
-    "input": "The parliament's minutes are translated into the four languages: Arabic, Russian, English and French, but not in the Kurdish language which is the second most spoken native language in Turkey.",
-    "target": "The parliament's minutes are translated into the four languages: Arabic, Russian, English and French, but not in the Kurdish language which is the second most spoken native language in Turkey.",
+    "input": "The parliament's minutes are translated into the four languages: Arabic, Russian, English and French, but not in the Kurdish language which is the second most spoken native language in Türkiye.",
+    "target": "The parliament's minutes are translated into the four languages: Arabic, Russian, English and French, but not in the Kurdish language which is the second most spoken native language in Türkiye.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -1518,8 +1518,8 @@
     "error_type": "none"
   },
   {
-    "input": "Foreign relations of Turkey refers to the diplomatic and trade ties between Turkey and other nations.",
-    "target": "Foreign relations of Turkey refers to the diplomatic and trade ties between Turkey and other nations.",
+    "input": "Foreign relations of Türkiye refers to the diplomatic and trade ties between Türkiye and other nations.",
+    "target": "Foreign relations of Türkiye refers to the diplomatic and trade ties between Türkiye and other nations.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -1530,8 +1530,8 @@
     "error_type": "omission"
   },
   {
-    "input": "The city is Turkey's biggest international sea resort on the Tukrish Riviera.",
-    "target": "The city is Turkey's biggest international sea resort on the Turkish Riviera.",
+    "input": "The city is Türkiye's biggest international sea resort on the Tukrish Riviera.",
+    "target": "The city is Türkiye's biggest international sea resort on the Turkish Riviera.",
     "is_noisy": true,
     "error_type": "transposition"
   },
@@ -1633,7 +1633,7 @@
   },
   {
     "input": "Legislative power is invested in the 600-seat Grand National Assembly of Turkey (Turkey Büyük Millet Meclisi), representing 81 provinces.",
-    "target": "Legislative power is invested in the 600-seat Grand National Assembly of Turkey (Türkiye Büyük Millet Meclisi), representing 81 provinces.",
+    "target": "Legislative power is invested in the 600-seat Grand National Assembly of Türkiye (Türkiye Büyük Millet Meclisi), representing 81 provinces.",
     "is_noisy": true,
     "error_type": "terminology"
   },
@@ -1747,7 +1747,7 @@
   },
   {
     "input": "Turkeey became one of the early members of the Council of Europe in 1950.",
-    "target": "Turkey became one of the early members of the Council of Europe in 1950.",
+    "target": "Türkiye became one of the early members of the Council of Europe in 1950.",
     "is_noisy": true,
     "error_type": "insertion"
   },
@@ -1860,8 +1860,8 @@
     "error_type": "none"
   },
   {
-    "input": "In the following decades, Turkey benefited from American political, economic, and diplomatic support—particularly on critical issues such as its longstanding bid for EuropeanUnion membership.",
-    "target": "In the following decades, Turkey benefited from American political, economic, and diplomatic support—particularly on critical issues such as its longstanding bid for European Union membership.",
+    "input": "In the following decades, Türkiye benefited from American political, economic, and diplomatic support—particularly on critical issues such as its longstanding bid for EuropeanUnion membership.",
+    "target": "In the following decades, Türkiye benefited from American political, economic, and diplomatic support—particularly on critical issues such as its longstanding bid for European Union membership.",
     "is_noisy": true,
     "error_type": "space"
   },
@@ -2130,8 +2130,8 @@
     "error_type": "omission"
   },
   {
-    "input": "Turkey's demographics were significantly affected by the Armenian genocide and deportations of Greek-speaking, Orthodox Christian Rum people.",
-    "target": "Turkey's demographics were significantly affected by the Armenian genocide and deportations of Greek-speaking, Orthodox Christian Rum people.",
+    "input": "Türkiye's demographics were significantly affected by the Armenian genocide and deportations of Greek-speaking, Orthodox Christian Rum people.",
+    "target": "Türkiye's demographics were significantly affected by the Armenian genocide and deportations of Greek-speaking, Orthodox Christian Rum people.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -2328,8 +2328,8 @@
     "error_type": "none"
   },
   {
-    "input": "Izmir is the third most populous city in Turkey, after Istanbul and Ankara.",
-    "target": "İzmir is the third most populous city in Turkey, after Istanbul and Ankara.",
+    "input": "Izmir is the third most populous city in Türkiye, after Istanbul and Ankara.",
+    "target": "İzmir is the third most populous city in Türkiye, after Istanbul and Ankara.",
     "is_noisy": true,
     "error_type": "deascii"
   },
@@ -2340,8 +2340,8 @@
     "error_type": "space"
   },
   {
-    "input": "The Allies evacuated Anatolia and eastern Thrace, the Ottoman government was overthrown, the monarchy abolished, and the Grand National Assembly of Turkey declared the Republic of Turkey on 29 October 1923.",
-    "target": "The Allies evacuated Anatolia and eastern Thrace, the Ottoman government was overthrown, the monarchy abolished, and the Grand National Assembly of Turkey declared the Republic of Turkey on 29 October 1923.",
+    "input": "The Allies evacuated Anatolia and eastern Thrace, the Ottoman government was overthrown, the monarchy abolished, and the Grand National Assembly of Türkiye declared the Republic of Türkiye on 29 October 1923.",
+    "target": "The Allies evacuated Anatolia and eastern Thrace, the Ottoman government was overthrown, the monarchy abolished, and the Grand National Assembly of Türkiye declared the Republic of Türkiye on 29 October 1923.",
     "is_noisy": false,
     "error_type": "none"
   },
@@ -2460,8 +2460,8 @@
     "error_type": "none"
   },
   {
-    "input": "After threts from Germany and the Soviet Union, Turkey maintained neutrality.",
-    "target": "After threats from Germany and the Soviet Union, Turkey maintained neutrality.",
+    "input": "After threts from Germany and the Soviet Union, Türkiye maintained neutrality.",
+    "target": "After threats from Germany and the Soviet Union, Türkiye maintained neutrality.",
     "is_noisy": true,
     "error_type": "omission"
   },
@@ -2592,8 +2592,8 @@
     "error_type": "none"
   },
   {
-    "input": "Turkey is a presidential representative democracy and a constitutional republic within a pluriform multi-party system, in which the president (the head of state and head of goverment), parliament, and judiciary share powers reserved to the national government.",
-    "target": "Turkey is a presidential representative democracy and a constitutional republic within a pluriform multi-party system, in which the president (the head of state and head of government), parliament, and judiciary share powers reserved to the national government.",
+    "input": "Türkiye is a presidential representative democracy and a constitutional republic within a pluriform multi-party system, in which the president (the head of state and head of goverment), parliament, and judiciary share powers reserved to the national government.",
+    "target": "Türkiye is a presidential representative democracy and a constitutional republic within a pluriform multi-party system, in which the president (the head of state and head of government), parliament, and judiciary share powers reserved to the national government.",
     "is_noisy": true,
     "error_type": "common"
   },
