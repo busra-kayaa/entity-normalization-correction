@@ -1,0 +1,19 @@
+
+==================================================
+      ENTITY NORMALIZATION EVALUATION (T5-BASE)
+==================================================
+Tarih: 2026-02-23 16:31:05
+Model: T5-Base (Fine-tuned on Colab)
+Test Verisi: test.json
+Toplam Örnek Sayısı: 453
+
+---------------- METRİKLER -----------------------
+🎯 Accuracy (Tam Eşleşme): %85.65
+✨ Precision: 0.8565
+📈 Recall: 0.8565
+🏆 F1-Score: 0.8565
+
+---------------- ÖZET ----------------------------
+✅ Başarılı Düzenleme: 388
+❌ Hatalı Düzenleme  : 65
+==================================================
