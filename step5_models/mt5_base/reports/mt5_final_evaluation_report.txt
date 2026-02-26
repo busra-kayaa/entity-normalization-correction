@@ -1,0 +1,27 @@
+
+==================================================
+      ADVANCED EVALUATION REPORT (mT5-BASE)
+==================================================
+Tarih: 2026-02-26 15:59:42
+Model: mT5-Base (Multilingual)
+Toplam Örnek Sayısı: 453
+
+---------------- TEMEL METRİKLER -----------------
+🎯 Accuracy (Tam Eşleşme): %51.88
+✨ Precision: 0.5188
+📈 Recall: 0.5188
+🏆 F1-Score: 0.5188
+
+---------------- GELİŞMİŞ METRİKLER --------------
+📉 Avg CER (Karakter Hata Oranı): 0.0172
+🧩 Avg GLEU (Gramer Benzerliği): 0.9334
+⚠️ Over-Correction Rate: %26.81
+
+---------------- DETAYLI ANALİZ ------------------
+🔍 "None" (Zaten Doğru) Analizi:
+- Toplam None Sayısı : 276
+- Doğru Korunan (TP) : 202
+- Gereksiz Düzeltilen (FP/OC): 74
+
+💡 Not: Seçici müdahale başarısı %73.19 seviyesindedir.
+==================================================
