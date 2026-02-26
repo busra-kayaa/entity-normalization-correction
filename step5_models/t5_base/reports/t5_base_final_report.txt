@@ -1,0 +1,27 @@
+
+==================================================
+      ADVANCED EVALUATION REPORT (T5-BASE)
+==================================================
+Tarih: 2026-02-26 22:16:14
+Model: T5-Base (Normalizer)
+Toplam Örnek Sayısı: 453
+
+---------------- TEMEL METRİKLER -----------------
+🎯 Accuracy (Tam Eşleşme): %85.65
+✨ Precision: 0.8565
+📈 Recall: 0.8565
+🏆 F1-Score: 0.8565
+
+---------------- GELİŞMİŞ METRİKLER --------------
+📉 Avg CER (Karakter Hata Oranı): 0.0037
+🧩 Avg GLEU (Gramer Benzerliği): 0.9814
+⚠️ Over-Correction Rate: %1.09
+
+---------------- DETAYLI SEÇİCİ MÜDAHALE ----------
+🔍 "None" (Zaten Doğru Olan) Analizi:
+- Toplam 'None' Verisi : 276
+- Doğru Korunan (TP)   : 273
+- Gereksiz Düzeltilen (OC): 3
+
+💡 Not: Modelin doğruyu bozmadan geçme başarısı %98.91 seviyesindedir.
+==================================================

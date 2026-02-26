@@ -1,0 +1,48 @@
+
+==================================================
+      T5-BASE MANUEL TEST KATEGORİ RAPORU
+==================================================
+Tarih: 2026-02-26 21:54:34
+Genel Accuracy: %40.00
+
+---------------- KATEGORİ ÖZETİ ------------------
+    Hata Türü  Toplam  Doğru Başarı (%)
+      DEASCII       6      1     %16.67
+  TERMINOLOGY       3      0      %0.00
+     OMISSION       2      0      %0.00
+    INSERTION       1      1    %100.00
+TRANSPOSITION       2      0      %0.00
+ SUBSTITUTION       2      0      %0.00
+        SPACE       2      1     %50.00
+       COMMON       3      3    %100.00
+         NONE       4      4    %100.00
+==================================================
+
+
+DETAYLI TEST LİSTESİ:
+     Kategori                                         Girdi                                      Beklenen                                        Tahmin Durum
+      DEASCII  Turkiye is a bridge between Europe and Asia.  Türkiye is a bridge between Europe and Asia.  Turkiye is a bridge between Europe and Asia.     ❌
+      DEASCII             TURKIYE is now the official name.             TÜRKİYE is now the official name.             TURKIYE is now the official name.     ❌
+      DEASCII      We are going to Istanbul for the summit.      We are going to İstanbul for the summit.      We are going to Istanbul for the summit.     ❌
+      DEASCII             The weather in Izmir is very hot.             The weather in İzmir is very hot.              The weather in zmir is very hot.     ❌
+      DEASCII            Besiktas won the match last night.            Beşiktaş won the match last night.            Beşiktaş won the match last night.     ✅
+      DEASCII        President Erdogan will visit the site.        President Erdoğan will visit the site.         President Erdoan will visit the site.     ❌
+  TERMINOLOGY         The flight was from London to Turkey.        The flight was from London to Türkiye.         The flight was from London to Turkey.     ❌
+  TERMINOLOGY    The government of Burma is under pressure.  The government of Myanmar is under pressure.    The government of Burma is under pressure.     ❌
+  TERMINOLOGY   Swaziland has changed its name to Eswatini.    Eswatini has changed its name to Eswatini.   Swaziland has changed its name to Eswatini.     ❌
+     OMISSION             President Erdğan will speak soon.            President Erdoğan will speak soon.              President Erdan will speak soon.     ❌
+     OMISSION                   The Prsident made a choice.                  The President made a choice.                   The Prsident made a choice.     ❌
+    INSERTION          The poliitcal situation is unstable.          The political situation is unstable.          The political situation is unstable.     ✅
+TRANSPOSITION          Irsaeli officials reported the news.          Israeli officials reported the news.          Irsaeli officials reported the news.     ❌
+TRANSPOSITION                  Sülyeman visited the office.                  Süleyman visited the office.                  Sülyeman visited the office.     ❌
+ SUBSTITUTION         The Taliban is in control of Takiban.         The Taliban is in control of Taliban.         The Taliban is in control of Takiban.     ❌
+ SUBSTITUTION              Ankara and Abkara are different.              Ankara and Ankara are different.              Ankara and Abkara are different.     ❌
+        SPACE        NewYork is the city that never sleeps.       New York is the city that never sleeps.       New York is the city that never sleeps.     ✅
+        SPACE         AbdullahGul was the former president.        Abdullah Gül was the former president.        Abdullah Gul was the former president.     ❌
+       COMMON                 I did not recieve your email.                 I did not receive your email.                 I did not receive your email.     ✅
+       COMMON         The goverment announced a new policy.        The government announced a new policy.        The government announced a new policy.     ✅
+       COMMON               The enviroment is our priority.              The environment is our priority.              The environment is our priority.     ✅
+         NONE                The month of May is beautiful.                The month of May is beautiful.                The month of May is beautiful.     ✅
+         NONE              Bill is a common name in the US.              Bill is a common name in the US.              Bill is a common name in the US.     ✅
+         NONE         The weather in London is rainy today.         The weather in London is rainy today.         The weather in London is rainy today.     ✅
+         NONE This is a correctly written English sentence. This is a correctly written English sentence. This is a correctly written English sentence.     ✅
