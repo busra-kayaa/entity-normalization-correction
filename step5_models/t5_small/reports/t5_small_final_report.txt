@@ -1,0 +1,27 @@
+
+==================================================
+      ADVANCED EVALUATION REPORT (T5-SMALL)
+==================================================
+Tarih: 2026-02-26 23:00:02
+Model: T5-Small (Baseline)
+Toplam Örnek Sayısı: 453
+
+---------------- TEMEL METRİKLER -----------------
+🎯 Accuracy (Tam Eşleşme): %75.50
+✨ Precision: 0.7550
+📈 Recall: 0.7550
+🏆 F1-Score: 0.7550
+
+---------------- GELİŞMİŞ METRİKLER --------------
+📉 Avg CER (Karakter Hata Oranı): 0.0065
+🧩 Avg GLEU (Gramer Benzerliği): 0.9690
+⚠️ Over-Correction Rate: %4.35
+
+---------------- DETAYLI SEÇİCİ MÜDAHALE ----------
+🔍 "None" (Zaten Doğru Olan) Analizi:
+- Toplam 'None' Verisi : 276
+- Doğru Korunan (TP)   : 264
+- Gereksiz Düzeltilen (OC): 12
+
+💡 Not: T5-Small modelinin doğruyu bozmadan geçme başarısı %95.65 seviyesindedir.
+==================================================

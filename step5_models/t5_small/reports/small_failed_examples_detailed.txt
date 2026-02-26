@@ -1,0 +1,557 @@
+=== T5-SMALL DETAYLI HATALI TAHMİN VE OC LOGLARI ===
+
+Tür: SUBSTITUTION
+In : The duty is assigned to a committee whose number of members, duration of work and locatixn of work is determined by the proposal of the Parliamentary Speaker and the approval of the General Assembly.
+GT : The duty is assigned to a committee whose number of members, duration of work and location of work is determined by the proposal of the Parliamentary Speaker and the approval of the General Assembly.
+PR : The duty is assigned to a committee whose number of members, duration of work and locating of work is determined by the proposal of the Parliamentary Speaker and the approval of the General Assembly.
+----------------------------------------
+Tür: SUBSTITUTION
+In : Fyreign Policy was founded in late 1970 by Samuel P.
+GT : Foreign Policy was founded in late 1970 by Samuel P.
+PR : Fyreign Policy was founded in late 1970 by Samuel P.
+----------------------------------------
+Tür: TRANSPOSITION
+In : The region is mentioned in the Jewish Mishnah, in Ketubot 13:11, and in several placse in the Talmud, including Yevamot 121a, Hullin 47b.
+GT : The region is mentioned in the Jewish Mishnah, in Ketubot 13:11, and in several places in the Talmud, including Yevamot 121a, Hullin 47b.
+PR : The region is mentioned in the Jewish Mishnah, in Ketubot 13:11, and in several placse in the Talmud, including Yevamot 121a, Hullin 47b.
+----------------------------------------
+Tür: TRANSPOSITION
+In : Communism is a part of the broader oscialist movement.
+GT : Communism is a part of the broader socialist movement.
+PR : Communism is a part of the broader oscialist movement.
+----------------------------------------
+Tür: SUBSTITUTION
+In : Ideologically an African natioyalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.
+GT : Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.
+PR : Ideologically an African natioyalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.
+----------------------------------------
+Tür: OMISSION
+In : Acts 2:5 states "Now there were staying in Jerusalem God-fearing Jews from every nation under heaven," seemin to suggest that some of the Cappadocians were Jews, or part of the diaspora of Jews present in Jerusalem at the time.
+GT : Acts 2:5 states "Now there were staying in Jerusalem God-fearing Jews from every nation under heaven," seeming to suggest that some of the Cappadocians were Jews, or part of the diaspora of Jews present in Jerusalem at the time.
+PR : Acts 2:5 states "Now there were staying in Jerusalem God-fearing Jews from every nation under heaven," seemin to suggest that some of the Cappadocians were Jews, or part of the diaspora of Jews present in Jerusalem at the time.
+----------------------------------------
+Tür: TRANSPOSITION
+In : The Acts of Union 1707 declared that the Knigdom of England and the Kingdom of Scotland were "United into One Kingdom by the Name of Great Britain".
+GT : The Acts of Union 1707 declared that the Kingdom of England and the Kingdom of Scotland were "United into One Kingdom by the Name of Great Britain".
+PR : The Acts of Union 1707 declared that the Knigdom of England and the Kingdom of Scotland were "United into One Kingdom by the Name of Great Britain".
+----------------------------------------
+Tür: INSERTION
+In : Modern jurisprudence began in the 18th centuary and was based on the first principles of natural law, civil law, and the law of nations.
+GT : Modern jurisprudence began in the 18th century and was based on the first principles of natural law, civil law, and the law of nations.
+PR : Modern jurisprudence began in the 18th centuary and was based on the first principles of natural law, civil law, and the law of nations.
+----------------------------------------
+Tür: DEASCII
+In : Erdogan was released from prison in 1999 and formed the AKP, abandoning openly Islamist policies.
+GT : Erdoğan was released from prison in 1999 and formed the AKP, abandoning openly Islamist policies.
+PR : Erdogan was released from prison in 1999 and formed the AKP, abandoning openly Islamist policies.
+----------------------------------------
+Tür: DEASCII
+In : With the 2007 constitutional amendment referendum, it was decided that the president would be elected by the people, and in the first elections held on 10 August 2014 after this change, Recep Tayyip Erdogan was elected president by the people.
+GT : With the 2007 constitutional amendment referendum, it was decided that the president would be elected by the people, and in the first elections held on 10 August 2014 after this change, Recep Tayyip Erdoğan was elected president by the people.
+PR : With the 2007 constitutional amendment referendum, it was decided that the president would be elected by the people, and in the first elections held on 10 August 2014 after this change, Recep Tayyip Erdoan was elected president by the people.
+----------------------------------------
+Tür: DEASCII
+In : Other important Anatolian Neolithic sites include Catalhoyuk and Alaca Hoyuk.
+GT : Other important Anatolian Neolithic sites include Çatalhöyük and Alaca Höyük.
+PR : Other important Anatolian Neolithic sites include Catalhoyuk and Alaca Hoyuk.
+----------------------------------------
+Tür: TRANSPOSITION
+In : Archaeology, often referred to as the "anthropology of the past," expolres human activity by examining physical remains.
+GT : Archaeology, often referred to as the "anthropology of the past," explores human activity by examining physical remains.
+PR : Archaeology, often referred to as the "anthropology of the past," expolres human activity by examining physical remains.
+----------------------------------------
+Tür: DEASCII
+In : These campaigns were directed against Greece in the west, Armenia in the east, France in the south, loyalists and separatists in various cities, and British and Ottoman troops around Constantinople (Istanbul).
+GT : These campaigns were directed against Greece in the west, Armenia in the east, France in the south, loyalists and separatists in various cities, and British and Ottoman troops around Constantinople (İstanbul).
+PR : These campaigns were directed against Greece in the west, Armenia in the east, France in the south, loyalists and separatists in various cities, and British and Ottoman troops around Constantinople (Istanbul).
+----------------------------------------
+Tür: INSERTION
+In : The FP Group also prodbuces FP Events, Foreign Policy's events division, launched in 2012.
+GT : The FP Group also produces FP Events, Foreign Policy's events division, launched in 2012.
+PR : The FP Group also supports FP Events, Foreign Policy's events division, launched in 2012.
+----------------------------------------
+Tür: SUBSTITUTION
+In : Mattxr can be studied in solid, liquid, gas and plasma states, in isolation or in combination.
+GT : Matter can be studied in solid, liquid, gas and plasma states, in isolation or in combination.
+PR : Mattxr can be studied in solid, liquid, gas and plasma states, in isolation or in combination.
+----------------------------------------
+Tür: SUBSTITUTION
+In : Newtzn solved the two-body problem and introduced the three-body problem.
+GT : Newton solved the two-body problem and introduced the three-body problem.
+PR : Newtzn solved the two-body problem and introduced the three-body problem.
+----------------------------------------
+Tür: OMISSION
+In : Beyond egal definitions, several non-governmental organizations use other criteria to judge the level of press freedom worldwide.
+GT : Beyond legal definitions, several non-governmental organizations use other criteria to judge the level of press freedom worldwide.
+PR : Beyond egal definitions, several non-governmental organizations use other criteria to judge the level of press freedom worldwide.
+----------------------------------------
+Tür: TRANSPOSITION
+In : Türkiye's concept of laiklik ("laicism") calls for the separation of state and religion, but also describes the state's stance as one of "active neutrality", which involves state conrtol and legal regulation of religion.
+GT : Türkiye's concept of laiklik ("laicism") calls for the separation of state and religion, but also describes the state's stance as one of "active neutrality", which involves state control and legal regulation of religion.
+PR : Türkiye's concept of laiklik ("laicism") calls for the separation of state and religion, but also describes the state's stance as one of "active neutrality", which involves state regulation and legal regulation of religion.
+----------------------------------------
+Tür: TRANSPOSITION
+In : Criminal law inlcudes the punishment and rehabilitation of people who violate such laws.
+GT : Criminal law includes the punishment and rehabilitation of people who violate such laws.
+PR : Criminal law defines the punishment and rehabilitation of people who violate such laws.
+----------------------------------------
+Tür: NONE
+In : Austria is a parliamentary republic, the system of government in which real power is vested in the head of government.
+GT : Austria is a parliamentary republic, the system of government in which real power is vested in the head of government.
+PR : Austria is a parliamentary republic, the system of government in which real power is reserved in the head of government.
+----------------------------------------
+Tür: OMISSION
+In : The IBRD and IDA provide loans at preferential rates to member countries, as well as grants to the pooest countries.
+GT : The IBRD and IDA provide loans at preferential rates to member countries, as well as grants to the poorest countries.
+PR : The IBRD and IDA provide loans at preferential rates to member countries, as well as grants to the pooest countries.
+----------------------------------------
+Tür: SUBSTITUTION
+In : Miller stated that the ensuing positivy feedback and his "dream collaboration" working with M.I.A.
+GT : Miller stated that the ensuing positive feedback and his "dream collaboration" working with M.I.A.
+PR : Miller stated that the ensuing positivy feedback and his "dream collaboration" working with M.I.A.
+----------------------------------------
+Tür: OMISSION
+In : Around 2100–2050 BC Ur-Nammu, the Neo-Sumerian king of Ur, enacted written legal code whose text has been discovered: the Code of Ur-Nammu although an earlier code of Urukagin of Lagash ( 2380–2360 BC ) is also known to have existed.
+GT : Around 2100–2050 BC Ur-Nammu, the Neo-Sumerian king of Ur, enacted written legal code whose text has been discovered: the Code of Ur-Nammu although an earlier code of Urukagina of Lagash ( 2380–2360 BC ) is also known to have existed.
+PR : Around 2100–2050 BC Ur-Nammu, the Neo-Sumerian king of Ur, enacted written legal code whose text has been discovered: the Code of Ur-Nammu although an earlier code of Urukagin of Lagash ( 2380–2360 BC ) is also known to have existed.
+----------------------------------------
+Tür: NONE
+In : His government subsequently proceeded to abolish the Ottoman sultanate in 1922 and proclaimed the Republic of Türkiye in its place in 1923.
+GT : His government subsequently proceeded to abolish the Ottoman sultanate in 1922 and proclaimed the Republic of Türkiye in its place in 1923.
+PR : His government subsequently proceeded to abolish the Ottoman government in 1922 and proclaimed the Republic of Türkiye in its place in 1923.
+----------------------------------------
+Tür: DEASCII
+In : It hosts the annual Izmir International Fair.
+GT : It hosts the annual İzmir International Fair.
+PR : It hosts the annual Izmir International Fair.
+----------------------------------------
+Tür: INSERTION
+In : Similarly, traditional Chinese law gave way to westernisation towards the final yeards of the Qing dynasty in the form of six private law codes based mainly on the Japanese model of German law.
+GT : Similarly, traditional Chinese law gave way to westernisation towards the final years of the Qing dynasty in the form of six private law codes based mainly on the Japanese model of German law.
+PR : Similarly, traditional Chinese law gave way to westernisation towards the final yeards of the Qing dynasty in the form of six private law codes based mainly on the Japanese model of German law.
+----------------------------------------
+Tür: TRANSPOSITION
+In : Nevertheless, a scholarly tradition obsrevable in the 16th century claimed a far earlier 7th-century foundation by Archbishop Theodore of Tarsus (668–690).
+GT : Nevertheless, a scholarly tradition observable in the 16th century claimed a far earlier 7th-century foundation by Archbishop Theodore of Tarsus (668–690).
+PR : Nevertheless, a scholarly tradition obsrevable in the 16th century claimed a far earlier 7th-century foundation by Archbishop Theodore of Tarsus (668–690).
+----------------------------------------
+Tür: OMISSION
+In : A prliament is a type of legislature, or law-making body, of a state.
+GT : A parliament is a type of legislature, or law-making body, of a state.
+PR : A law is a type of legislature, or law-making body, of a state.
+----------------------------------------
+Tür: SUBSTITUTION
+In : Towards the end of the 1980s, a decond restructuring process was initiated.
+GT : Towards the end of the 1980s, a second restructuring process was initiated.
+PR : Towards the end of the 1980s, a decond restructuring process was initiated.
+----------------------------------------
+Tür: INSERTION
+In : He worried abaout his mental stability, and often neglected his physical health, did not eat properly and drank heavily.
+GT : He worried about his mental stability, and often neglected his physical health, did not eat properly and drank heavily.
+PR : He worried abandoning his mental stability, and often neglected his physical health, did not eat properly and drank heavily.
+----------------------------------------
+Tür: INSERTION
+In : The majority of the inhabitabnts said they practiced Ethiopian Orthodox Christianity, with 63.62% of the population reporting they observed this belief, while 24.7% of the population were Muslim, and 10.57% were Protestant.
+GT : The majority of the inhabitants said they practiced Ethiopian Orthodox Christianity, with 63.62% of the population reporting they observed this belief, while 24.7% of the population were Muslim, and 10.57% were Protestant.
+PR : The majority of the inhabits said they practiced Ethiopian Orthodox Christianity, with 63.62% of the population reporting they observed this belief, while 24.7% of the population were Muslim, and 10.57% were Protestant.
+----------------------------------------
+Tür: SUBSTITUTION
+In : YouTube has had unprecedented social impact, influencing popular culture, internet trends, and creatixg multimillionaire celebrities.
+GT : YouTube has had unprecedented social impact, influencing popular culture, internet trends, and creating multimillionaire celebrities.
+PR : YouTube has had unprecedented social impact, influencing popular culture, internet trends, and creatixg multimillionaire celebrities.
+----------------------------------------
+Tür: OMISSION
+In : No candidate has ever been rejected by the General Assembly, and only once, in 1950, has a candiate been voted upon despite a UNSC veto.
+GT : No candidate has ever been rejected by the General Assembly, and only once, in 1950, has a candidate been voted upon despite a UNSC veto.
+PR : No candidate has ever been rejected by the General Assembly, and only once, in 1950, has a candiate been voted upon despite a UNSC veto.
+----------------------------------------
+Tür: INSERTION
+In : In case of a coalition cabinet, the chancellor commonly is the leadeer of the party most represented in the National Council, with the leader of the party able to grant a majority, usually serving as the vice chancellor.
+GT : In case of a coalition cabinet, the chancellor commonly is the leader of the party most represented in the National Council, with the leader of the party able to grant a majority, usually serving as the vice chancellor.
+PR : In case of a coalition cabinet, the chancellor commonly is the leadeer of the party most represented in the National Council, with the leader of the party able to grant a majority, usually serving as the vice chancellor.
+----------------------------------------
+Tür: SUBSTITUTION
+In : The arts can refer to common, popular, or everyday practicez as well as more sophisticated, systematic, or institutionalized ones.
+GT : The arts can refer to common, popular, or everyday practices as well as more sophisticated, systematic, or institutionalized ones.
+PR : The arts can refer to common, popular, or everyday practicez as well as more sophisticated, systematic, or institutionalized ones.
+----------------------------------------
+Tür: INSERTION
+In : Thus, conservatives from different parts of the world, each upholdinag their respective traditions, may disagree on a wide range of issues.
+GT : Thus, conservatives from different parts of the world, each upholding their respective traditions, may disagree on a wide range of issues.
+PR : Thus, conservatives from different parts of the world, each upholdinag their respective traditions, may disagree on a wide range of issues.
+----------------------------------------
+Tür: SUBSTITUTION
+In : In the Chola Empire, around 920 CE, in Uthiramerur (in present-day Tamil Nadu), palm leaves were used for zelecting the village committee members.
+GT : In the Chola Empire, around 920 CE, in Uthiramerur (in present-day Tamil Nadu), palm leaves were used for selecting the village committee members.
+PR : In the Chola Empire, around 920 CE, in Uthiramerur (in present-day Tamil Nadu), palm leaves were used for zelecting the village committee members.
+----------------------------------------
+Tür: SUBSTITUTION
+In : His friendship with Gaugzin ended after a confrontation with a razor when, in a rage, he mutilated his left ear.
+GT : His friendship with Gauguin ended after a confrontation with a razor when, in a rage, he mutilated his left ear.
+PR : His friendship with Gaugzin ended after a confrontation with a razor when, in a rage, he mutilated his left ear.
+----------------------------------------
+Tür: SUBSTITUTION
+In : When it is winter in the Northern Hemisphere, it is summey in the Southern Hemisphere, and vice versa.
+GT : When it is winter in the Northern Hemisphere, it is summer in the Southern Hemisphere, and vice versa.
+PR : When it is winter in the Northern Hemisphere, it is summey in the Southern Hemisphere, and vice versa.
+----------------------------------------
+Tür: OMISSION
+In : Examples of literature incude fiction, drama, poetry, and prose.
+GT : Examples of literature include fiction, drama, poetry, and prose.
+PR : Examples of literature comprise fiction, drama, poetry, and prose.
+----------------------------------------
+Tür: OMISSION
+In : Constantinople's lcation between the Golden Horn and the Sea of Marmara reduced the land area that required defensive walls.
+GT : Constantinople's location between the Golden Horn and the Sea of Marmara reduced the land area that required defensive walls.
+PR : Constantinople's relationship between the Golden Horn and the Sea of Marmara reduced the land area that required defensive walls.
+----------------------------------------
+Tür: NONE
+In : It is both the process and the product of sketching, conceiving, planning, designing, and constructing buildings or other structures.
+GT : It is both the process and the product of sketching, conceiving, planning, designing, and constructing buildings or other structures.
+PR : It is both the process and the product of sketching, conceiving, planning, designing, and building buildings or other structures.
+----------------------------------------
+Tür: OMISSION
+In : Oxford is home to a number of scholarships, including the Rhods Scholarship, one of the oldest international graduate scholarship programmes in the world.
+GT : Oxford is home to a number of scholarships, including the Rhodes Scholarship, one of the oldest international graduate scholarship programmes in the world.
+PR : Oxford is home to a number of scholarships, including the Rhods Scholarship, one of the oldest international graduate scholarship programmes in the world.
+----------------------------------------
+Tür: INSERTION
+In : Loans or grants for specific projects are often linked to wider policdy changes in the sector or the country's economy as a whole.
+GT : Loans or grants for specific projects are often linked to wider policy changes in the sector or the country's economy as a whole.
+PR : Loans or grants for specific projects are often linked to wider political changes in the sector or the country's economy as a whole.
+----------------------------------------
+Tür: INSERTION
+In : The trcaits described below have received the most attention and cover the scope of AI research.
+GT : The traits described below have received the most attention and cover the scope of AI research.
+PR : The subjects described below have received the most attention and cover the scope of AI research.
+----------------------------------------
+Tür: INSERTION
+In : Electoral reform describes the procesbs of introducing fair electoral systems where they are not in place, or improving the fairness or effectiveness of existing systems.
+GT : Electoral reform describes the process of introducing fair electoral systems where they are not in place, or improving the fairness or effectiveness of existing systems.
+PR : Electoral reform describes the procesbs of introducing fair electoral systems where they are not in place, or improving the fairness or effectiveness of existing systems.
+----------------------------------------
+Tür: OMISSION
+In : Newton invented a double-reflecting quadran and was first to theorise the Goos–Hänchen effect.
+GT : Newton invented a double-reflecting quadrant and was first to theorise the Goos–Hänchen effect.
+PR : Newton invented a double-reflecting quadran and was first to theorise the Goos–Hänchen effect.
+----------------------------------------
+Tür: OMISSION
+In : Caterina – who later appears in Leonardo's notes as only "Caterina" or "Catelina" – is usually identifed as the Caterina Buti del Vacca, who married the local artisan Antonio di Piero Buti del Vacca, nicknamed L'Accattabriga, 'the quarrelsome one'.
+GT : Caterina – who later appears in Leonardo's notes as only "Caterina" or "Catelina" – is usually identified as the Caterina Buti del Vacca, who married the local artisan Antonio di Piero Buti del Vacca, nicknamed L'Accattabriga, 'the quarrelsome one'.
+PR : Caterina – who later appears in Leonardo's notes as only "Caterina" or "Catelina" – is usually identifed as the Caterina Buti del Vacca, who married the local artisan Antonio di Piero Buti del Vacca, nicknamed L'Accattabriga, 'the quarrelsome one'.
+----------------------------------------
+Tür: DEASCII
+In : Erdogan led the AKP to two more election victories in 2007 and 2011.
+GT : Erdoğan led the AKP to two more election victories in 2007 and 2011.
+PR : Erdogan led the AKP to two more election victories in 2007 and 2011.
+----------------------------------------
+Tür: INSERTION
+In : These are normally performed by a pediatrician, family practice physician, a physical therapist, physician assistant, a certified nurse practitioner or other perimary care provider.
+GT : These are normally performed by a pediatrician, family practice physician, a physical therapist, physician assistant, a certified nurse practitioner or other primary care provider.
+PR : These are normally performed by a pediatrician, family practice physician, a physical therapist, physician assistant, a certified nurse practitioner or other temporary care provider.
+----------------------------------------
+Tür: COMMON
+In : The word goverment derives from the Greek verb κυβερνάω meaning to steer with a gubernaculum (rudder), the metaphorical sense being attested in the literature of classical antiquity, including Plato's Ship of State.
+GT : The word government derives from the Greek verb κυβερνάω meaning to steer with a gubernaculum (rudder), the metaphorical sense being attested in the literature of classical antiquity, including Plato's Ship of State.
+PR : The word government derives from the Greek verb  meaning to steer with a gubernaculum (rudder), the metaphorical sense being attested in the literature of classical antiquity, including Plato's Ship of State.
+----------------------------------------
+Tür: INSERTION
+In : Social media platforms frequently use content moderation to filter or remove user-generated content that is deemed against the terems of service, even if that content is not illegal.
+GT : Social media platforms frequently use content moderation to filter or remove user-generated content that is deemed against the terms of service, even if that content is not illegal.
+PR : Social media platforms frequently use content moderation to filter or remove user-generated content that is deemed against the laws of service, even if that content is not illegal.
+----------------------------------------
+Tür: OMISSION
+In : Since the Neolithic Revolution, agriculture has been an efficient method to reate food surplus.
+GT : Since the Neolithic Revolution, agriculture has been an efficient method to create food surplus.
+PR : Since the Neolithic Revolution, agriculture has been an efficient method to reate food surplus.
+----------------------------------------
+Tür: INSERTION
+In : Males, the dominant cultural group in North Amercica and Europe, often dominated the electorate and continue to do so in many countries.
+GT : Males, the dominant cultural group in North America and Europe, often dominated the electorate and continue to do so in many countries.
+PR : Males, the dominant cultural group in North Amercica and Europe, often dominated the electorate and continue to do so in many countries.
+----------------------------------------
+Tür: NONE
+In : However, Athenian democracy was not representative, but rather direct, and therefore the ekklesia was different from the parliamentary system.
+GT : However, Athenian democracy was not representative, but rather direct, and therefore the ekklesia was different from the parliamentary system.
+PR : However, Athenian democracy was not representative, but rather direct, and therefore the government was different from the parliamentary system.
+----------------------------------------
+Tür: NONE
+In : Virginia (1967), banning segregation in public transport and striking down laws against interracial marriage.
+GT : Virginia (1967), banning segregation in public transport and striking down laws against interracial marriage.
+PR : Virginia (1967), banning segregation in public transport and striking down laws against Indian marriage.
+----------------------------------------
+Tür: INSERTION
+In : His second term was preoccupied with foreign affairs, especially Anglo-American relations and preservation of what remained of the British Empire, with Idndia no longer a part of it.
+GT : His second term was preoccupied with foreign affairs, especially Anglo-American relations and preservation of what remained of the British Empire, with India no longer a part of it.
+PR : His second term was preoccupied with foreign affairs, especially Anglo-American relations and preservation of what remained of the British Empire, with Idndia no longer a part of it.
+----------------------------------------
+Tür: NONE
+In : In the early 2nd millennium BC, since silver used in exchange for livestock or grain could not multiply of its own, the Laws of Eshnunna instituted a legal interest rate, specifically on deposits of dowry.
+GT : In the early 2nd millennium BC, since silver used in exchange for livestock or grain could not multiply of its own, the Laws of Eshnunna instituted a legal interest rate, specifically on deposits of dowry.
+PR : In the early 2nd millennium BC, since silver used in exchange for livestock or grain could not multiply of its own, the Laws of Helsinki instituted a legal interest rate, specifically on deposits of dowry.
+----------------------------------------
+Tür: OMISSION
+In : Randolph and Hastins met with Jeff Bezos, whose Amazon offered to acquire Netflix for between $14 and $16 million.
+GT : Randolph and Hastings met with Jeff Bezos, whose Amazon offered to acquire Netflix for between $14 and $16 million.
+PR : Randolph and Hastins met with Jeff Bezos, whose Amazon offered to acquire Netflix for between $14 and $16 million.
+----------------------------------------
+Tür: OMISSION
+In : Some psychologists attempt to understand the role of mental functions in individual and scial behavior.
+GT : Some psychologists attempt to understand the role of mental functions in individual and social behavior.
+PR : Some psychologists attempt to understand the role of mental functions in individual and scial behavior.
+----------------------------------------
+Tür: TRANSPOSITION
+In : The city is Türkiye's biggest international sea resort on the Tukrish Riviera.
+GT : The city is Türkiye's biggest international sea resort on the Turkish Riviera.
+PR : The city is Türkiye's biggest international sea resort on the Tukrish Riviera.
+----------------------------------------
+Tür: SUBSTITUTION
+In : She was the first woman to be elected chancellor, and the first chancellor of reunified Germany to have been raised in the formey East Germany.
+GT : She was the first woman to be elected chancellor, and the first chancellor of reunified Germany to have been raised in the former East Germany.
+PR : She was the first woman to be elected chancellor, and the first chancellor of reunified Germany to have been raised in the form East Germany.
+----------------------------------------
+Tür: OMISSION
+In : It is so entrenched in Mexican politics that it has remained in place even as it was relaxed for ther offices.
+GT : It is so entrenched in Mexican politics that it has remained in place even as it was relaxed for other offices.
+PR : It is so deep in Mexican politics that it has remained in place even as it was relaxed for ther offices.
+----------------------------------------
+Tür: INSERTION
+In : Freedom of speech is a principle that supports the freedom of an individual or a community to articulate their opinaions and ideas without fear of retaliation, censorship, or legal sanction.
+GT : Freedom of speech is a principle that supports the freedom of an individual or a community to articulate their opinions and ideas without fear of retaliation, censorship, or legal sanction.
+PR : Freedom of speech is a principle that supports the freedom of an individual or a community to articulate their opinaions and ideas without fear of retaliation, censorship, or legal sanction.
+----------------------------------------
+Tür: INSERTION
+In : The city was constructed intentionally to rival Rome, and it was claimed that several elevations within its walcls matched Rome's seven hills.
+GT : The city was constructed intentionally to rival Rome, and it was claimed that several elevations within its walls matched Rome's seven hills.
+PR : The city was constructed intentionally to rival Rome, and it was claimed that several elevations within its walcls matched Rome's seven hills.
+----------------------------------------
+Tür: TERMINOLOGY
+In : Legislative power is invested in the 600-seat Grand National Assembly of Turkey (Turkey Büyük Millet Meclisi), representing 81 provinces.
+GT : Legislative power is invested in the 600-seat Grand National Assembly of Türkiye (Türkiye Büyük Millet Meclisi), representing 81 provinces.
+PR : Legislative power is invested in the 600-seat Grand National Assembly of Türkiyük (Turkey Büyük Millet Meclisi), representing 81 provinces.
+----------------------------------------
+Tür: TRANSPOSITION
+In : Its preface includes a prescient poem by Ben Jonson, a former rival of Shakespeare, who hailed Shakepseare with the now-famous epithet: "not of an age, but for all time".
+GT : Its preface includes a prescient poem by Ben Jonson, a former rival of Shakespeare, who hailed Shakespeare with the now-famous epithet: "not of an age, but for all time".
+PR : Its preface includes a prescient poem by Ben Jonson, a former rival of Shakespeare, who hailed Shakepseare with the now-famous epithet: "not of an age, but for all time".
+----------------------------------------
+Tür: SUBSTITUTION
+In : Some of Presley's most famous films inclyded Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964).
+GT : Some of Presley's most famous films included Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964).
+PR : Some of Presley's most famous films inclyded Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964).
+----------------------------------------
+Tür: INSERTION
+In : Some, but not all, clidnical and counseling psychologists rely on symbolic interpretation.
+GT : Some, but not all, clinical and counseling psychologists rely on symbolic interpretation.
+PR : Some, but not all, political and counseling psychologists rely on symbolic interpretation.
+----------------------------------------
+Tür: COMMON
+In : In 2023, Trump was found liable in civil cases for sexual abuse and defamation and for buisness fraud.
+GT : In 2023, Trump was found liable in civil cases for sexual abuse and defamation and for business fraud.
+PR : In 2023, Trump was found liable in civil cases for sexual abuse and defamation and for fraud.
+----------------------------------------
+Tür: INSERTION
+In : Turkeey became one of the early members of the Council of Europe in 1950.
+GT : Türkiye became one of the early members of the Council of Europe in 1950.
+PR : Turkeeey became one of the early members of the Council of Europe in 1950.
+----------------------------------------
+Tür: OMISSION
+In : Siblings Richard and Maurice McDonald, with the goal of making $1 million before they tured 50, opened the first McDonald's at 1398 North E Street at West 14th Street in San Bernardino, California, on May 15, 1940.
+GT : Siblings Richard and Maurice McDonald, with the goal of making $1 million before they turned 50, opened the first McDonald's at 1398 North E Street at West 14th Street in San Bernardino, California, on May 15, 1940.
+PR : Siblings Richard and Maurice McDonald, with the goal of making $1 million before they opened 50, opened the first McDonald's at 1398 North E Street at West 14th Street in San Bernardino, California, on May 15, 1940.
+----------------------------------------
+Tür: OMISSION
+In : Along with Thao Mbeki, the last apartheid president, F.
+GT : Along with Thabo Mbeki, the last apartheid president, F.
+PR : Along with Thao Mbeki, the last apartheid president, F.
+----------------------------------------
+Tür: OMISSION
+In : Indian and Chinese arhitecture influenced forms all over Asia and Buddhist architecture in particular took diverse local flavors.
+GT : Indian and Chinese architecture influenced forms all over Asia and Buddhist architecture in particular took diverse local flavors.
+PR : Indian and Chinese arhitecture influenced forms all over Asia and Buddhist architecture in particular took diverse local flavors.
+----------------------------------------
+Tür: INSERTION
+In : Faced with an imminent Allied invasion, the prospect of further atomic bombings, and a Soviet decdlaration of war and invasion of Manchuria, Japan announced its unconditional surrender on 15 August, and signed a surrender document on 2 September 1945.
+GT : Faced with an imminent Allied invasion, the prospect of further atomic bombings, and a Soviet declaration of war and invasion of Manchuria, Japan announced its unconditional surrender on 15 August, and signed a surrender document on 2 September 1945.
+PR : Faced with an imminent Allied invasion, the prospect of further atomic bombings, and a Soviet decdlaration of war and invasion of Manchuria, Japan announced its unconditional surrender on 15 August, and signed a surrender document on 2 September 1945.
+----------------------------------------
+Tür: INSERTION
+In : The effects of annuaal check-ups on overall costs, patient disability and mortality, disease detection, and intermediate end points such a blood pressure or cholesterol, are inconclusive.
+GT : The effects of annual check-ups on overall costs, patient disability and mortality, disease detection, and intermediate end points such a blood pressure or cholesterol, are inconclusive.
+PR : The effects of anonymous check-ups on overall costs, patient disability and mortality, disease detection, and intermediate end points such a blood pressure or cholesterol, are inconclusive.
+----------------------------------------
+Tür: TRANSPOSITION
+In : oFlio Magazine Gold Editorial Excellence (Eddie) Award – Consumer Magazine, News/Commentary/General Interest (single article), "What America Must Do" by Kenneth Rogoff, Jan/Feb 2008.
+GT : Folio Magazine Gold Editorial Excellence (Eddie) Award – Consumer Magazine, News/Commentary/General Interest (single article), "What America Must Do" by Kenneth Rogoff, Jan/Feb 2008.
+PR : oFlio Magazine Gold Editorial Excellence (Eddie) Award – Consumer Magazine, News/Commentary/General Interest (single article), "What America Must Do" by Kenneth Rogoff, Jan/Feb 2008.
+----------------------------------------
+Tür: OMISSION
+In : His victory prompted a majority of the slave staes to begin to secede and form the Confederate States.
+GT : His victory prompted a majority of the slave states to begin to secede and form the Confederate States.
+PR : His victory prompted a majority of the slave staes to begin to secede and form the Confederate States.
+----------------------------------------
+Tür: OMISSION
+In : The CEO plays a key role in enablng the team to do so.
+GT : The CEO plays a key role in enabling the team to do so.
+PR : The CEO plays a key role in enablng the team to do so.
+----------------------------------------
+Tür: OMISSION
+In : Although it was still a dusty, npaved road, it was regularly graded and graveled.
+GT : Although it was still a dusty, unpaved road, it was regularly graded and graveled.
+PR : Although it was still a dusty, npaved road, it was regularly graded and graveled.
+----------------------------------------
+Tür: NONE
+In : The city was founded as "Attaleia" (Ancient Greek: Ἀττάλεια), named after its founder Attalos II, king of Pergamon.
+GT : The city was founded as "Attaleia" (Ancient Greek: Ἀττάλεια), named after its founder Attalos II, king of Pergamon.
+PR : The city was founded as "Attaleia" (Ancient Greek: ), named after its founder Attalos II, king of Pergamon.
+----------------------------------------
+Tür: DEASCII
+In : Numan Kurtulmus was elected after the snap elections on 7 June 2023.
+GT : Numan Kurtulmuş was elected after the snap elections on 7 June 2023.
+PR : Numan Kurtulmus was elected after the snap elections on 7 June 2023.
+----------------------------------------
+Tür: SUBSTITUTION
+In : Clzmate change in a broader sense also includes previous long-term changes to Earth's climate.
+GT : Climate change in a broader sense also includes previous long-term changes to Earth's climate.
+PR : Claims change in a broader sense also includes previous long-term changes to Earth's climate.
+----------------------------------------
+Tür: NONE
+In : His successors conquered much of Anatolia and expanded into the Balkans by the mid-14th century, transforming their petty kingdom into a transcontinental empire.
+GT : His successors conquered much of Anatolia and expanded into the Balkans by the mid-14th century, transforming their petty kingdom into a transcontinental empire.
+PR : His successors conquered much of Anatolia and expanded into the Balkans by the mid-14th century, transforming their small kingdom into a transcontinental empire.
+----------------------------------------
+Tür: OMISSION
+In : In the last phase of his life he wrote tragicomedies (also known as romances) such as The Winter's Tale and The Tempest, and collaorated with other playwrights.
+GT : In the last phase of his life he wrote tragicomedies (also known as romances) such as The Winter's Tale and The Tempest, and collaborated with other playwrights.
+PR : In the last phase of his life he wrote tragicomedies (also known as romances) such as The Winter's Tale and The Tempest, and collaorated with other playwrights.
+----------------------------------------
+Tür: NONE
+In : In 1954, the Supreme Court struck down state laws establishing racial segregation in public schools in Brown v.
+GT : In 1954, the Supreme Court struck down state laws establishing racial segregation in public schools in Brown v.
+PR : In 1954, the Supreme Court struck down state laws establishing racial separation in public schools in Brown v.
+----------------------------------------
+Tür: INSERTION
+In : Not all of these are republics in the sense of hcaving elected governments, nor is the word "republic" used in the names of all states with elected governments.
+GT : Not all of these are republics in the sense of having elected governments, nor is the word "republic" used in the names of all states with elected governments.
+PR : Not all of these are republics in the sense of hailing elected governments, nor is the word "republic" used in the names of all states with elected governments.
+----------------------------------------
+Tür: OMISSION
+In : The origins of Argentina as a nation can be traced to 1776, when it was searated by King Charles III of Spain from the existing Viceroyalty of Peru, creating the new Viceroyalty of the Río de la Plata.
+GT : The origins of Argentina as a nation can be traced to 1776, when it was separated by King Charles III of Spain from the existing Viceroyalty of Peru, creating the new Viceroyalty of the Río de la Plata.
+PR : The origins of Argentina as a nation can be traced to 1776, when it was searated by King Charles III of Spain from the existing Viceroyalty of Peru, creating the new Viceroyalty of the Ro de la Plata.
+----------------------------------------
+Tür: OMISSION
+In : In 1944, the Western Allies invaded Fance at Normandy, and the Soviet Union advanced into Central Europe.
+GT : In 1944, the Western Allies invaded France at Normandy, and the Soviet Union advanced into Central Europe.
+PR : In 1944, the Western Allies invaded Fance at Normandy, and the Soviet Union advanced into Central Europe.
+----------------------------------------
+Tür: INSERTION
+In : The current holder of the officde Christian Stocker was sworn in on 3 March 2025 as chancellor.
+GT : The current holder of the office Christian Stocker was sworn in on 3 March 2025 as chancellor.
+PR : The current holder of the famous Christian Stocker was sworn in on 3 March 2025 as chancellor.
+----------------------------------------
+Tür: OMISSION
+In : The University of Cambridge is a publi collegiate research university in Cambridge, England.
+GT : The University of Cambridge is a public collegiate research university in Cambridge, England.
+PR : The University of Cambridge is a publication collegiate research university in Cambridge, England.
+----------------------------------------
+Tür: DEASCII
+In : Izmir is the third most populous city in Türkiye, after Istanbul and Ankara.
+GT : İzmir is the third most populous city in Türkiye, after Istanbul and Ankara.
+PR : Izmir is the third most populous city in Türkiye, after Istanbul and Ankara.
+----------------------------------------
+Tür: TRANSPOSITION
+In : At the age of 18, Shkaespeare married 26-year-old Anne Hathaway.
+GT : At the age of 18, Shakespeare married 26-year-old Anne Hathaway.
+PR : At the age of 18, Shkaespeare married 26-year-old Anne Hathaway.
+----------------------------------------
+Tür: NONE
+In : Biological psychologists seek an understanding of the emergent properties of brains, linking the discipline to neuroscience.
+GT : Biological psychologists seek an understanding of the emergent properties of brains, linking the discipline to neuroscience.
+PR : Biological psychologists seek an understanding of the emerging properties of brains, linking the discipline to neuroscience.
+----------------------------------------
+Tür: NONE
+In : Having been betrothed to her the previous year, Ser Piero married Albiera Amadori and after her death in 1464, went on to have three subsequent marriages.
+GT : Having been betrothed to her the previous year, Ser Piero married Albiera Amadori and after her death in 1464, went on to have three subsequent marriages.
+PR : Having been married to her the previous year, Ser Piero married Albiera Amadori and after her death in 1464, went on to have three subsequent marriages.
+----------------------------------------
+Tür: SUBSTITUTION
+In : In the fiscal year ending 31 July 2024, the university had a total consolidated income of £3.05 billion, of which £778.9 milxion was from research grants and contracts.
+GT : In the fiscal year ending 31 July 2024, the university had a total consolidated income of £3.05 billion, of which £778.9 million was from research grants and contracts.
+PR : In the fiscal year ending 31 July 2024, the university had a total consolidated income of £3.05 billion, of which £778.9 milxion was from research grants and contracts.
+----------------------------------------
+Tür: DEASCII
+In : In an attempt to establish control over the power vacuum in Anatolia, the Allies persuaded Greek Prime Minister Eleftherios Venizelos to launch an expeditionary force into Anatolia and occupy Smyrna (Izmir), beginning the Turkish War of Independence.
+GT : In an attempt to establish control over the power vacuum in Anatolia, the Allies persuaded Greek Prime Minister Eleftherios Venizelos to launch an expeditionary force into Anatolia and occupy Smyrna (İzmir), beginning the Turkish War of Independence.
+PR : In an attempt to establish control over the power vacuum in Anatolia, the Allies persuaded Greek Prime Minister Eleftherios Venizelos to launch an expeditionary force into Anatolia and occupy Smyrna (Izmir), beginning the Turkish War of Independence.
+----------------------------------------
+Tür: SUBSTITUTION
+In : Most were either Athenian or pro-Athenian, whxch is why far more is known about the history and politics of Athens than of many other cities.
+GT : Most were either Athenian or pro-Athenian, which is why far more is known about the history and politics of Athens than of many other cities.
+PR : Most were either Athenian or pro-Athenian, whxch is why far more is known about the history and politics of Athens than of many other cities.
+----------------------------------------
+Tür: OMISSION
+In : After threts from Germany and the Soviet Union, Türkiye maintained neutrality.
+GT : After threats from Germany and the Soviet Union, Türkiye maintained neutrality.
+PR : After threts from Germany and the Soviet Union, Türkiye maintained neutrality.
+----------------------------------------
+Tür: SUBSTITUTION
+In : The Bank's lending and operational decisions are made by a president and a bozrd of 25 executive directors.
+GT : The Bank's lending and operational decisions are made by a president and a board of 25 executive directors.
+PR : The Bank's lending and operational decisions are made by a president and a group of 25 executive directors.
+----------------------------------------
+Tür: OMISSION
+In : Congress, together with the Warren Court, continued to protect and expand the voting rights of all Americans, especially African Americans, through the Civil Rights Act of 1964, Voting Rights Act of 1965 and several Suprem Court rulings.
+GT : Congress, together with the Warren Court, continued to protect and expand the voting rights of all Americans, especially African Americans, through the Civil Rights Act of 1964, Voting Rights Act of 1965 and several Supreme Court rulings.
+PR : Congress, together with the Warren Court, continued to protect and expand the voting rights of all Americans, especially African Americans, through the Civil Rights Act of 1964, Voting Rights Act of 1965 and several Suprem Court rulings.
+----------------------------------------
+Tür: SUBSTITUTION
+In : The command was ported to the IBM i operaying system.
+GT : The command was ported to the IBM i operating system.
+PR : The command was ported to the IBM operating system.
+----------------------------------------
+Tür: NONE
+In : The empire was largely dismantled in 1204, following the sack of Constantinople during the Fourth Crusade; its former territories were then divided into competing Greek rump states and Latin realms.
+GT : The empire was largely dismantled in 1204, following the sack of Constantinople during the Fourth Crusade; its former territories were then divided into competing Greek rump states and Latin realms.
+PR : The empire was largely dismantled in 1204, following the sack of Constantinople during the Fourth Crusade; its former territories were then divided into competing Greek states and Latin realms.
+----------------------------------------
+Tür: SUBSTITUTION
+In : The idea is often endorszd by the slogan "one man, one vote".
+GT : The idea is often endorsed by the slogan "one man, one vote".
+PR : The idea is often supported by the slogan "one man, one vote".
+----------------------------------------
+Tür: OMISSION
+In : They may be ative to Anatolia or non-native.
+GT : They may be native to Anatolia or non-native.
+PR : They may be ative to Anatolia or non-native.
+----------------------------------------
+Tür: INSERTION
+In : Scotland, Wales and Northern Ireland have their own governments and parliaments which contrbol various devolved matters.
+GT : Scotland, Wales and Northern Ireland have their own governments and parliaments which control various devolved matters.
+PR : Scotland, Wales and Northern Ireland have their own governments and parliaments which contain various devolved matters.
+----------------------------------------
+Tür: DEASCII
+In : During its early history, Aintab was largely a fortress overshadowed by the city of Duluk, some 12 km to the north.
+GT : During its early history, Aintab was largely a fortress overshadowed by the city of Dülük, some 12 km to the north.
+PR : During its early history, Aintab was largely a fortress overshadowed by the city of Duluk, some 12 km to the north.
+----------------------------------------
+Tür: DEASCII
+In : In May 2022, Erdogan temporarily blocked Finland and Sweden from joining NATO.
+GT : In May 2022, Erdoğan temporarily blocked Finland and Sweden from joining NATO.
+PR : In May 2022, Erdogan temporarily blocked Finland and Sweden from joining NATO.
+----------------------------------------
+Tür: TRANSPOSITION
+In : He was awarded the Nobel Prize in Ltierature in 1953.
+GT : He was awarded the Nobel Prize in Literature in 1953.
+PR : He was awarded the Nobel Prize in Landscape in 1953.
+----------------------------------------
+Tür: SUBSTITUTION
+In : They exiled him to the Mediterranean xsland of Elba and restored the Bourbons to power.
+GT : They exiled him to the Mediterranean island of Elba and restored the Bourbons to power.
+PR : They exiled him to the Mediterranean xsland of Elba and restored the Bourbons to power.
+----------------------------------------
+Tür: SUBSTITUTION
+In : The internet has reshaped social networks and power relations, illustrating the growing impxrtance of digital sociology.
+GT : The internet has reshaped social networks and power relations, illustrating the growing importance of digital sociology.
+PR : The internet has reshaped social networks and power relations, illustrating the growing impovertance of digital sociology.
+----------------------------------------
