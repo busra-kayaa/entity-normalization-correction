@@ -1,0 +1,27 @@
+
+==================================================
+      ADVANCED EVALUATION REPORT (mBART)
+==================================================
+Tarih: 2026-03-06 11:49:26
+Model: mBART (A100 Optimized)
+Toplam Örnek Sayısı: 453
+
+---------------- TEMEL METRİKLER -----------------
+🎯 Accuracy (Tam Eşleşme): %78.15
+✨ Precision: 0.7815
+📈 Recall: 0.7815
+🏆 F1-Score: 0.7815
+
+---------------- GELİŞMİŞ METRİKLER --------------
+📉 Avg CER (Karakter Hata Oranı): 0.0066
+🧩 Avg GLEU (Gramer Benzerliği): 0.9715
+⚠️ Over-Correction Rate: %2.90
+
+---------------- DETAYLI SEÇİCİ MÜDAHALE ----------
+🔍 "None" (Zaten Doğru Olan) Analizi:
+- Toplam 'None' Verisi : 276
+- Doğru Korunan (TP)   : 268
+- Gereksiz Düzeltilen (OC): 8
+
+💡 Not: mBART modelinin doğruyu bozmadan geçme başarısı %97.10 seviyesindedir.
+==================================================
