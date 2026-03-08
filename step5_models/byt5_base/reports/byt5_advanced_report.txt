@@ -1,0 +1,23 @@
+
+==================================================
+      GELİŞMİŞ METRİK RAPORU (ByT5)
+==================================================
+Tarih: 2026-03-06 14:38:07
+Toplam Örnek Sayısı: 453
+
+---------------- TEMEL METRİKLER -----------------
+🎯 Accuracy (Tam Eşleşme): %46.36
+✨ Precision: 0.4636
+📈 Recall: 0.4636
+🏆 F1-Score: 0.4636
+
+---------------- GELİŞMİŞ METRİKLER --------------
+📉 Avg CER (Karakter Hata Oranı): 0.0875
+🧩 Avg GLEU (Gramer Benzerliği): 0.8670
+⚠️ Over-Correction Rate: %29.71
+
+---------------- SEÇİCİ MÜDAHALE (NONE) ----------
+- Toplam 'None' Verisi : 276
+- Doğru Korunan (TP)   : 194
+- Gereksiz Düzeltilen  : 82
+==================================================
