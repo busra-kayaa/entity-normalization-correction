@@ -1,0 +1,23 @@
+
+==================================================
+      GELİŞMİŞ METRİK RAPORU (Llama 3.1)
+==================================================
+Tarih: 2026-03-09 10:29:34
+Toplam Örnek Sayısı: 453
+
+---------------- TEMEL METRİKLER -----------------
+🎯 Accuracy (Tam Eşleşme): %97.79
+✨ Precision: 0.9779
+📈 Recall: 0.9779
+🏆 F1-Score: 0.9779
+
+---------------- GELİŞMİŞ METRİKLER --------------
+📉 Avg CER (Karakter Hata Oranı): 0.0004
+🧩 Avg GLEU (Gramer Benzerliği): 0.9980
+⚠️ Over-Correction Rate: %0.00
+
+---------------- SEÇİCİ MÜDAHALE (NONE) ----------
+- Toplam 'None' Verisi : 276
+- Doğru Korunan (TP)   : 276
+- Gereksiz Düzeltilen  : 0
+==================================================
