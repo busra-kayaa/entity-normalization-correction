@@ -114,23 +114,8 @@ async def correct_text(request: MizanRequest, x_api_key: str = Header(None)):
 
         final_corrections = []
 
-        # 1. Regex katmanından gelenleri sınıflandır
-        for rule in result.get("regex_kurallari", []):
-            try:
-                parts = rule.split("->")
-                orig, corr = parts[0].strip(), parts[1].strip()
-                final_corrections.append(CorrectionEntry(
-                    original=orig,
-                    corrected=corr,
-                    type=categorize_error(orig, corr),
-                    explanation="Automated detection based on TRT news standards."
-                ))
-            except:
-                continue
-
-        # 🚀 2. YENİ BÖLÜM: Llama'nın yaptığı değişiklikleri kelime kelime bul (Diffing)
-        if result["regex_sonrasi"] != result["final_sonuc"]:
-            orig_words = result["regex_sonrasi"].split()
+        if result["orijinal"] != result["final_sonuc"]:
+            orig_words = result["orijinal"].split()
             corr_words = result["final_sonuc"].split()
 
             matcher = difflib.SequenceMatcher(None, orig_words, corr_words)
@@ -142,7 +127,7 @@ async def correct_text(request: MizanRequest, x_api_key: str = Header(None)):
                         original=o_text,
                         corrected=c_text,
                         type=categorize_error(o_text, c_text),
-                        explanation="Llama 3.1 Refinement"
+                        explanation="System Refinement"
                     ))
                 elif tag == 'delete':
                     o_text = " ".join(orig_words[i1:i2])
