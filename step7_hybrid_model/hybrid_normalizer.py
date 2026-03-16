@@ -2,8 +2,7 @@ import os
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import PeftModel
-from rule_based_layer import RuleBasedCorrector  # Senin yazdığın o harika Regex kas gücü!
-
+from step7_hybrid_model.rule_based_layer import RuleBasedCorrector
 
 class HybridPipeline:
     def __init__(self, base_model_id="unsloth/Meta-Llama-3.1-8B-bnb-4bit"):
