@@ -2,6 +2,7 @@ import sys
 import os
 import time
 import difflib
+import re  # 🚀 Noktalamaları ayırmak için eklendi
 from pathlib import Path
 from typing import List, Optional, Literal
 
@@ -75,31 +76,46 @@ class MizanResponse(BaseModel):
 def categorize_error(original: str, corrected: str) -> ErrorType:
     orig_l, corr_l = original.lower(), corrected.lower()
 
-    # 1. Terminology (Örn: Turkey -> Türkiye)
-    term_map = {"turkey": "türkiye", "burma": "myanmar", "swaziland": "eswatini"}
-    if orig_l in term_map or corr_l in term_map.values():
-        return "terminology"
-
-    # 2. De-asciification (Sadece karakter değişimi varsa - Örn: Istanbul -> İstanbul)
-    tr_map = str.maketrans("çşğöüıÇŞĞÖÜİ", "csgouiCSGOUI")
-    if original.translate(tr_map).lower() == corrected.lower():
-        return "de-asciification"
-
-    # 3. Punctuation
-    if any(c in original or c in corrected for c in ".,;:!?") or original.capitalize() == corrected:
+    # 1. Punctuation (Noktalama)
+    orig_alnum = "".join(c for c in original if c.isalnum())
+    corr_alnum = "".join(c for c in corrected if c.isalnum())
+    if (orig_alnum == corr_alnum and original != corrected) or original in ".,!?;:" or corrected in ".,!?;:":
         return "punctuation"
 
-    # 4. Typographical (Karakter farkı az ise)
-    if abs(len(original) - len(corrected)) <= 3:
+    # 2. De-asciification
+    tr_map = str.maketrans("çşğöüıÇŞĞÖÜİ", "csgouiCSGOUI")
+    if original.translate(tr_map).lower() == corrected.translate(tr_map).lower() and orig_l != corr_l:
+        return "de-asciification"
+
+    # 3. Terminology
+    term_map = {"burma": "myanmar", "turkey": "türkiye", "kiev": "kyiv", "holland": "netherlands",
+                "swaziland": "eswatini"}
+    if orig_l in term_map or corr_l in term_map.values():
+        return "terminology"
+    if (original.istitle() or corrected.istitle()) and difflib.SequenceMatcher(None, orig_l, corr_l).ratio() < 0.6:
+        return "terminology"
+
+    # 4. Lexical Spelling
+    lexical_pairs = [("affect", "effect"), ("their", "there"), ("then", "than"), ("economic", "economical")]
+    for p1, p2 in lexical_pairs:
+        if (p1 in orig_l or p2 in orig_l) and (p1 in corr_l or p2 in corr_l):
+            return "lexical_spelling"
+
+    # 5. Grammar
+    grammar_words = {"is", "are", "am", "was", "were", "the", "a", "an", "in", "on", "at"}
+    if orig_l in grammar_words or corr_l in grammar_words:
+        return "grammar"
+
+    # 6. Typographical
+    if difflib.SequenceMatcher(None, orig_l, corr_l).ratio() > 0.6:
         return "typographical"
 
-    return "grammar"
+    return "lexical_spelling"
 
 
 # --- 4. ENDPOINT ---
 @app.post("/api/correct", response_model=MizanResponse)
 async def correct_text(request: MizanRequest, x_api_key: str = Header(None)):
-    # API Key Güvenlik Kontrolü
     if not VALID_API_KEY:
         raise HTTPException(status_code=500, detail="Server Configuration Error: API Key not set.")
 
@@ -108,21 +124,29 @@ async def correct_text(request: MizanRequest, x_api_key: str = Header(None)):
 
     try:
         start_time = time.time()
-
-        # Hibrit işlem başlasın
         result = pipeline.normalize_text(request.text)
+
+        print("\n" + "🔥" * 25)
+        print("🤖 HİBRİT MOTORUN HAM (RAW) ÇIKTISI:")
+        print(result)
+        print("🔥" * 25 + "\n")
 
         final_corrections = []
 
         if result["orijinal"] != result["final_sonuc"]:
-            orig_words = result["orijinal"].split()
-            corr_words = result["final_sonuc"].split()
+            # 🚀 AKILLI PARÇALAYICI: Kelimeleri ve noktalamaları ayırır
+            def tokenize(text):
+                return re.findall(r"[\w']+|[.,!?;:]", text)
+
+            orig_words = tokenize(result["orijinal"])
+            corr_words = tokenize(result["final_sonuc"])
 
             matcher = difflib.SequenceMatcher(None, orig_words, corr_words)
             for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+                o_text = " ".join(orig_words[i1:i2])
+                c_text = " ".join(corr_words[j1:j2])
+
                 if tag == 'replace':
-                    o_text = " ".join(orig_words[i1:i2])
-                    c_text = " ".join(corr_words[j1:j2])
                     final_corrections.append(CorrectionEntry(
                         original=o_text,
                         corrected=c_text,
@@ -130,20 +154,20 @@ async def correct_text(request: MizanRequest, x_api_key: str = Header(None)):
                         explanation="System Refinement"
                     ))
                 elif tag == 'delete':
-                    o_text = " ".join(orig_words[i1:i2])
+                    is_punct = any(c in o_text for c in ".,;:!?")
                     final_corrections.append(CorrectionEntry(
                         original=o_text,
                         corrected="[Silindi]",
-                        type="grammar",
-                        explanation="Removed unnecessary word"
+                        type="punctuation" if is_punct else "grammar",
+                        explanation="Removed unnecessary item"
                     ))
                 elif tag == 'insert':
-                    c_text = " ".join(corr_words[j1:j2])
+                    is_punct = any(c in c_text for c in ".,;:!?")
                     final_corrections.append(CorrectionEntry(
                         original="[Eklendi]",
                         corrected=c_text,
-                        type="grammar",
-                        explanation="Added missing word"
+                        type="punctuation" if is_punct else "grammar",
+                        explanation="Added missing item"
                     ))
 
         process_time = round(time.time() - start_time, 3)
