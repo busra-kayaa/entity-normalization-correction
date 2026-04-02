@@ -88,3 +88,4 @@ checkpoint-*/
 /step7_hybrid_model/lora_adaptorum/
 
 .env
+/step10_hierarchical_6class/Mizan_V3_Final_Model.gguf

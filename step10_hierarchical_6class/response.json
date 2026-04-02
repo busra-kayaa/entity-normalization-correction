@@ -1,0 +1,12 @@
+{
+  "originalText": "string",
+  "correctedText": "string.",
+  "corrections": [
+    {
+      "original": "string",
+      "corrected": "string.",
+      "type": "terminology",
+      "explanation": "Fixed terminology error."
+    }
+  ]
+}
