@@ -1,0 +1,12 @@
+{
+  "originalText": "string",
+  "correctedText": "string.",
+  "corrections": [
+    {
+      "original": "string",
+      "corrected": "string.",
+      "type": "common",
+      "explanation": "Genel yazım veya noktalama hatası düzeltildi."
+    }
+  ]
+}
