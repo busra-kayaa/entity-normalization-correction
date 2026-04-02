@@ -1,0 +1,16 @@
+{
+    "noise_ratio": 0.60,
+    "target_count": 10000,
+    "error_types": {
+        "deascii": 0.15,
+        "terminology": 0.15,
+        "punctuation": 0.15,
+        "grammar": 0.15,
+        "lexical": 0.10,
+        "substitution": 0.08,
+        "omission": 0.07,
+        "transposition": 0.06,
+        "space": 0.05,
+        "insertion": 0.04
+    }
+}

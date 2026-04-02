@@ -89,3 +89,4 @@ checkpoint-*/
 
 .env
 /step10_hierarchical_6class/Mizan_V3_Final_Model.gguf
+/step11_fix_summarization_bias/Llama-3.1-8B.Q4_K_M.gguf
