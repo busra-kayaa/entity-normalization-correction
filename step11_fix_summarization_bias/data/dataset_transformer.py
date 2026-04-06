@@ -1,116 +1,198 @@
 import json
+import os
 import re
-import difflib
+import random
+import glob
+from collections import Counter
+from difflib import SequenceMatcher
 
-NEW_INSTRUCTION = (
-    "You are an expert text correction system. Fix ALL errors in the input text and output a detailed JSON. "
-    "CRITICAL RULE: List EVERY single changed word as a SEPARATE object. DO NOT output full sentences in the corrections array. "
-    "Use ONLY these types: 'typographic', 'punctuation', 'grammar', 'lexical', 'deascii', 'terminology'."
-)
+# ==================== KONFİGÜRASYON VE SÖZLÜKLER ====================
+EXPLANATIONS = {
+    "deascii": "Türkçe karakter eksikliği veya hatası düzeltildi.",
+    "lexical": "Yaygın kelime yazım hatası düzeltildi.",
+    "typographic": "Tipografik harf veya klavye hatası düzeltildi.",
+    "punctuation": "Noktalama işareti hatası veya eksiği düzeltildi.",
+    "grammar": "Dilbilgisi veya edat kullanımı düzeltildi.",
+    "terminology": "Özel isim veya terminoloji hatası düzeltildi."
+}
+
+GRAMMAR_WORDS = ["in", "on", "at", "to", "for", "with", "the", "a", "an"]
 
 
-def extract_word_diffs(original, corrected):
-    """Eski tüm cümleyi alan sistemi, kelime kelime parçalara ayırır."""
+def tokenize(text):
+    return re.findall(r"[\w]+|[^\s\w]", text)
+
+
+def determine_error_type(original, corrected, sentence_labels):
+    orig_lower = original.lower()
+    corr_lower = corrected.lower()
+
+    if not orig_lower.isalnum() and not corr_lower.isalnum(): return "punctuation"
+    if corr_lower in GRAMMAR_WORDS or orig_lower in GRAMMAR_WORDS: return "grammar"
+    if any(c in "çğıöşüÇĞİÖŞÜ" for c in corrected) and not any(c in "çğıöşüÇĞİÖŞÜ" for c in original): return "deascii"
+    if "terminology" in sentence_labels and (corrected.istitle() or original.istitle()): return "terminology"
+    if "lexical" in sentence_labels: return "lexical"
+    return "typographic"
+
+
+def extract_atomic_corrections(noisy_text, clean_text, sentence_labels):
+    noisy_tokens = tokenize(noisy_text)
+    clean_tokens = tokenize(clean_text)
+
+    matcher = SequenceMatcher(None, noisy_tokens, clean_tokens)
     corrections = []
-    orig_words = re.findall(r"[\w']+|[.,!?;]", original)
-    corr_words = re.findall(r"[\w']+|[.,!?;]", corrected)
-
-    matcher = difflib.SequenceMatcher(None, orig_words, corr_words)
 
     for tag, i1, i2, j1, j2 in matcher.get_opcodes():
         if tag == 'replace':
-            corrections.append({
-                "original": " ".join(orig_words[i1:i2]),
-                "corrected": " ".join(corr_words[j1:j2]),
-                "type": "typographic",  # Çoğunluk typo olduğu için varsayılan
-                "explanation": "Hatalı kullanım düzeltildi."
-            })
+            max_len = max(i2 - i1, j2 - j1)
+            for k in range(max_len):
+                orig_word = noisy_tokens[i1 + k] if (i1 + k) < i2 else ""
+                corr_word = clean_tokens[j1 + k] if (j1 + k) < j2 else ""
+
+                if not orig_word and not corr_word: continue
+
+                err_type = determine_error_type(orig_word, corr_word, sentence_labels)
+                corrections.append({
+                    "original": orig_word, "corrected": corr_word,
+                    "type": err_type, "explanation": EXPLANATIONS.get(err_type, "Hatalı kullanım düzeltildi.")
+                })
+
         elif tag == 'insert':
-            corrections.append({
-                "original": "[Eksik]",
-                "corrected": " ".join(corr_words[j1:j2]),
-                "type": "grammar",
-                "explanation": "Eksik ifade eklendi."
-            })
+            for k in range(j1, j2):
+                corr_word = clean_tokens[k]
+                err_type = determine_error_type("", corr_word, sentence_labels)
+                corrections.append({
+                    "original": "", "corrected": corr_word,
+                    "type": err_type, "explanation": EXPLANATIONS.get(err_type, "Eksik kelime veya noktalama eklendi.")
+                })
+
         elif tag == 'delete':
-            corrections.append({
-                "original": " ".join(orig_words[i1:i2]),
-                "corrected": "[Silindi]",
-                "type": "lexical",
-                "explanation": "Gereksiz ifade çıkarıldı."
-            })
+            for k in range(i1, i2):
+                orig_word = noisy_tokens[k]
+                err_type = determine_error_type(orig_word, "", sentence_labels)
+                corrections.append({
+                    "original": orig_word, "corrected": "",
+                    "type": err_type, "explanation": "Fazladan veya hatalı kullanım silindi."
+                })
+
     return corrections
 
 
-def transform_dataset(input_file, output_file):
-    print(f"🔄 '{input_file}' okunuyor ve atomik formata dönüştürülüyor...")
+def analyze_split(train, val, test):
+    """Kullanıcının çok sevdiği o muhteşem dağılım raporunu basar."""
+    total_all = len(train) + len(val) + len(test)
 
-    transformed_count = 0
-    with open(input_file, 'r', encoding='utf-8') as infile, \
-            open(output_file, 'w', encoding='utf-8') as outfile:
+    md_report = f"# SPLİT RAPORU (Step 11 - {total_all} Balanced Multi-Error)\n\n"
+    md_report += f"## 📊 Genel İstatistikler\n\n"
+    md_report += f"- **Toplam cümle:** {total_all}\n"
+    md_report += f"- **Train:** {len(train)} (%{len(train) / total_all * 100:.1f})\n"
+    md_report += f"- **Validation:** {len(val)} (%{len(val) / total_all * 100:.1f})\n"
+    md_report += f"- **Test:** {len(test)} (%{len(test) / total_all * 100:.1f})\n"
+    md_report += f"- **Random seed:** 42\n\n"
+    md_report += f"## 🔍 Hata Tipi Dağılımı (Çoklu Hatalar ve Temiz Metinler Dahil)\n\n"
 
-        for line in infile:
-            if not line.strip(): continue
+    print("\n" + "=" * 60)
+    print("📊 FULL SPLİT İSTATİSTİKLERİ (Çoklu Hata Destekli)")
+    print("=" * 60)
 
-            try:
-                data = json.loads(line)
+    for name, data_set in [('Train', train), ('Validation', val), ('Test', test)]:
+        set_total = len(data_set)
+        error_counts = Counter()
+        for item in data_set:
+            for err in item.get('error_types', ['none']):
+                error_counts[err] += 1
 
-                # Eski veriden input ve output'u alıyoruz
-                original_text = data.get("input", "")
+        print(f"\n   {name} Seti ({set_total} toplam cümle):")
+        md_report += f"### {name} Seti ({set_total} toplam cümle)\n"
 
-                # Eğer eski output string ise (Alpaca formatı) onu parse edelim
-                raw_output = data.get("output", "{}")
-                if isinstance(raw_output, str):
-                    try:
-                        parsed_output = json.loads(raw_output)
-                        corrected_text = parsed_output.get("correctedText", original_text)
-                    except:
-                        continue  # Bozuk JSON varsa atla
-                else:
-                    corrected_text = raw_output.get("correctedText", original_text)
+        for err_type, count in sorted(error_counts.items(), key=lambda x: x[1], reverse=True):
+            percentage = (count / set_total * 100) if set_total > 0 else 0
+            print(f"      • {err_type}: {count} (Cümlelerin %{percentage:.1f}'inde var)")
+            md_report += f"- **{err_type}:** {count} (Cümlelerin %{percentage:.1f}'inde var)\n"
+        md_report += "\n"
 
-                # Metin değişmemişse veri setine katmaya gerek yok
-                if original_text == corrected_text:
-                    continue
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(current_dir, 'split_report.md'), 'w', encoding='utf-8') as f:
+        f.write(md_report)
+    print(f"\n📁 Rapor güncellendi: split_report.md")
 
-                atomic_corrections = extract_word_diffs(original_text, corrected_text)
 
-                new_expected_output = {
-                    "originalText": original_text,
-                    "correctedText": corrected_text,
-                    "corrections": atomic_corrections
-                }
+def process_and_save(dataset, filename):
+    """Veriyi alır, atomik parçalara böler ve JSONL olarak kaydeder."""
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    filepath = os.path.join(current_dir, filename)
 
-                new_jsonl_line = {
-                    "instruction": NEW_INSTRUCTION,
-                    "input": original_text,
-                    "output": json.dumps(new_expected_output, ensure_ascii=False)
-                }
+    system_instruction = (
+        "You are an expert text correction system. Fix ALL errors and output JSON. "
+        "SEQUENTIAL ORDER RULE: List corrections in the EXACT order they appear. "
+        "STRICT ATOMIC RULE: Split corrections into single words or punctuation marks. DO NOT group multiple words together. "
+        "If a word or punctuation is missing, use an empty string '' as the original text."
+    )
 
-                outfile.write(json.dumps(new_jsonl_line, ensure_ascii=False) + "\n")
-                transformed_count += 1
+    with open(filepath, 'w', encoding='utf-8') as out_f:
+        for item in dataset:
+            noisy = item["input"]
+            clean = item["target"]
+            labels = item.get("error_types", ["none"])
 
-            except Exception as e:
-                pass  # Hatalı satırları yoksay
+            corrections = []
+            if item.get("is_noisy", False):
+                corrections = extract_atomic_corrections(noisy, clean, labels)
 
-    print(f"✅ İŞLEM TAMAM! {transformed_count} satır başarıyla atomik formata çevrildi.")
-    print(f"📁 Yeni veri setin: {output_file}")
+            output_json = {
+                "originalText": noisy,
+                "correctedText": clean,
+                "corrections": corrections
+            }
+
+            alpaca_entry = {
+                "instruction": system_instruction,
+                "input": noisy,
+                "output": json.dumps(output_json, ensure_ascii=False)
+            }
+            out_f.write(json.dumps(alpaca_entry, ensure_ascii=False) + "\n")
+
+
+def main():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # 1. Ana dosyayı bul
+    search_pattern = os.path.join(current_dir, 'data_*_multi_error_balanced.json')
+    files = glob.glob(search_pattern)
+
+    if not files:
+        print("❌ HATA: Ana veri seti bulunamadı!")
+        return
+
+    input_path = files[0]
+    print(f"📦 Ana Veri Seti Okunuyor: {os.path.basename(input_path)}")
+
+    with open(input_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # 2. Veriyi Karıştır ve Böl (80-10-10)
+    random.seed(42)
+    random.shuffle(data)
+
+    total = len(data)
+    train_end = int(total * 0.80)
+    val_end = train_end + int(total * 0.10)
+
+    train_data = data[:train_end]
+    val_data = data[train_end:val_end]
+    test_data = data[val_end:]
+
+    # 3. İSTATİSTİK RAPORUNU BAS (Senin istediğin kısım!)
+    analyze_split(train_data, val_data, test_data)
+
+    # 4. JSONL Dönüşümlerini Yap ve Kaydet
+    print("\n🧩 Cümleler ATOMİK (tek kelime) formata dönüştürülüp kaydediliyor...")
+    process_and_save(train_data, 'mizan_v4_train.jsonl')
+    process_and_save(val_data, 'mizan_v4_validation.jsonl')
+    process_and_save(test_data, 'mizan_v4_test.jsonl')
+
+    print("🎉 İŞLEM TAMAMLANDI! Mizan V4 modelini eğitmeye %100 hazırsın! 🚀🔥")
 
 
 if __name__ == "__main__":
-    print("🚀 BÜYÜK VERİ DÖNÜŞÜMÜ BAŞLIYOR...\n")
-
-    # 1. Eğitim (Train) Seti
-    print("1️⃣ EĞİTİM (TRAIN) SETİ DÖNÜŞTÜRÜLÜYOR...")
-    transform_dataset("mizan_6class_train.jsonl", "mizan_v4_atomic_train.jsonl")
-
-    # 2. Doğrulama (Validation) Seti
-    print("\n2️⃣ DOĞRULAMA (VALIDATION) SETİ DÖNÜŞTÜRÜLÜYOR...")
-    transform_dataset("mizan_6class_validation.jsonl", "mizan_v4_atomic_validation.jsonl")
-
-    # 3. Test Seti
-    print("\n3️⃣ TEST SETİ DÖNÜŞTÜRÜLÜYOR...")
-    # Test dosyanın adını aşağıya kendi proyendeki ismine göre yazabilirsin
-    transform_dataset("mizan_6class_test.jsonl", "mizan_v4_atomic_test.jsonl")
-
-    print("\n🎉 İŞLEM TAMAM! TÜM VERİ SETLERİ (TRAIN, VAL, TEST) ATOMİK EĞİTİME HAZIR!")
+    main()
