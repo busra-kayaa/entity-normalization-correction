@@ -1,0 +1,58 @@
+{
+    "originalText": "Prezident Barrack Obamma met with Chancelor Angela Merkal in Berln to discuss the Europeen Union's econimic policies.",
+    "correctedText": "President Barack Obama met with Chancellor Angela Merkel in Berlin to discuss the European Union's economic policies.",
+    "corrections": [
+        {
+            "original": "Prezident",
+            "corrected": "President",
+            "type": "typographic",
+            "explanation": "Tipografik harf veya klavye hatası düzeltildi."
+        },
+        {
+            "original": "Barrack",
+            "corrected": "Barack",
+            "type": "terminology",
+            "explanation": "Özel isim veya terminoloji hatası düzeltildi."
+        },
+        {
+            "original": "Obamma",
+            "corrected": "Obama",
+            "type": "terminology",
+            "explanation": "Özel isim veya terminoloji hatası düzeltildi."
+        },
+        {
+            "original": "Chancelor",
+            "corrected": "Chancellor",
+            "type": "terminology",
+            "explanation": "Özel isim veya terminoloji hatası düzeltildi."
+        },
+        {
+            "original": "Merkal",
+            "corrected": "Merkel",
+            "type": "terminology",
+            "explanation": "Özel isim veya terminoloji hatası düzeltildi."
+        },
+        {
+            "original": "Berln",
+            "corrected": "Berlin",
+            "type": "terminology",
+            "explanation": "Özel isim veya terminoloji hatası düzeltildi."
+        },
+        {
+            "original": "Europeen",
+            "corrected": "European",
+            "type": "terminology",
+            "explanation": "Özel isim veya terminoloji hatası düzeltildi."
+        },
+        {
+            "original": "econimic",
+            "corrected": "economic",
+            "type": "typographic",
+            "explanation": "Tipografik harf veya klavye hatası düzeltildi."
+        }
+    ],
+    "metadata": {
+        "regex_count": 0,
+        "neural_count": 8
+    }
+}
