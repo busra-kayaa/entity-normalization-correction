@@ -3,11 +3,9 @@ import sys
 import time
 import uvicorn
 import logging
-import secrets
 from contextlib import asynccontextmanager
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException, Security, Depends
-from fastapi.security.api_key import APIKeyHeader
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
@@ -38,29 +36,14 @@ except ImportError as e:
 
 load_dotenv()
 
-# --- 3. GÜVENLİK VE AYARLAR ---
-MIZAN_API_KEY = os.getenv("MIZAN_API_KEY")
-API_PORT = int(os.getenv("API_PORT", 8000))
-API_HOST = os.getenv("API_HOST", "0.0.0.0")
+# --- 3. AYARLAR ---
+API_PORT = int(os.getenv("API_PORT"))
+API_HOST = os.getenv("API_HOST")
 
-api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)
+# Hız sınırlayıcı (Rate Limiter)
 limiter = Limiter(key_func=get_remote_address)
 
-async def verify_api_key(api_key: str = Security(api_key_header)):
-    if not api_key or not MIZAN_API_KEY:
-        raise HTTPException(status_code=401, detail="API anahtarı eksik!")
-
-    # timing attack koruması
-    if not secrets.compare_digest(api_key, MIZAN_API_KEY):
-        raise HTTPException(
-            status_code=401,
-            detail="Geçersiz API Anahtarı!",
-            headers={"WWW-Authenticate": "ApiKey"}
-        )
-    return api_key
-
-
-# --- 4. MODEL YÖNETİMİ ---
+# --- 4. MODEL YÖNETİMİ (LIFESPAN) ---
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     logger.info("🚀 Mizan V4 API başlatılıyor...")
@@ -83,11 +66,10 @@ async def lifespan(app: FastAPI):
         raise RuntimeError(f"Model yüklenemedi: {str(e)}")
 
     yield
-
     logger.info("🛑 API kapatılıyor...")
 
 
-# --- 5. FASTAPI ---
+# --- 5. FASTAPI YAPILANDIRMASI ---
 app = FastAPI(
     title="Mizan V4 API",
     description="V4 Hibrit Normalizasyon Motoru",
@@ -104,27 +86,29 @@ async def rate_limit_handler(request: Request, exc: RateLimitExceeded):
         content={"detail": "Çok fazla istek attınız, biraz bekleyin."}
     )
 
-# CORS (Production için kısıtla!)
+# --- 6. CORS GÜVENLİĞİ (KRİTİK) ---
+ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # PROD'da değiştir
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type"],
 )
 
 
-# --- 6. ŞEMALAR ---
+# --- 7. ŞEMALAR ---
 class AnalyzeRequest(BaseModel):
     text: str = Field(..., min_length=1, max_length=10000)
-
 
 class CorrectionDetail(BaseModel):
     original: str
     corrected: str
     type: str
     explanation: Optional[str] = "Düzeltildi."
-
 
 class AnalyzeResponse(BaseModel):
     originalText: str
@@ -133,41 +117,37 @@ class AnalyzeResponse(BaseModel):
     metadata: Optional[dict] = None
 
 
-# --- 7. MIDDLEWARE (REQUEST LOGGING) ---
+# --- 8. MIDDLEWARE (LOGGING) ---
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     start = time.time()
     response = await call_next(request)
     duration = round((time.time() - start) * 1000, 2)
-
     logger.info(f"{request.method} {request.url} - {duration}ms")
     return response
 
 
-# --- 8. ENDPOINTS ---
+# --- 9. ENDPOINTS ---
 @app.get("/health", tags=["System"])
 async def health_check(request: Request):
     model_loaded = hasattr(request.app.state, "mizan_v4")
-
     return {
         "status": "online",
         "version": "4.0.1",
         "model_loaded": model_loaded
     }
 
-
 @app.post("/api/v4/analyze", response_model=AnalyzeResponse, tags=["Analysis"])
 @limiter.limit("20/minute")
 async def analyze_text(
     request: Request,
     payload: AnalyzeRequest,
-    api_key: str = Depends(verify_api_key)
 ):
+    # Model kontrolü
     if not hasattr(request.app.state, "mizan_v4"):
-        raise HTTPException(status_code=503, detail="Model hazır değil")
+        raise HTTPException(status_code=503, detail="Model henüz yüklenmedi, lütfen bekleyin.")
 
     model = request.app.state.mizan_v4
-
     start_time = time.time()
 
     try:
@@ -188,10 +168,10 @@ async def analyze_text(
         )
 
     except Exception as e:
-        logger.error(f"❌ Hata: {str(e)}")
-        raise HTTPException(status_code=500, detail="Model işleme hatası")
+        logger.error(f"❌ Model İşleme Hatası: {str(e)}")
+        raise HTTPException(status_code=500, detail="Metin işlenirken bir hata oluştu.")
 
 
-# --- 9. MAIN ---
+# --- 10. CALIŞTIRMA ---
 if __name__ == "__main__":
-    uvicorn.run("newapi:app", host=API_HOST, port=API_PORT)
+    uvicorn.run("newapi:app", host=API_HOST, port=API_PORT, reload=True)
